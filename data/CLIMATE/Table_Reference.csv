@@ -1,0 +1,13 @@
+TABLE_NAME,TABLE_ALIAS,DESCRIPTION
+MERRA_GRID_SECTION,MERRA-2 Grid Cell LTPP Section Link,MERRA-2 grid cell association with LTPP Section
+VW_MERRA_PRECIP_YEAR,MERRA-2 Yearly Precipitation,Precipitation at MERRA cell centroid by year.
+VW_MERRA_PRECIP_MONTH,MERRA-2 Monthly Precipitation,Precipitation at MERRA cell centroid by year and month.
+VW_MERRA_TEMP_YEAR,MERRA-2 Yearly Temperature,Air temperature 2 meters above MERRA cell centroid elevation by year.
+VW_MERRA_TEMP_MONTH,MERRA-2 Monthly Temperature,Air temperature 2 meters above MERRA cell centroid elevation by year and month.
+VW_MERRA_BIND_CLIMATE_DATA,Bind Climate MERRA Data,Summarization of MERRA temperature data for LTPPBind inputs
+VW_MERRA_WIND_YEAR,MERRA-2 Yearly Wind,Wind 2 meters above MERRA cell centroid by year.
+VW_MERRA_WIND_MONTH,MERRA-2 Monthly Wind,Wind 2 meters above MERRA cell centroid by year and month.
+VW_MERRA_HUMID_YEAR,MERRA-2 Yearly Humidity,Humidity 2 meters above MERRA centroid by year.
+VW_MERRA_HUMID_MONTH,MERRA-2 Monthly Humidity,Humidity 2 meters above MERRA centroid by year and month.
+VW_MERRA_SOLAR_YEAR,MERRA-2 Yearly Solar,Solar radiation and cloud cover at MERRA cell centroid by year.
+VW_MERRA_SOLAR_MONTH,MERRA-2 Monthly Solar,Solar radiation and cloud cover at MERRA cell centroid by year and month.

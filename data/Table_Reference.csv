@@ -1,0 +1,44 @@
+TABLE_NAME,TABLE_ALIAS,TABLE_DESCRIPTION,CLASS_NAME
+ANALYSIS_TST_AC,AC Layer Materials Properties,Representative values of AC layer materials characteristics by layer and construction number.,AC Layer Materials Properties
+ANALYSIS_TST_AC_SUPPORT,AC Layer Supporting Data Statistics,"Statistics (minimum, maximum, average, median, standard deviation, and coefficient of variation) and number of samples tested or used for imputation for the material properties entered in the ANALYSIS_TST_AC table including a variability rating.",AC Layer Materials Properties
+EXPERIMENT_SECTION,Experiment Section,"Contains the time history of changes in construction numbers, experiment designations, and reasons for these changes.",Experiment Type and Improvement (M&R) History
+SHRP_INFO,LTPP Traffic Site Information,Data describing the traffic data relationships and site conditions for a given SPS project or GPS Site.,Site Characteristics
+TST_L05B,Material Characterization and Thickness Data,Table containing layer descriptions for all constructions.,Representative Pavement Structure
+ANALYSIS_TST_AC_CRCOM_SUPPORT,AC Layer Creep Compliance Supporting Data Statistics,"Statistics (minimum, maximum, average, median, standard deviation, and coefficient of variation) and number of samples tested or used for imputation for the material properties entered in the ANALYSIS_TST_AC_CREEP_COMP table including a variability rating.",AC Layer Creep Compliance Properties
+ANALYSIS_TST_AC_CREEP_COMP,AC Layer Creep Compliance Properties,Representative creep compliance values derived from testing information for LTPP Protocol P07 test specimens.,AC Layer Creep Compliance Properties
+ANALYSIS_TST_UNBOUND,Unbound Layer Materials Properties,Information on the material properties and soil classification for unbound granular base and subbase and subgrade layers.,Unbound Layers
+ANALYSIS_TST_UNBOUND_SUPPORT,Unbound Layer Supporting Data Statistics,"Statistics (minimum, maximum, average, median, standard deviation, and coefficient of variation) and number of samples tested or used for imputation for the material properties entered in the ANALYSIS_TST_UNBOUND table including a variability rating.",Unbound Layers
+ANALYSIS_TST_EF,Engineering Fabric Layer Material Properties,Information on the properties of engineering fabric layers.,Engineering Fabrics
+ANALYSIS_TST_EF_SUPPORT,Engineering Fabrics Supporting Data Statistics,"Statistics (minimum, maximum, average, median, standard deviation, and coefficient of variation) and number of samples tested or used for imputation for the material properties entered in the ANALYSIS_TST_EF table including a variability rating.",Engineering Fabrics
+ANALYSIS_TST_TR,Characteristics of interlayer layers.,Information on the properties of interlayers and treatment layers.,Treatment & Interlayers
+ANALYSIS_TST_TR_SUPPORT,Treatment and Interlayer Supporting Data Statistics,"Statistics (minimum, maximum, average, median, standard deviation, and coefficient of variation) and number of samples tested or used for imputation for the material properties entered in the ANALYSIS_TST_TR table including a variability rating.",Treatment & Interlayers
+ANALYSIS_JOINT,PCC Joint Properties,"PCC joint forming methods, sealant type, spacing, dowel bar, and tie bar information. ",Joints
+ANALYSIS_MIT,MIT Scan Results,Measured and computed parameters of MIT scan device for each dowel bar at a transverse PCC joint.,Joints
+ANALYSIS_SHOULDER,Section Shoulder Structure,"LTPP section’s shoulder structure, monitored parameters, and restorations performed.",Shoulders
+ANALYSIS_DRAINAGE,Subdrain Information,Details of subsurface permeable drainage layer and lateral openings.,Drainage
+MEPDG_AXLE_LOAD_DIST_FACTOR,AASHTOWare Pavement ME Axle Distributions,Axle Load Distribution Factors (ALDF) developed based on normalized axle load spectra (NALS) for use with AASHTOWare Pavement ME software. These factors represent the expected distribution of axle loads by weight for a typical day of the month.,MEPDG Tables
+MEPDG_AXLE_PER_TRUCK,AASHTOWare Pavement ME Axles per Truck,Representative number of axles per vehicle (truck) class for use with AASHTOWare Pavement ME software.  Computed using the same years as data used for development of the site-specific factors in MEPDG_AXLE_LOAD_DIST_FACTOR table.,MEPDG Tables
+MEPDG_TRUCK_VOL_PARAMETERS,AASHTOWare Pavement ME Traffic Characteristics,Parameters used in the AASHTOWare Pavement ME software to estimate traffic volume for FHWA truck vehicle classes 4 to 13 over the analysis period.,MEPDG Tables
+TRF_MEPDG_HOURLY_DIST,Mechanistic-Empirical Pavement Design Guide Traffic Hourly Distribution,Annual hourly percentages for trucks in the LTPP Lane .,Distributions to Create AASHTOWare Inputs
+TRF_MEPDG_MONTH_ADJ_FACTR,Mechanistic-Empirical Pavement Design Guide Traffic Monthly Adjustment Factor,The ratio of monthly to annual ADTT for each truck class.,Distributions to Create AASHTOWare Inputs
+TRF_TREND,Annual Trends in Traffic Characteristics,Table for annual traffic statistics computed or estimated for each in-service and in-experiment year.,"Traffic Loading Characteristics (ESALS, GESALs, Total GVW)"
+TRF_TREND,Annual Trends in Traffic Characteristics,Table for annual traffic statistics computed or estimated for each in-service and in-experiment year.,Truck Volumes
+TRF_TREND,Annual Trends in Traffic Characteristics,Table for annual traffic statistics computed or estimated for each in-service and in-experiment year.,Vehicle Classification
+TRF_TREND,Annual Trends in Traffic Characteristics,Table for annual traffic statistics computed or estimated for each in-service and in-experiment year.,"Traffic Loading Characteristics (ESALS, GESALs, Total GVW)"
+TRF_TREND,Annual Trends in Traffic Characteristics,Table for annual traffic statistics computed or estimated for each in-service and in-experiment year.,Truck Volumes
+TRF_TREND,Annual Trends in Traffic Characteristics,Table for annual traffic statistics computed or estimated for each in-service and in-experiment year.,Vehicle Classification
+TRF_REP,Representative Site Traffic Parameters,"Representative truck volume, vehicle classification and loading summary parameters by site.","Traffic Loading Characteristics (ESALs, GESALs and GVW)"
+TRF_REP,Representative Site Traffic Parameters,"Representative truck volume, vehicle classification and loading summary parameters by site.",Vehicle Classification
+TRF_REP,Representative Site Traffic Parameters,"Representative truck volume, vehicle classification and loading summary parameters by site.","Traffic Loading Characteristics (ESALs, GESALs and GVW)"
+TRF_REP,Representative Site Traffic Parameters,"Representative truck volume, vehicle classification and loading summary parameters by site.",Truck Volumes
+TRF_REP,Representative Site Traffic Parameters,"Representative truck volume, vehicle classification and loading summary parameters by site.",Vehicle Classification
+TRF_REP,Representative Site Traffic Parameters,"Representative truck volume, vehicle classification and loading summary parameters by site.","Traffic Loading Characteristics (ESALs, GESALs and GVW)"
+TRF_REP,Representative Site Traffic Parameters,"Representative truck volume, vehicle classification and loading summary parameters by site.",Truck Volumes
+TRF_REP,Representative Site Traffic Parameters,"Representative truck volume, vehicle classification and loading summary parameters by site.",Vehicle Classification
+ANALYSIS_DIS_AC,AC Pavement Distress,Distress information for AC pavement. Includes flags for distress data that were anomalous.,Analysis Ready Distress Dataset
+ANALYSIS_DIS_CRCP,CRCP Pavement Distress,Distress information for CRCP pavement. Includes flags for distress data that were anomalous.,Analysis Ready Distress Dataset
+ANALYSIS_DIS_JPCC,JPCC Pavement Distress,Distress information for JPCC pavement. Includes flags for distress data that were anomalous. ,Analysis Ready Distress Dataset
+ANALYSIS_IRI,Section Level IRI,IRI data with flags for data that were anomalous.,Analysis Ready IRI Dataset
+ANALYSIS_RUTTING,Section Level Transverse Profile (Rut),Rutting data with flags for data that were anomalous.,Analysis Ready Rutting Dataset
+ANALYSIS_LTE,Load Transfer Efficiency,Load Transfer Efficiency data with flags for data that were anomalous.,Analysis Ready LTE Dataset
+CONSTRUCTION_EVENTS_EXP,Construction Events,Improvement information. Includes maintenance and rehabilitation events.,Basic Information (Since LTPP initiation)

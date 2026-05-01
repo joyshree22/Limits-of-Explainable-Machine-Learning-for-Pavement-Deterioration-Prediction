@@ -1,0 +1,66 @@
+TABLE_NAME,FIELD_NAME,FIELD_ALIAS,DESCRIPTION,UNITS,UNIT_SYSTEM
+MERRA_GRID_SECTION,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,
+MERRA_GRID_SECTION,MERRA_ID,MERRA Cell Grid Identifier,Unique identification for each MERRA cell.,,
+MERRA_GRID_SECTION,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,
+MERRA_GRID_SECTION,ELEVATION,Elevation,Elevation of the MERRA cell centroid.,m,SI
+MERRA_GRID_SECTION,LATITUDE,Latitude,Latitude of the MERRA cell centroid.,deg,SI/US
+MERRA_GRID_SECTION,LONGITUDE,Longitude,Longitude of the MERRA cell centroid.,deg,SI/US
+VW_MERRA_BIND_CLIMATE_DATA,MERRA_ID,MERRA Cell Grid Identifier,Identification of MERRA grid cell.,,
+VW_MERRA_BIND_CLIMATE_DATA,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,
+VW_MERRA_BIND_CLIMATE_DATA,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,
+VW_MERRA_BIND_CLIMATE_DATA,DEGREE_DAYS_OVER_10C_YR,Degree Days Over 10C Full Year,Sum of average air temperature over 10 degrees C over the entire year.,deg C degree days,SI
+VW_MERRA_BIND_CLIMATE_DATA,COLDEST_AIR_TEMP,Coldest Air Temperature,Coldest yearly air temperature,deg C,SI
+VW_MERRA_BIND_CLIMATE_DATA,HIGH_TEMP_7DAYS,Highest 7-Day Avg High Temperature,Average daily high air temperature for the highest 7 consecutive days in the year.,deg C,SI
+VW_MERRA_BIND_CLIMATE_DATA,MAX_AVG_TEMP_HIGH_7DAYS,50% Reliability High Pavement Subsurface Temperature,Fifty percent reliability high pavement  temperature 20 mm below surface.,deg C,SI
+VW_MERRA_BIND_CLIMATE_DATA,MAX_TEMP_HIGH_7DAYS,98% Reliability High Pavement Subsurface Temperature,Ninety-eight percent reliability high pavement temperature 20 mm below surface.,deg C,SI
+VW_MERRA_BIND_CLIMATE_DATA,MIN_SURFACE_50_TEMP,50% Reliability Low Pavement Surface Temperature,Fifty percent reliability low pavement surface temperature.,deg C,SI
+VW_MERRA_BIND_CLIMATE_DATA,MIN_SURFACE_98_TEMP,98% Reliability Low Pavement Surface Temperature,Ninety-eight percent reliability low pavement surface temperature.,deg C,SI
+VW_MERRA_BIND_CLIMATE_DATA,STDDEV_HIGH_TEMP_7DAYS,Standard Dev. of the high 7 days ,Standard Dev. of the high 7 days ,deg C,SI
+VW_MERRA_BIND_CLIMATE_DATA,STDDEV_COLDEST_AIR_TEMP,"Low Air Temp Standard Deviation, ºC","Low Air Temp Standard Deviation, ºC",deg C,SI
+VW_MERRA_HUMID_MONTH,MERRA_ID,MERRA Cell Grid Identifier,Unique identification for each MERRA cell.,,
+VW_MERRA_HUMID_MONTH,YEAR,Year,Year of climate estimates.,,
+VW_MERRA_HUMID_MONTH,MONTH,Month,Month of climate estimates.,,
+VW_MERRA_HUMID_MONTH,REL_HUM_AVG_AVG,Average Average Relative Humidity,Average daily average relative humidity for the month.,%,SI/US
+VW_MERRA_HUMID_YEAR,MERRA_ID,MERRA Cell Grid Identifier,Unique identification for each MERRA cell.,,
+VW_MERRA_HUMID_YEAR,YEAR,Year,Year of climate estimates.,,
+VW_MERRA_HUMID_YEAR,REL_HUM_AVG_AVG,Average Average Relative Humidity,Average daily average relative humidity for the year.,%,SI/US
+VW_MERRA_PRECIP_MONTH,MERRA_ID,MERRA Cell Grid Identifier,Unique identification for each MERRA cell.,,
+VW_MERRA_PRECIP_MONTH,YEAR,Year,Year of climate estimates.,,
+VW_MERRA_PRECIP_MONTH,MONTH,Month,Month of climate estimates.,,
+VW_MERRA_PRECIP_MONTH,PRECIPITATION,Precipitation,Water equivalent of total surface precipitation over year and month time period.,mm,SI
+VW_MERRA_PRECIP_MONTH,EVAPORATION,Evaporation,Surface evaporation over year and month time period.,mm,SI
+VW_MERRA_PRECIP_MONTH,PRECIP_DAYS,Available Precipitation Days ,"Number of days in the month with precipitation, snowfall and evaporation data.",days,SI/US
+VW_MERRA_PRECIP_YEAR,MERRA_ID,MERRA Cell Grid Identifier,Unique identification for each MERRA cell.,,
+VW_MERRA_PRECIP_YEAR,YEAR,Year,Year of climate estimates.,,
+VW_MERRA_PRECIP_YEAR,PRECIPITATION,Precipitation,Water equivalent of total surface precipitation over year time period.,mm,SI
+VW_MERRA_PRECIP_YEAR,EVAPORATION,Evaporation,Surface evaporation over year time period,mm,SI
+VW_MERRA_PRECIP_YEAR,PRECIP_DAYS,Available Precipitation Days,"Number of days in the year with precipitation, snowfall and evaporation data.",,
+VW_MERRA_SOLAR_MONTH,MERRA_ID,MERRA Cell Grid Identifier,Unique identification for each MERRA cell.,,
+VW_MERRA_SOLAR_MONTH,YEAR,Year,Year of climate estimates.,,
+VW_MERRA_SOLAR_MONTH,MONTH,Month,Month of climate estimates.,,
+VW_MERRA_SOLAR_MONTH,CLOUD_COVER_AVG,Average Cloud Cover,Average hourly fraction of cloud cover at MERRA cell centroid.,%,SI/US
+VW_MERRA_SOLAR_MONTH,SHORTWAVE_SURFACE_AVG,Shortwave Surface Average,Average surface incident shortwave radiation for time period,W/sq m,SI
+VW_MERRA_SOLAR_YEAR,MERRA_ID,MERRA Cell Grid Identifier,Unique identification for each MERRA cell.,,
+VW_MERRA_SOLAR_YEAR,YEAR,Year,Year of climate estimates.,,
+VW_MERRA_SOLAR_YEAR,CLOUD_COVER_AVG,Average Cloud Cover,Average hourly fraction of cloud cover at MERRA cell centroid.,%,SI/US
+VW_MERRA_SOLAR_YEAR,SHORTWAVE_SURFACE_AVG,Shortwave Surface Average,Average surface incident shortwave radiation for time period,W/sq m,SI
+VW_MERRA_TEMP_MONTH,MERRA_ID,MERRA Cell Grid Identifier,Unique identification for each MERRA cell.,,
+VW_MERRA_TEMP_MONTH,YEAR,Year,Year of climate estimates.,,
+VW_MERRA_TEMP_MONTH,MONTH,Month,Month of climate estimates.,,
+VW_MERRA_TEMP_MONTH,TEMP_AVG,Average Temperature,"Average of the daily air temperatures 2 meters above the MERRA centroid, based on average hourly temperatures.",deg C,SI
+VW_MERRA_TEMP_MONTH,TEMP_MEAN_AVG,Mean Temperature,Average of the daily mean air temperatures 2 meters above the MERRA centroid based on the daily maximum and minimum hourly air temperatures.,deg C,SI
+VW_MERRA_TEMP_MONTH,FREEZE_INDEX,Freeze Index,"Summation of difference between 0 and mean daily air temperature , when mean daily air temperature is less than 0 degree Celsius, for each day of the month.",deg C degree days,SI
+VW_MERRA_TEMP_MONTH,FREEZE_THAW,Freeze Thaw Days,Number of days in the month when the maximum air temperature is greater than 0 and minimum air temperature is less than 0 degrees Celsius on the same day.,days,SI/US
+VW_MERRA_TEMP_YEAR,MERRA_ID,MERRA Cell Grid Identifier,Unique identification for each MERRA cell.,,
+VW_MERRA_TEMP_YEAR,YEAR,Year,Year of climate estimates.,,
+VW_MERRA_TEMP_YEAR,TEMP_AVG,Average Temperature,"Average of the daily air temperatures 2 meters above the MERRA centroid, based on average hourly temperatures.",deg C,SI
+VW_MERRA_TEMP_YEAR,TEMP_MEAN_AVG,Mean Temperature,Average of the daily mean air temperatures 2 meters above the MERRA centroid based on the daily maximum and minimum hourly air temperatures.,deg C,SI
+VW_MERRA_TEMP_YEAR,FREEZE_INDEX,Freeze Index,"Summation of difference between 0 degrees Celsius and mean daily air temperature, when mean daily air temperature is less than 0 degrees Celsius.",deg C degree days,SI
+VW_MERRA_TEMP_YEAR,FREEZE_THAW,Freeze Thaw Days,Number of days in the year when the maximum air temperature is greater than 0 degrees Celsius and minimum air temperature is less than 0 degrees Celsius on the same day.,days,SI/US
+VW_MERRA_WIND_MONTH,MERRA_ID,MERRA Cell Grid Identifier,Unique identification for each MERRA cell.,,
+VW_MERRA_WIND_MONTH,YEAR,Year ,Year of climate estimates.,,
+VW_MERRA_WIND_MONTH,MONTH,Month,Month of climate estimates.,,
+VW_MERRA_WIND_MONTH,WIND_VELOCITY_AVG,Average Wind Velocity,Time averaged magnitude of wind velocity 2 meters above MERRA centroid elevation for the MONTH.,m/s,SI
+VW_MERRA_WIND_YEAR,MERRA_ID,MERRA Cell Grid Identifier,Unique identification for each MERRA cell.,,
+VW_MERRA_WIND_YEAR,YEAR,Year,Year of climate estimates.,,
+VW_MERRA_WIND_YEAR,WIND_VELOCITY_AVG,Average Wind Velocity,Time averaged magnitude of hourly wind velocity 2 meters above MERRA centroid elevation for the year.,m/s,SI

@@ -1,0 +1,45 @@
+DATA_CATEGORY,CHANGE_EVENT,DATE,DIRECTIVE,CHANGE_TYPE,DESCRIPTION
+Distress,SHRP Distress Identification Manual (DIM) for the Long-Term Pavement Performance Studies,1987,N/A,Guidelines,New DIM version
+Distress,"LTPP Distress Identification Manual for the Long-Term Pavement Performance Project, SHRP-P-338",1993,N/A,Guidelines,New DIM version
+Distress,"Changes to ""LTPP Distress Identification Manual for the Long-Term Pavement Performance Project,"" SHRP-P-338",3-Nov-98,D-13,Revised guidelines,"Addresses minor corrections to May 1993 DIM and changes to descriptions, measurement techniques and data forms, including elimination of longitudinal WP cracking and revision of fatigue cracking description to include all cracking in WPs."
+Distress,"Changes to ""LTPP Distress Identification Manual for the Long-Term Pavement Performance Project,"" SHRP-P-338",17-Mar-99,D-14,Revised guidelines,"Addresses corrections to the May 1993 DIM as well as some changes to descriptions, measurement techniques and data forms."
+Distress,LTPP Manual Distress Data Collection Procedures on Portland Cement Concrete Pavements,29-Mar-01,D-21,Revised guidelines,"Addresses inconsistencies in the way patching material on corner breaks, punchouts and spalls are treated in the DIM."
+Distress,LTPP Manual Distress Data Collection Procedures on Asphalt Concrete Pavements,24-Sep-01,D-22,Revised guidelines,Addresses 'reflection cracking at joints' data inconsistencies and misunderstandings in how cracking has been rated in the past.
+Distress,LTPP Manual Distress Data Collection Procedures on Asphalt Concrete Pavements,11-Feb-02,D-24,Revised guidelines,"Reviews of 'Reflection Cracking at Joints' data revealed numerous inconsistencies in way cracking has been rated in the past. To address issue, DIM was revised to NOT include reflection cracking. Test sections that had reflection cracking at joints recorded on past surveys were to be changed to 'Longitudinal Cracking' or 'Transverse Cracking'. This issue should have been resolved long ago."
+Distress,Distress Identification Manual for the Long-Term Pavement Performance Program,29-Apr-02,D-26,Guidelines,New DIM version
+Distress,Distress Measurements on LTPP Asphalt Concrete Test Sections - Surface Defects on Preventive Maintenance Treatments,14-Nov-02,D-29,Revised guidelines,"Surface defects (Bleeding, Polished Aggregate and Raveling) shall not be rated on AC pavements that have received a preventive maintenance treatment covering the original pavement surface such as chip seals, slurry seals, and fog seals. ACP with surface preventive maintenance treatments that exhibit apparent surface defects should be commented on with description of defect and approximate extent. All ACP with surface preventive maintenance treatments that have 'Surface Defects' data recorded on past surveys shall be changed to  'Other' with a description of the defect and approximate extent in square meters. This issue should have been resolved long ago."
+Distress,Distress Identification Manual for the Long-Term Pavement Performance Program,20-Oct-03,D-36,Guidelines,New DIM version
+Distress,"Clarification of LTPP Manual Distress Data Collection Procedures for Edge, Fatigue and Block Cracking",2-Nov-05,D-45,Revised guidelines,Addresses differences in way edge cracking and adjacent fatigue cracking on pavements with unpaved shoulders have been rated in the past.
+Distress,Distress Identification Manual for LTPP – May 2014,9-Mar-15,D-57,Guidelines,New DIM version
+Distress,"Clarification of LTPP Distress Data Collection Procedures for Asphalt Concrete (ACP) Edge Cracking, Continuously Reinforced Concrete Pavements (CRCP) Transverse Cracks and Punchouts",9-Nov-15,D-63,Revised guidelines,Modified moderate severity criteria description of Edge Cracking; added information on 'How to Measure' total length of CRCP transverse crack; and modified last sentence of description of Punchouts.
+Distress,"Errata to FHWA-HRT-13-092, Distress Identification Manual, 2014",17-Jul-19,D-67,Revised guidelines,Documents changes made to DIM (FHWA-HRT-13-092) in identifying spalling of joints on rigid pavements and sealant on transverse cracks for rigid and flexible pavements.
+Distress,Errata-Distress Identification Manual for the Long-Term Pavement Performance Program,3-Mar-21,D-68,Revised guidelines,Documents changes made to descriptions for fatigue cracking on flexible pavements and new requirements for measuring transverse profile in DIM (FHWA-HRT-13-092).
+Distress,Distress rater accreditation workshop dates,Over life of program,N/A,Rater Calibration,Distress rater accreditation workshops.
+FWD,"Manual for FWD Testing in the Long Term Pavement Performance Study, Operational Field Guidelines, Version 1.0, SHRP-P-661",Aug-93,N/A,Guidelines,New FWD guidelines
+FWD,"Implementation of the Manual for FWD Testing in the Log Term Pavement Performance Study, Operational Field Guidelines, Version 2.0",7-May-93,FWD-02,Guidelines,New FWD guidelines
+FWD,"Manual for FWD Testing in the Long Term Pavement Performance Study, Operational Field Guidelines, Version 3.0",27-Jan-00,FWD-19,Guidelines,New FWD guidelines
+FWD,Implementation of the Manual for FWD Testing in the LTPP Study Operational Field Guidelines Version 3.1,31-Oct-00,FWD-20,Guidelines,New FWD guidelines
+FWD,Thermal Gradient Temperature Measurements During Deflection Testing,9-Jun-03,FWD-27,Revised Guidelines,Contains new instructions when collecting pavement temperature gradients associated with FDW testing on LTPP test sections.
+FWD,Updated FWD Guidelines and Software,1-Apr-05,FWD-29,Guidelines,"New FWD guidelines and software including FWD Manual Version 4.0, Dynatest FWDWin Software Version 1.0 and updates to FWDScan and FWDConvert software."
+FWD,LTPP FWD Measurements Manual 4.1 and Calibration Procedure Updates,23-Nov-09,FWD-30,Revised guidelines,There should be no significant changes in values prior to and after directive.
+FWD,Modifications to LTPP FWD Test Procedures,17-Nov-11,FWD-32,Revised guidelines,"Established FWD testing procedure to be followed when established procedure cannot be met due to traffic control constraints. Focus here is on amount/locations of data collection, not the data itself."
+FWD,LTPP FWD reference calibration dates.,Over life of program,N/A,Equipment Calibration,Reference calibration dates only; not relative.
+Profiler,LTPP Manual for Profiler Measurement: Operational Field Guidelines SHRP-P-378,1994,N/A,Guidelines,New profiler guidelines
+Profiler,Implementation of New Profilers and PROQUAL v2.0 Software,13-Sep-96,P-13,Equipment and software,New equipment and software updates
+Profiler,LTPP Manual for Profiler Measurements: Operational Field Guidelines Version 3.0,17-Jul-97,P-16,Guidelines,New profiler guidelines
+Profiler,"Revisions to ""LTPP Manual for Profile Measurements, Operational Field Guidelines, Version 3.0""",25-Jan-99,P-25,Guidelines,Revised profiler guidelines
+Profiler,"Collection of Longitudinal Profile Data at SPS-1, -2, -5, and -6 WIM Sections Using LTPP Inertial Profilers",4-Aug-03,P-30,Guidelines,New profiler guidelines
+Profiler,Implementation of International Cybernetics Corporation Inertial Profilers,9-Oct-02,P-32,Equipment,New equipment
+Profiler,LTPP Manual for Profiler Measurements: Operational Field Guidelines Version 4.0,9-Oct-02,P-33,Guidelines,Revised profiler guidelines
+Profiler,Office Procedures for Processing and Performing Quality Assurance Checks on Profile Data,6-Aug-03,P-35,Guidelines,New profiler guidelines
+Profiler,"LTPP Manual for Profile Measurements and Processing, Version 4.1, May 2004",25-May-04,P-37,Guidelines,Revised profiler guidelines
+Profiler,WIM Smoothness Index Software to Evaluate SPS Traffic Data Collection Pooled Fund Project Sites,18-Dec-08,P-44,Guidelines,New profiler guidelines
+Profiler,Implementation of AMES Inertial Profilers,20-May-13,P-45,Equipment,New equipment and software updates
+Profiler,LTPP Manual for Profile Measurements and Processing December 2013,18-Dec-13,P-48,Guidelines,Revised profiler guidelines
+Profiler,LTPP Manual for Profile Measurements and Processing December 2013  - Revised Appendix B,14-Mar-14,P-49,Guidelines,New profiler guidelines
+Profiler,"LTPP Manual for Profile Measurements and Processing, May 2016",15-Jun-16,P-53,Guidelines,Revised profiler guidelines
+Profiler,Implementation of Transverse Profile Measurements on Ames Inertial Profilers,24-May-08,P-57,Equipment,New profiler guidelines
+Profiler,"LTPP Manual for Collection and Processing of Longitudinal Profile, Macrotexture, and Transverse Profile Data, April 2020",9-Apr-20,P-60,Guidelines,Revised profiler guidelines
+Profiler,"LTPP Manual for Collection and Processing of Longitudinal Profile, Macrotexture, and Transverse Profile Data, February 2022",4-May-22,P-62,Guidelines,Revised profiler guidelines
+Profiler,LTPP Profiler Calibrations,Over life of program,N/A,Equipment Calibration,LTPP Profiler Calibrations
+Profiler,LTPP Profiler Rodeos,Over life of program,N/A,Equipment Calibration,LTPP Profiler Rodeos

@@ -1,0 +1,84 @@
+STATE_CODE,STATE_CODE_EXP,SHRP_ID,EXPERIMENT_NO,EXPERIMENT_NO_EXP,GPS_SPS,GPS_SPS_EXP,REP_AADTT
+4,Arizona,1001,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,1959
+4,Arizona,1002,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,962
+4,Arizona,1002,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,2047
+4,Arizona,1003,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,1296
+4,Arizona,1003,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,7218
+4,Arizona,1006,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,1489
+4,Arizona,1006,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,3854
+4,Arizona,1007,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,4093
+4,Arizona,1007,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,1716
+4,Arizona,1015,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1458
+4,Arizona,1015,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,304
+4,Arizona,1016,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1466
+4,Arizona,1016,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,307
+4,Arizona,1017,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1203
+4,Arizona,1017,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,308
+4,Arizona,1018,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,320
+4,Arizona,1018,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,916
+4,Arizona,1021,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,918
+4,Arizona,1021,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,2654
+4,Arizona,1022,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,2605
+4,Arizona,1022,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,820
+4,Arizona,1024,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,1168
+4,Arizona,1024,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,2515
+4,Arizona,1025,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,3526
+4,Arizona,1025,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,1214
+4,Arizona,1034,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,382
+4,Arizona,1036,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,412
+4,Arizona,1037,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,377
+4,Arizona,1062,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,3407
+4,Arizona,1062,2,Asphalt Concrete on Bound Base,G,General Pavement Studies,1679
+4,Arizona,1065,2,Asphalt Concrete on Bound Base,G,General Pavement Studies,2315
+4,Arizona,6053,6A,Existing AC Overlay on AC Pavement ,G,General Pavement Studies,1431
+4,Arizona,6054,6A,Existing AC Overlay on AC Pavement ,G,General Pavement Studies,453
+4,Arizona,6055,6A,Existing AC Overlay on AC Pavement ,G,General Pavement Studies,679
+4,Arizona,6055,6C,"AC Overlay with Modified Asphalt Cement on AC Pavement, No Milling",G,General Pavement Studies,810
+4,Arizona,6060,6A,Existing AC Overlay on AC Pavement ,G,General Pavement Studies,267
+4,Arizona,6060,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,971
+13,Georgia,1001,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,528
+13,Georgia,1004,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,201
+13,Georgia,1005,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,506
+13,Georgia,1031,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,353
+13,Georgia,4092,2,Asphalt Concrete on Bound Base,G,General Pavement Studies,645
+13,Georgia,4093,2,Asphalt Concrete on Bound Base,G,General Pavement Studies,511
+13,Georgia,4096,2,Asphalt Concrete on Bound Base,G,General Pavement Studies,112
+13,Georgia,4096,6C,"AC Overlay with Modified Asphalt Cement on AC Pavement, No Milling",G,General Pavement Studies,255
+13,Georgia,4111,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,350
+13,Georgia,4112,2,Asphalt Concrete on Bound Base,G,General Pavement Studies,2981
+13,Georgia,4112,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,3591
+13,Georgia,4113,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,4047
+13,Georgia,4113,2,Asphalt Concrete on Bound Base,G,General Pavement Studies,2408
+13,Georgia,4119,2,Asphalt Concrete on Bound Base,G,General Pavement Studies,5640
+13,Georgia,4420,2,Asphalt Concrete on Bound Base,G,General Pavement Studies,487
+13,Georgia,4420,6B,"AC Overlay with Conventional Asphalt Cement on AC Pavement, No Milling",G,General Pavement Studies,388
+39,Ohio,0104,1,"Strategic Study of Structural Factors for Flexible Pavements, new/reconstructed AC pavements",S,Specific Pavement Studies,1639
+39,Ohio,0104,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1599
+39,Ohio,0111,6C,"AC Overlay with Modified Asphalt Cement on AC Pavement, No Milling",G,General Pavement Studies,1657
+39,Ohio,0111,1,"Strategic Study of Structural Factors for Flexible Pavements, new/reconstructed AC pavements",S,Specific Pavement Studies,1602
+39,Ohio,0112,1,"Strategic Study of Structural Factors for Flexible Pavements, new/reconstructed AC pavements",S,Specific Pavement Studies,1639
+39,Ohio,0112,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1599
+39,Ohio,0159,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1592
+39,Ohio,0159,1,"Strategic Study of Structural Factors for Flexible Pavements, new/reconstructed AC pavements",S,Specific Pavement Studies,1648
+39,Ohio,0160,1,"Strategic Study of Structural Factors for Flexible Pavements, new/reconstructed AC pavements",S,Specific Pavement Studies,1648
+39,Ohio,0160,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1592
+39,Ohio,0901,9N,"Superpave Asphalt Binder Study, New AC Pavement Construction)",S,Specific Pavement Studies,1646
+39,Ohio,0901,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1582
+39,Ohio,0903,9N,"Superpave Asphalt Binder Study, New AC Pavement Construction)",S,Specific Pavement Studies,1635
+39,Ohio,0903,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1599
+87,Ontario,0903,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1753
+87,Ontario,0903,9N,"Superpave Asphalt Binder Study, New AC Pavement Construction)",S,Specific Pavement Studies,838
+87,Ontario,0960,9N,"Superpave Asphalt Binder Study, New AC Pavement Construction)",S,Specific Pavement Studies,838
+87,Ontario,0960,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1711
+87,Ontario,0961,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1753
+87,Ontario,0961,9N,"Superpave Asphalt Binder Study, New AC Pavement Construction)",S,Specific Pavement Studies,838
+87,Ontario,1620,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,505
+87,Ontario,1620,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,418
+87,Ontario,1622,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,503
+87,Ontario,1622,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1192
+87,Ontario,1680,6D,"Multiple AC Overlays with Conventional Asphalt Cement on AC Pavement, No Milling",G,General Pavement Studies,2068
+87,Ontario,1680,2,Asphalt Concrete on Bound Base,G,General Pavement Studies,1487
+87,Ontario,1680,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1469
+87,Ontario,1806,6S,AC Overlay on AC Pavement with Milling and/or Fabric Pretreatment,G,General Pavement Studies,1976
+87,Ontario,1806,6D,"Multiple AC Overlays with Conventional Asphalt Cement on AC Pavement, No Milling",G,General Pavement Studies,2068
+87,Ontario,1806,1,Asphalt Concrete on Unbound Granular Base,G,General Pavement Studies,753

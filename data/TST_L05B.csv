@@ -1,0 +1,962 @@
+STATE_CODE,STATE_CODE_EXP,SHRP_ID,CONSTRUCTION_NO,LAYER_NO,PROJECT_LAYER_CODE,DESCRIPTION,DESCRIPTION_EXP,LAYER_TYPE,LAYER_TYPE_EXP,REPR_THICKNESS,MATL_CODE_EXP,MATL_CODE,LAYER_COMMENT1,LAYER_COMMENT1_EXP,LAYER_COMMENT2,LAYER_COMMENT2_EXP,LAYER_COMMENT3,LAYER_COMMENT3_EXP,COMMENT_NOTE,INV_LAYER_NO,INV_LAYER_NO_2,RECORD_STATUS
+4,Arizona,1001,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,Z,Other (Enter description in COMMENT_NOTE field.),,,,,GRADATIONS CLOSE  USE 215 PER INVENTORY,1,,E
+4,Arizona,1001,1,2,,3,Original Surface Layer,AC,Asphalt concrete layer,302.26,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,2,,E
+4,Arizona,1001,1,3,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,3,,E
+4,Arizona,1001,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,Z,Other (Enter description in COMMENT_NOTE field.),,,,,GRADATIONS CLOSE  USE 215 PER INVENTORY,1,,E
+4,Arizona,1001,2,2,,3,Original Surface Layer,AC,Asphalt concrete layer,302.26,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,2,,E
+4,Arizona,1001,2,3,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,3,,E
+4,Arizona,1001,2,4,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Fog Seal,73,V,No sampling at either end.,Z,Other (Enter description in COMMENT_NOTE field.),,,"PRELIMINARY INFO, AWAITING LAB DATA",,,E
+4,Arizona,1002,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Gravel with Sand,265,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 265 IS MOST REP,1,,E
+4,Arizona,1002,1,2,,3,Original Surface Layer,AC,Asphalt concrete layer,236.22,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,2,,E
+4,Arizona,1002,1,3,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,3,,E
+4,Arizona,1002,1,4,,2,Seal Coat,AC,Asphalt concrete layer,10.16,Other,85,Z,Other (Enter description in COMMENT_NOTE field.),,,,,COLD MIX SKIN PATCH,,,E
+4,Arizona,1002,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Gravel with Sand,265,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 265 IS MOST REP,1,,E
+4,Arizona,1002,2,2,,3,Original Surface Layer,AC,Asphalt concrete layer,236.22,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,2,,E
+4,Arizona,1002,2,3,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,3,,E
+4,Arizona,1002,2,4,,2,Seal Coat,AC,Asphalt concrete layer,10.16,Other,85,Z,Other (Enter description in COMMENT_NOTE field.),,,,,COLD MIX SKIN PATCH,,,E
+4,Arizona,1002,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Gravel with Sand,265,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 265 IS MOST REP,1,,E
+4,Arizona,1002,3,2,,3,Original Surface Layer,AC,Asphalt concrete layer,175.26,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,2,,E
+4,Arizona,1002,3,3,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,3,,E
+4,Arizona,1002,3,4,,2,Seal Coat,AC,Asphalt concrete layer,0,Other,85,Z,Other (Enter description in COMMENT_NOTE field.),,,,,COLD MIX SKIN PATCH,,,E
+4,Arizona,1002,3,5,,1,Overlay,AC,Asphalt concrete layer,78.74,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1002,3,6,,9,Friction Course,AC,Asphalt concrete layer,10.16,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1003,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,CODE 217 MOST REPRESENTIV,2,,E
+4,Arizona,1003,1,2,,5,Base Layer,GB,Unbound (granular) base,152.4,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,3,,E
+4,Arizona,1003,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,320.04,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1003,1,4,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1003,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,CODE 217 MOST REPRESENTIV,2,,E
+4,Arizona,1003,2,2,,5,Base Layer,GB,Unbound (granular) base,152.4,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,3,,E
+4,Arizona,1003,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,320.04,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1003,2,4,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1003,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,CODE 217 MOST REPRESENTIV,2,,E
+4,Arizona,1003,3,2,,5,Base Layer,GB,Unbound (granular) base,152.4,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,3,,E
+4,Arizona,1003,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,320.04,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1003,3,4,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1003,4,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,CODE 217 MOST REPRESENTIV,2,,E
+4,Arizona,1003,4,2,,5,Base Layer,GB,Unbound (granular) base,152.4,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,3,,E
+4,Arizona,1003,4,3,,3,Original Surface Layer,AC,Asphalt concrete layer,180.34,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1003,4,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1003,4,5,,1,Overlay,AC,Asphalt concrete layer,157.48,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1003,4,6,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,,,E
+4,Arizona,1003,5,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,CODE 217 MOST REPRESENTIV,2,,E
+4,Arizona,1003,5,2,,5,Base Layer,GB,Unbound (granular) base,152.4,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,3,,E
+4,Arizona,1003,5,3,,3,Original Surface Layer,AC,Asphalt concrete layer,180.34,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1003,5,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1003,5,5,,1,Overlay,AC,Asphalt concrete layer,157.48,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1003,5,6,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,,,E
+4,Arizona,1003,6,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,CODE 217 MOST REPRESENTIV,2,,E
+4,Arizona,1003,6,2,,5,Base Layer,GB,Unbound (granular) base,152.4,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,3,,E
+4,Arizona,1003,6,3,,3,Original Surface Layer,AC,Asphalt concrete layer,180.34,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1003,6,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1003,6,5,,1,Overlay,AC,Asphalt concrete layer,157.48,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1003,6,6,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,,,E
+4,Arizona,1006,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,,,,,,,,1,,E
+4,Arizona,1006,1,2,,5,Base Layer,GB,Unbound (granular) base,215.9,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1006,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,208.28,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1006,1,4,,9,Friction Course,AC,Asphalt concrete layer,10.16,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1006,1,5,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1006,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,,,,,,,,1,,E
+4,Arizona,1006,2,2,,5,Base Layer,GB,Unbound (granular) base,215.9,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1006,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,208.28,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1006,2,4,,9,Friction Course,AC,Asphalt concrete layer,10.16,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1006,2,5,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1006,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,,,,,,,,1,,E
+4,Arizona,1006,3,2,,5,Base Layer,GB,Unbound (granular) base,215.9,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1006,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,208.28,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1006,3,4,,9,Friction Course,AC,Asphalt concrete layer,10.16,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1006,3,5,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1006,4,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,,,,,,,,1,,E
+4,Arizona,1006,4,2,,5,Base Layer,GB,Unbound (granular) base,215.9,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1006,4,3,,3,Original Surface Layer,AC,Asphalt concrete layer,68.58,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,3,,E
+4,Arizona,1006,4,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,4,,E
+4,Arizona,1006,4,5,,10,Surface Treatment,AC,Asphalt concrete layer,0,Sand Seal,82,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1006,4,6,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,152.4,"Recycled AC, Heater Scarification/Recompaction",16,,,,,,,,,,E
+4,Arizona,1006,4,7,,1,Overlay,AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1006,4,8,,9,Friction Course,AC,Asphalt concrete layer,20.32,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,,,E
+4,Arizona,1006,5,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,,,,,,,,1,,E
+4,Arizona,1006,5,2,,5,Base Layer,GB,Unbound (granular) base,215.9,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1006,5,3,,3,Original Surface Layer,AC,Asphalt concrete layer,68.58,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,3,,E
+4,Arizona,1006,5,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,4,,E
+4,Arizona,1006,5,5,,10,Surface Treatment,AC,Asphalt concrete layer,0,Sand Seal,82,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1006,5,6,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,152.4,"Recycled AC, Heater Scarification/Recompaction",16,,,,,,,,,,E
+4,Arizona,1006,5,7,,1,Overlay,AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1006,5,8,,9,Friction Course,AC,Asphalt concrete layer,20.32,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,,,E
+4,Arizona,1006,6,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,,,,,,,,1,,E
+4,Arizona,1006,6,2,,5,Base Layer,GB,Unbound (granular) base,215.9,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1006,6,3,,3,Original Surface Layer,AC,Asphalt concrete layer,68.58,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,3,,E
+4,Arizona,1006,6,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,4,,E
+4,Arizona,1006,6,5,,10,Surface Treatment,AC,Asphalt concrete layer,0,Sand Seal,82,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1006,6,6,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,152.4,"Recycled AC, Heater Scarification/Recompaction",16,,,,,,,,,,E
+4,Arizona,1006,6,7,,1,Overlay,AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1006,6,8,,9,Friction Course,AC,Asphalt concrete layer,20.32,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,,,E
+4,Arizona,1006,7,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,,,,,,,,1,,E
+4,Arizona,1006,7,2,,5,Base Layer,GB,Unbound (granular) base,215.9,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1006,7,3,,3,Original Surface Layer,AC,Asphalt concrete layer,68.58,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,3,,E
+4,Arizona,1006,7,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,4,,E
+4,Arizona,1006,7,5,,10,Surface Treatment,AC,Asphalt concrete layer,0,Sand Seal,82,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1006,7,6,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,152.4,"Recycled AC, Heater Scarification/Recompaction",16,,,,,,,,,,E
+4,Arizona,1006,7,7,,1,Overlay,AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1006,7,8,,9,Friction Course,AC,Asphalt concrete layer,20.32,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,,,E
+4,Arizona,1007,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,Z,Other (Enter description in COMMENT_NOTE field.),,,,,TEST PIT INFO IS BETTER,1,,E
+4,Arizona,1007,1,2,,5,Base Layer,GB,Unbound (granular) base,274.32,Crushed Gravel,304,,,,,,,,2,,E
+4,Arizona,1007,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,152.4,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1007,1,4,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1007,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,Z,Other (Enter description in COMMENT_NOTE field.),,,,,TEST PIT INFO IS BETTER,1,,E
+4,Arizona,1007,2,2,,5,Base Layer,GB,Unbound (granular) base,274.32,Crushed Gravel,304,,,,,,,,2,,E
+4,Arizona,1007,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,152.4,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1007,2,4,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1007,2,5,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Fog Seal,73,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS IS AN ESTIMATE,,,E
+4,Arizona,1007,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,Z,Other (Enter description in COMMENT_NOTE field.),,,,,TEST PIT INFO IS BETTER,1,,E
+4,Arizona,1007,3,2,,5,Base Layer,GB,Unbound (granular) base,274.32,Crushed Gravel,304,,,,,,,,2,,E
+4,Arizona,1007,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,152.4,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1007,3,4,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1007,3,5,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Fog Seal,73,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS IS AN ESTIMATE,,,E
+4,Arizona,1007,4,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1007,4,2,,5,Base Layer,GB,Unbound (granular) base,274.32,Crushed Gravel,304,,,,,,,,2,,E
+4,Arizona,1007,4,3,,3,Original Surface Layer,AC,Asphalt concrete layer,91.44,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,3,,E
+4,Arizona,1007,4,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,4,,E
+4,Arizona,1007,4,5,,2,Seal Coat,AC,Asphalt concrete layer,0,Fog Seal,73,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1007,4,6,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,109.22,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1007,4,7,,1,Overlay,AC,Asphalt concrete layer,73.66,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1007,5,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1007,5,2,,5,Base Layer,GB,Unbound (granular) base,274.32,Crushed Gravel,304,,,,,,,,2,,E
+4,Arizona,1007,5,3,,3,Original Surface Layer,AC,Asphalt concrete layer,91.44,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,3,,E
+4,Arizona,1007,5,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,4,,E
+4,Arizona,1007,5,5,,2,Seal Coat,AC,Asphalt concrete layer,0,Fog Seal,73,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1007,5,6,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,109.22,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1007,5,7,,1,Overlay,AC,Asphalt concrete layer,73.66,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1015,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1015,1,2,,5,Base Layer,GB,Unbound (granular) base,256.54,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC FROM TEST PIT,2,,E
+4,Arizona,1015,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,213.36,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1015,1,4,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1015,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1015,2,2,,5,Base Layer,GB,Unbound (granular) base,256.54,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC FROM TEST PIT,2,,E
+4,Arizona,1015,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,132.08,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,3,,E
+4,Arizona,1015,2,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,4,,E
+4,Arizona,1015,2,5,,1,Overlay,AC,Asphalt concrete layer,170.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1015,2,6,,9,Friction Course,AC,Asphalt concrete layer,7.62,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,,,E
+4,Arizona,1016,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1016,1,2,,5,Base Layer,GB,Unbound (granular) base,170.18,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC FROM TEST PIT,2,,E
+4,Arizona,1016,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,241.3,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1016,1,4,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1016,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1016,2,2,,5,Base Layer,GB,Unbound (granular) base,170.18,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC FROM TEST PIT,2,,E
+4,Arizona,1016,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,241.3,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1016,2,4,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1016,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1016,3,2,,5,Base Layer,GB,Unbound (granular) base,170.18,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC FROM TEST PIT,2,,E
+4,Arizona,1016,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,175.26,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,3,,E
+4,Arizona,1016,3,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,4,,E
+4,Arizona,1016,3,5,,1,Overlay,AC,Asphalt concrete layer,109.22,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1016,3,6,,9,Friction Course,AC,Asphalt concrete layer,10.16,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1017,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1017,1,2,,5,Base Layer,GB,Unbound (granular) base,284.48,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,INV LAYERS 2&3 COMBINED,2,,E
+4,Arizona,1017,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,208.28,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1017,1,4,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1017,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1017,2,2,,5,Base Layer,GB,Unbound (granular) base,284.48,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,INV LAYERS 2&3 COMBINED,2,,E
+4,Arizona,1017,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,208.28,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1017,2,4,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1017,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1017,3,2,,5,Base Layer,GB,Unbound (granular) base,284.48,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,INV LAYERS 2&3 COMBINED,2,,E
+4,Arizona,1017,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1017,3,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1017,3,5,,1,Overlay,AC,Asphalt concrete layer,144.78,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICK/MCC FROM RHB,,,E
+4,Arizona,1017,3,6,,9,Friction Course,AC,Asphalt concrete layer,12.7,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1017,4,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1017,4,2,,5,Base Layer,GB,Unbound (granular) base,284.48,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,INV LAYERS 2&3 COMBINED,2,,E
+4,Arizona,1017,4,3,,3,Original Surface Layer,AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1017,4,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1017,4,5,,1,Overlay,AC,Asphalt concrete layer,144.78,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICK/MCC FROM RHB,,,E
+4,Arizona,1017,4,6,,9,Friction Course,AC,Asphalt concrete layer,12.7,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1018,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 267 MATCHES INV.,1,,E
+4,Arizona,1018,1,2,,5,Base Layer,GB,Unbound (granular) base,182.88,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1018,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,203.2,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1018,1,4,,9,Friction Course,AC,Asphalt concrete layer,10.16,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1018,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 267 MATCHES INV.,1,,E
+4,Arizona,1018,2,2,,5,Base Layer,GB,Unbound (granular) base,182.88,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1018,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,203.2,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1018,2,4,,9,Friction Course,AC,Asphalt concrete layer,10.16,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1018,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 267 MATCHES INV.,1,,E
+4,Arizona,1018,3,2,,5,Base Layer,GB,Unbound (granular) base,182.88,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1018,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,203.2,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1018,3,4,,9,Friction Course,AC,Asphalt concrete layer,10.16,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1018,3,5,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Single Surface Treatment,11,Z,Other (Enter description in COMMENT_NOTE field.),,,,,ESTIMATED LAYER THICKNESS,,,E
+4,Arizona,1018,4,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 267 MATCHES INV.,1,,E
+4,Arizona,1018,4,2,,5,Base Layer,GB,Unbound (granular) base,182.88,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1018,4,3,,3,Original Surface Layer,AC,Asphalt concrete layer,73.66,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1018,4,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1018,4,5,,10,Surface Treatment,AC,Asphalt concrete layer,0,Single Surface Treatment,11,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1018,4,6,,1,Overlay,AC,Asphalt concrete layer,134.62,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1018,4,7,,9,Friction Course,AC,Asphalt concrete layer,22.86,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,,,E
+4,Arizona,1018,5,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 267 MATCHES INV.,1,,E
+4,Arizona,1018,5,2,,5,Base Layer,GB,Unbound (granular) base,182.88,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1018,5,3,,3,Original Surface Layer,AC,Asphalt concrete layer,73.66,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1018,5,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1018,5,5,,10,Surface Treatment,AC,Asphalt concrete layer,0,Single Surface Treatment,11,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1018,5,6,,1,Overlay,AC,Asphalt concrete layer,134.62,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+4,Arizona,1018,5,7,,9,Friction Course,AC,Asphalt concrete layer,22.86,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,,,E
+4,Arizona,1021,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1021,1,2,,5,Base Layer,GB,Unbound (granular) base,213.36,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1021,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,119.38,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1021,1,4,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1021,1,5,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1021,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1021,2,2,,5,Base Layer,GB,Unbound (granular) base,213.36,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1021,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,119.38,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1021,2,4,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1021,2,5,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1021,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1021,3,2,,5,Base Layer,GB,Unbound (granular) base,213.36,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1021,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,119.38,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1021,3,4,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1021,3,5,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1021,4,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1021,4,2,,5,Base Layer,GB,Unbound (granular) base,213.36,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1021,4,3,,3,Original Surface Layer,AC,Asphalt concrete layer,119.38,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1021,4,4,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1021,4,5,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1021,5,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1021,5,2,,5,Base Layer,GB,Unbound (granular) base,213.36,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1021,5,3,,3,Original Surface Layer,AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,3,,E
+4,Arizona,1021,5,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,4,,E
+4,Arizona,1021,5,5,,10,Surface Treatment,AC,Asphalt concrete layer,0,Sand Seal,82,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1021,5,6,,1,Overlay,AC,Asphalt concrete layer,170.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,REASONABLE JUDGEMENT FOR MCC,,,E
+4,Arizona,1021,5,7,,9,Friction Course,AC,Asphalt concrete layer,20.32,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1021,6,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1021,6,2,,5,Base Layer,GB,Unbound (granular) base,213.36,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1021,6,3,,3,Original Surface Layer,AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,3,,E
+4,Arizona,1021,6,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,4,,E
+4,Arizona,1021,6,5,,10,Surface Treatment,AC,Asphalt concrete layer,0,Sand Seal,82,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1021,6,6,,1,Overlay,AC,Asphalt concrete layer,170.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,REASONABLE JUDGEMENT FOR MCC,,,E
+4,Arizona,1021,6,7,,9,Friction Course,AC,Asphalt concrete layer,20.32,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1021,6,8,,10,Surface Treatment,AC,Asphalt concrete layer,7.62,Slurry Seal,72,,,,,,,,,,E
+4,Arizona,1022,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1022,1,2,,6,Subbase Layer,GS,Unbound (granular) subbase,106.68,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,2,,E
+4,Arizona,1022,1,3,,5,Base Layer,GB,Unbound (granular) base,154.94,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,3,,E
+4,Arizona,1022,1,4,,3,Original Surface Layer,AC,Asphalt concrete layer,200.66,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1022,1,5,,9,Friction Course,AC,Asphalt concrete layer,10.16,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1022,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1022,2,2,,6,Subbase Layer,GS,Unbound (granular) subbase,106.68,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,2,,E
+4,Arizona,1022,2,3,,5,Base Layer,GB,Unbound (granular) base,154.94,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,3,,E
+4,Arizona,1022,2,4,,3,Original Surface Layer,AC,Asphalt concrete layer,200.66,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1022,2,5,,9,Friction Course,AC,Asphalt concrete layer,10.16,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1022,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1022,3,2,,6,Subbase Layer,GS,Unbound (granular) subbase,106.68,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,2,,E
+4,Arizona,1022,3,3,,5,Base Layer,GB,Unbound (granular) base,154.94,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,3,,E
+4,Arizona,1022,3,4,,3,Original Surface Layer,AC,Asphalt concrete layer,93.98,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1022,3,5,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1022,3,6,,1,Overlay,AC,Asphalt concrete layer,101.6,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC FROM RHB,,,E
+4,Arizona,1022,3,7,,9,Friction Course,AC,Asphalt concrete layer,20.32,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1022,4,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1022,4,2,,6,Subbase Layer,GS,Unbound (granular) subbase,106.68,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,2,,E
+4,Arizona,1022,4,3,,5,Base Layer,GB,Unbound (granular) base,154.94,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,3,,E
+4,Arizona,1022,4,4,,3,Original Surface Layer,AC,Asphalt concrete layer,76.2,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1022,4,5,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1022,4,6,,1,Overlay,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC FROM RHB,,,E
+4,Arizona,1022,4,7,,9,Friction Course,AC,Asphalt concrete layer,0,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1022,4,8,,1,Overlay,AC,Asphalt concrete layer,139.7,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC FROM AGENCY COORDINATION,,,E
+4,Arizona,1024,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 217 IS MORE REP,1,,E
+4,Arizona,1024,1,2,,5,Base Layer,GB,Unbound (granular) base,160.02,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 254 IS MORE REP,2,,E
+4,Arizona,1024,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,256.54,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1024,1,4,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1024,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 217 IS MORE REP,1,,E
+4,Arizona,1024,2,2,,5,Base Layer,GB,Unbound (granular) base,160.02,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 254 IS MORE REP,2,,E
+4,Arizona,1024,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,256.54,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1024,2,4,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1024,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 217 IS MORE REP,1,,E
+4,Arizona,1024,3,2,,5,Base Layer,GB,Unbound (granular) base,160.02,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 254 IS MORE REP,2,,E
+4,Arizona,1024,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,256.54,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1024,3,4,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1024,4,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 217 IS MORE REP,1,,E
+4,Arizona,1024,4,2,,5,Base Layer,GB,Unbound (granular) base,160.02,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 254 IS MORE REP,2,,E
+4,Arizona,1024,4,3,,3,Original Surface Layer,AC,Asphalt concrete layer,256.54,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1024,4,4,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1024,5,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 217 IS MORE REP,1,,E
+4,Arizona,1024,5,2,,5,Base Layer,GB,Unbound (granular) base,160.02,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 254 IS MORE REP,2,,E
+4,Arizona,1024,5,3,,3,Original Surface Layer,AC,Asphalt concrete layer,256.54,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1024,5,4,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1024,6,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 217 IS MORE REP,1,,E
+4,Arizona,1024,6,2,,5,Base Layer,GB,Unbound (granular) base,160.02,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 254 IS MORE REP,2,,E
+4,Arizona,1024,6,3,,3,Original Surface Layer,AC,Asphalt concrete layer,256.54,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1024,6,4,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1024,7,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 217 IS MORE REP,1,,E
+4,Arizona,1024,7,2,,5,Base Layer,GB,Unbound (granular) base,160.02,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 254 IS MORE REP,2,,E
+4,Arizona,1024,7,3,,3,Original Surface Layer,AC,Asphalt concrete layer,256.54,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,3,,E
+4,Arizona,1024,7,4,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,4,,E
+4,Arizona,1024,7,5,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Fog Seal,73,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1024,8,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 217 IS MORE REP,1,,E
+4,Arizona,1024,8,2,,5,Base Layer,GB,Unbound (granular) base,160.02,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 254 IS MORE REP,2,,E
+4,Arizona,1024,8,3,,3,Original Surface Layer,AC,Asphalt concrete layer,114.3,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,3,,E
+4,Arizona,1024,8,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,4,,E
+4,Arizona,1024,8,5,,2,Seal Coat,AC,Asphalt concrete layer,0,Fog Seal,73,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1024,8,6,,1,Overlay,AC,Asphalt concrete layer,142.24,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC BEST JUDGEMENT,,,E
+4,Arizona,1024,8,7,,9,Friction Course,AC,Asphalt concrete layer,22.86,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1025,1,1,,7,Subgrade,SS,Subgrade (untreated),2133.6,Coarse-Grained Soil: Silty Gravel with Sand,265,,,,,,,,1,,E
+4,Arizona,1025,1,2,,5,Base Layer,GB,Unbound (granular) base,124.46,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,,,E
+4,Arizona,1025,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,172.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,2,,E
+4,Arizona,1025,1,4,,9,Friction Course,AC,Asphalt concrete layer,20.32,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,3,,E
+4,Arizona,1025,2,1,,7,Subgrade,SS,Subgrade (untreated),2133.6,Coarse-Grained Soil: Silty Gravel with Sand,265,,,,,,,,1,,E
+4,Arizona,1025,2,2,,5,Base Layer,GB,Unbound (granular) base,124.46,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,,,E
+4,Arizona,1025,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,172.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,2,,E
+4,Arizona,1025,2,4,,9,Friction Course,AC,Asphalt concrete layer,20.32,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,3,,E
+4,Arizona,1025,3,1,,7,Subgrade,SS,Subgrade (untreated),2133.6,Coarse-Grained Soil: Silty Gravel with Sand,265,,,,,,,,1,,E
+4,Arizona,1025,3,2,,5,Base Layer,GB,Unbound (granular) base,124.46,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,,,E
+4,Arizona,1025,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,172.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,2,,E
+4,Arizona,1025,3,4,,9,Friction Course,AC,Asphalt concrete layer,20.32,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,3,,E
+4,Arizona,1025,4,1,,7,Subgrade,SS,Subgrade (untreated),2133.6,Coarse-Grained Soil: Silty Gravel with Sand,265,,,,,,,,1,,E
+4,Arizona,1025,4,2,,5,Base Layer,GB,Unbound (granular) base,124.46,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,,,E
+4,Arizona,1025,4,3,,3,Original Surface Layer,AC,Asphalt concrete layer,172.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,2,,E
+4,Arizona,1025,4,4,,9,Friction Course,AC,Asphalt concrete layer,20.32,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,3,,E
+4,Arizona,1025,4,5,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Fog Seal,73,Z,Other (Enter description in COMMENT_NOTE field.),,,,,ESTIMATED LAYER THICKNESS,,,E
+4,Arizona,1025,5,1,,7,Subgrade,SS,Subgrade (untreated),2133.6,Coarse-Grained Soil: Silty Gravel with Sand,265,,,,,,,,1,,E
+4,Arizona,1025,5,2,,5,Base Layer,GB,Unbound (granular) base,124.46,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,,,E
+4,Arizona,1025,5,3,,3,Original Surface Layer,AC,Asphalt concrete layer,99.06,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,2,,E
+4,Arizona,1025,5,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,3,,E
+4,Arizona,1025,5,5,,2,Seal Coat,AC,Asphalt concrete layer,0,Fog Seal,73,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1025,5,6,,1,Overlay,AC,Asphalt concrete layer,96.52,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC BEST JUDGEMENT,,,E
+4,Arizona,1025,5,7,,9,Friction Course,AC,Asphalt concrete layer,15.24,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1025,6,1,,7,Subgrade,SS,Subgrade (untreated),2133.6,Coarse-Grained Soil: Silty Gravel with Sand,265,,,,,,,,1,,E
+4,Arizona,1025,6,2,,5,Base Layer,GB,Unbound (granular) base,124.46,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,,,E
+4,Arizona,1025,6,3,,3,Original Surface Layer,AC,Asphalt concrete layer,99.06,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,2,,E
+4,Arizona,1025,6,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,3,,E
+4,Arizona,1025,6,5,,2,Seal Coat,AC,Asphalt concrete layer,0,Fog Seal,73,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1025,6,6,,1,Overlay,AC,Asphalt concrete layer,96.52,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC BEST JUDGEMENT,,,E
+4,Arizona,1025,6,7,,9,Friction Course,AC,Asphalt concrete layer,15.24,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1025,7,1,,7,Subgrade,SS,Subgrade (untreated),2133.6,Coarse-Grained Soil: Silty Gravel with Sand,265,,,,,,,,1,,E
+4,Arizona,1025,7,2,,5,Base Layer,GB,Unbound (granular) base,124.46,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,,,E
+4,Arizona,1025,7,3,,3,Original Surface Layer,AC,Asphalt concrete layer,99.06,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,2,,E
+4,Arizona,1025,7,4,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,3,,E
+4,Arizona,1025,7,5,,2,Seal Coat,AC,Asphalt concrete layer,0,Fog Seal,73,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1025,7,6,,1,Overlay,AC,Asphalt concrete layer,96.52,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC BEST JUDGEMENT,,,E
+4,Arizona,1025,7,7,,9,Friction Course,AC,Asphalt concrete layer,15.24,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1034,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1034,1,2,,5,Base Layer,GB,Unbound (granular) base,281.94,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1034,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,83.82,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1034,1,4,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1034,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1034,2,2,,5,Base Layer,GB,Unbound (granular) base,281.94,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1034,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,83.82,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1034,2,4,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1034,2,5,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Single Surface Treatment,11,Z,Other (Enter description in COMMENT_NOTE field.),,,,,ESTIMATED LAYER THICKNESS,,,E
+4,Arizona,1034,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1034,3,2,,5,Base Layer,GB,Unbound (granular) base,281.94,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1034,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,83.82,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1034,3,4,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1034,3,5,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Single Surface Treatment,11,Z,Other (Enter description in COMMENT_NOTE field.),,,,,ESTIMATED LAYER THICKNESS,,,E
+4,Arizona,1034,3,6,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Single Surface Treatment,11,Z,Other (Enter description in COMMENT_NOTE field.),,,,,ESTIMATED LAYER THICKNESS,,,E
+4,Arizona,1034,4,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1034,4,2,,5,Base Layer,GB,Unbound (granular) base,281.94,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1034,4,3,,3,Original Surface Layer,AC,Asphalt concrete layer,83.82,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1034,4,4,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1034,4,5,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Single Surface Treatment,11,Z,Other (Enter description in COMMENT_NOTE field.),,,,,ESTIMATED LAYER THICKNESS,,,E
+4,Arizona,1034,4,6,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Single Surface Treatment,11,Z,Other (Enter description in COMMENT_NOTE field.),,,,,ESTIMATED LAYER THICKNESS,,,E
+4,Arizona,1034,5,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,1034,5,2,,5,Base Layer,GB,Unbound (granular) base,281.94,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1034,5,3,,3,Original Surface Layer,AC,Asphalt concrete layer,83.82,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1034,5,4,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1034,5,5,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Single Surface Treatment,11,Z,Other (Enter description in COMMENT_NOTE field.),,,,,ESTIMATED LAYER THICKNESS,,,E
+4,Arizona,1034,5,6,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Single Surface Treatment,11,Z,Other (Enter description in COMMENT_NOTE field.),,,,,ESTIMATED LAYER THICKNESS,,,E
+4,Arizona,1034,5,7,,9,Friction Course,AC,Asphalt concrete layer,22.86,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1036,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,,,,,,,,1,,E
+4,Arizona,1036,1,2,,5,Base Layer,GB,Unbound (granular) base,472.44,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1036,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,96.52,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1036,1,4,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1036,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand with Gravel,217,,,,,,,,1,,E
+4,Arizona,1036,2,2,,5,Base Layer,GB,Unbound (granular) base,472.44,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,1036,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,96.52,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,1036,2,4,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,4,,E
+4,Arizona,1036,2,5,,2,Seal Coat,AC,Asphalt concrete layer,10.16,Sand Seal,82,V,No sampling at either end.,Z,Other (Enter description in COMMENT_NOTE field.),,,"PRELIMINARY INFO, AWAITING LAB DATA",,,E
+4,Arizona,1037,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soils: Poorly Graded Sand with Silt and Gravel,205,,,,,,,,1,,E
+4,Arizona,1037,1,2,,5,Base Layer,GB,Unbound (granular) base,408.94,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,APPROACH END COMBINED INV LAYERS 3&2,2,,E
+4,Arizona,1037,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,53.34,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1037,1,4,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1037,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soils: Poorly Graded Sand with Silt and Gravel,205,,,,,,,,1,,E
+4,Arizona,1037,2,2,,5,Base Layer,GB,Unbound (granular) base,408.94,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,N,Info from the state DOT indicates that beginning end is more representative.,Z,Other (Enter description in COMMENT_NOTE field.),,,APPROACH END COMBINED INV LAYERS 3 & 2,2,,E
+4,Arizona,1037,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,53.34,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1037,2,4,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1037,2,5,,2,Seal Coat,AC,Asphalt concrete layer,10.16,Sand Seal,82,Z,Other (Enter description in COMMENT_NOTE field.),,,,,"PRELIMINARY INFO, AWAITING LAB DATA",,,E
+4,Arizona,1062,1,1,,7,Subgrade,SS,Subgrade (untreated),1371.6,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1062,1,2,,6,Subbase Layer,TS,Bound (treated) subbase,152.4,Lime-Treated Soil,338,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS MATCHES PLANS,2,,E
+4,Arizona,1062,1,3,,5,Base Layer,TB,Bound (treated) base,284.48,Asphalt Treated Mixture,321,,,,,,,,3,,E
+4,Arizona,1062,1,4,,3,Original Surface Layer,AC,Asphalt concrete layer,137.16,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1062,1,5,,9,Friction Course,AC,Asphalt concrete layer,7.62,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1062,1,6,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1062,2,1,,7,Subgrade,SS,Subgrade (untreated),1371.6,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1062,2,2,,6,Subbase Layer,TS,Bound (treated) subbase,152.4,Lime-Treated Soil,338,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS MATCHES PLANS,2,,E
+4,Arizona,1062,2,3,,5,Base Layer,TB,Bound (treated) base,284.48,Asphalt Treated Mixture,321,,,,,,,,3,,E
+4,Arizona,1062,2,4,,3,Original Surface Layer,AC,Asphalt concrete layer,137.16,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1062,2,5,,9,Friction Course,AC,Asphalt concrete layer,7.62,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1062,2,6,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1062,3,1,,7,Subgrade,SS,Subgrade (untreated),1371.6,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1062,3,2,,6,Subbase Layer,TS,Bound (treated) subbase,152.4,Lime-Treated Soil,338,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS MATCHES PLANS,2,,E
+4,Arizona,1062,3,3,,5,Base Layer,TB,Bound (treated) base,284.48,Asphalt Treated Mixture,321,,,,,,,,3,,E
+4,Arizona,1062,3,4,,3,Original Surface Layer,AC,Asphalt concrete layer,137.16,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1062,3,5,,9,Friction Course,AC,Asphalt concrete layer,7.62,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1062,3,6,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1062,4,1,,7,Subgrade,SS,Subgrade (untreated),1371.6,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1062,4,2,,6,Subbase Layer,TS,Bound (treated) subbase,152.4,Lime-Treated Soil,338,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS MATCHES PLANS,2,,E
+4,Arizona,1062,4,3,,5,Base Layer,TB,Bound (treated) base,284.48,Asphalt Treated Mixture,321,,,,,,,,3,,E
+4,Arizona,1062,4,4,,3,Original Surface Layer,AC,Asphalt concrete layer,127,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1062,4,5,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1062,4,6,,10,Surface Treatment,AC,Asphalt concrete layer,0,Sand Seal,82,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1062,4,7,,9,Friction Course,AC,Asphalt concrete layer,25.4,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,,,E
+4,Arizona,1062,5,1,,7,Subgrade,SS,Subgrade (untreated),1371.6,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1062,5,2,,6,Subbase Layer,TS,Bound (treated) subbase,152.4,Lime-Treated Soil,338,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS MATCHES PLANS,2,,E
+4,Arizona,1062,5,3,,5,Base Layer,TB,Bound (treated) base,284.48,Asphalt Treated Mixture,321,,,,,,,,3,,E
+4,Arizona,1062,5,4,,3,Original Surface Layer,AC,Asphalt concrete layer,116.84,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1062,5,5,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1062,5,6,,10,Surface Treatment,AC,Asphalt concrete layer,0,Sand Seal,82,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1062,5,7,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1062,5,8,,9,Friction Course,AC,Asphalt concrete layer,15.24,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1062,6,1,,7,Subgrade,SS,Subgrade (untreated),1371.6,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1062,6,2,,6,Subbase Layer,TS,Bound (treated) subbase,152.4,Lime-Treated Soil,338,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS MATCHES PLANS,2,,E
+4,Arizona,1062,6,3,,5,Base Layer,TB,Bound (treated) base,284.48,Asphalt Treated Mixture,321,,,,,,,,3,,E
+4,Arizona,1062,6,4,,3,Original Surface Layer,AC,Asphalt concrete layer,116.84,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1062,6,5,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1062,6,6,,10,Surface Treatment,AC,Asphalt concrete layer,0,Sand Seal,82,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1062,6,7,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1062,6,8,,9,Friction Course,AC,Asphalt concrete layer,15.24,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1062,7,1,,7,Subgrade,SS,Subgrade (untreated),1371.6,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1062,7,2,,6,Subbase Layer,TS,Bound (treated) subbase,152.4,Lime-Treated Soil,338,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS MATCHES PLANS,2,,E
+4,Arizona,1062,7,3,,5,Base Layer,TB,Bound (treated) base,284.48,Asphalt Treated Mixture,321,,,,,,,,3,,E
+4,Arizona,1062,7,4,,3,Original Surface Layer,AC,Asphalt concrete layer,5.08,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1062,7,5,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1062,7,6,,10,Surface Treatment,AC,Asphalt concrete layer,0,Sand Seal,82,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1062,7,7,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1062,7,8,,9,Friction Course,AC,Asphalt concrete layer,15.24,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,1062,7,9,,1,Overlay,AC,Asphalt concrete layer,127,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC FROM AGENCY COORDINATION,,,E
+4,Arizona,1065,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1065,1,2,,6,Subbase Layer,TS,Bound (treated) subbase,127,Lime-Treated Soil,338,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,2,,E
+4,Arizona,1065,1,3,,5,Base Layer,TB,Bound (treated) base,347.98,Asphalt Treated Mixture,321,Z,Other (Enter description in COMMENT_NOTE field.),,,,,"PLANS SHOW 6"" LAYER (2)",3,,E
+4,Arizona,1065,1,4,,3,Original Surface Layer,AC,Asphalt concrete layer,144.78,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1065,1,5,,9,Friction Course,AC,Asphalt concrete layer,10.16,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1065,1,6,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1065,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1065,2,2,,6,Subbase Layer,TS,Bound (treated) subbase,127,Lime-Treated Soil,338,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,2,,E
+4,Arizona,1065,2,3,,5,Base Layer,TB,Bound (treated) base,347.98,Asphalt Treated Mixture,321,Z,Other (Enter description in COMMENT_NOTE field.),,,,,"PLANS SHOW 6"" LAYER (2)",3,,E
+4,Arizona,1065,2,4,,3,Original Surface Layer,AC,Asphalt concrete layer,144.78,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1065,2,5,,9,Friction Course,AC,Asphalt concrete layer,10.16,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1065,2,6,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1065,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1065,3,2,,6,Subbase Layer,TS,Bound (treated) subbase,127,Lime-Treated Soil,338,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,2,,E
+4,Arizona,1065,3,3,,5,Base Layer,TB,Bound (treated) base,347.98,Asphalt Treated Mixture,321,Z,Other (Enter description in COMMENT_NOTE field.),,,,,"PLANS SHOW 6"" LAYER (2)",3,,E
+4,Arizona,1065,3,4,,3,Original Surface Layer,AC,Asphalt concrete layer,144.78,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1065,3,5,,9,Friction Course,AC,Asphalt concrete layer,10.16,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1065,3,6,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1065,4,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1065,4,2,,6,Subbase Layer,TS,Bound (treated) subbase,127,Lime-Treated Soil,338,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,2,,E
+4,Arizona,1065,4,3,,5,Base Layer,TB,Bound (treated) base,347.98,Asphalt Treated Mixture,321,Z,Other (Enter description in COMMENT_NOTE field.),,,,,"PLANS SHOW 6"" LAYER (2)",3,,E
+4,Arizona,1065,4,4,,3,Original Surface Layer,AC,Asphalt concrete layer,144.78,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1065,4,5,,9,Friction Course,AC,Asphalt concrete layer,10.16,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+4,Arizona,1065,4,6,,10,Surface Treatment,AC,Asphalt concrete layer,2.54,Sand Seal,82,,,,,,,,,,E
+4,Arizona,1065,5,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1065,5,2,,6,Subbase Layer,TS,Bound (treated) subbase,127,Lime-Treated Soil,338,Z,Other (Enter description in COMMENT_NOTE field.),,,,,"THICKNESS FROM TEST PIT. PLANS SHOW 6"" LAYER",2,,E
+4,Arizona,1065,5,3,,5,Base Layer,TB,Bound (treated) base,347.98,Asphalt Treated Mixture,321,,,,,,,,3,,E
+4,Arizona,1065,5,4,,3,Original Surface Layer,AC,Asphalt concrete layer,137.16,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+4,Arizona,1065,5,5,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1065,5,6,,10,Surface Treatment,AC,Asphalt concrete layer,0,Sand Seal,82,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1065,5,7,,9,Friction Course,AC,Asphalt concrete layer,30.48,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,,,E
+4,Arizona,1065,6,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,1065,6,2,,6,Subbase Layer,TS,Bound (treated) subbase,127,Lime-Treated Soil,338,Z,Other (Enter description in COMMENT_NOTE field.),,,,,THICKNESS FROM TEST PIT,2,,E
+4,Arizona,1065,6,3,,5,Base Layer,TB,Bound (treated) base,347.98,Asphalt Treated Mixture,321,Z,Other (Enter description in COMMENT_NOTE field.),,,,,"PLANS SHOW 6"" LAYER (2)",3,,E
+4,Arizona,1065,6,4,,3,Original Surface Layer,AC,Asphalt concrete layer,137.16,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,1065,6,5,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,5,,E
+4,Arizona,1065,6,6,,10,Surface Treatment,AC,Asphalt concrete layer,0,Sand Seal,82,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1065,6,7,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,1065,6,8,,9,Friction Course,AC,Asphalt concrete layer,17.78,Other,20,Z,Other (Enter description in COMMENT_NOTE field.),,,,,RUBBERIZED POROUS FRICTION COURSE,,,E
+4,Arizona,6053,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 215 IS MOST REP.,1,,E
+4,Arizona,6053,1,2,,5,Base Layer,GB,Unbound (granular) base,289.56,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,6053,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,81.28,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,6053,1,4,,1,Overlay,AC,Asphalt concrete layer,106.68,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,8,,E
+4,Arizona,6053,1,5,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,9,,E
+4,Arizona,6053,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 215 IS MOST REP.,1,,E
+4,Arizona,6053,2,2,,5,Base Layer,GB,Unbound (granular) base,289.56,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,6053,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,81.28,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,6053,2,4,,1,Overlay,AC,Asphalt concrete layer,106.68,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,8,,E
+4,Arizona,6053,2,5,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,9,,E
+4,Arizona,6053,2,6,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Fog Seal,73,Z,Other (Enter description in COMMENT_NOTE field.),,,,,ESTIMATED LAYER THICKNESS,,,E
+4,Arizona,6054,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,6054,1,2,,5,Base Layer,GB,Unbound (granular) base,797.56,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,6054,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,177.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,6054,1,4,,1,Overlay,AC,Asphalt concrete layer,35.56,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,6,,E
+4,Arizona,6054,1,5,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,7,,E
+4,Arizona,6054,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,6054,2,2,,5,Base Layer,GB,Unbound (granular) base,797.56,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,6054,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,177.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,6054,2,4,,1,Overlay,AC,Asphalt concrete layer,35.56,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,6,,E
+4,Arizona,6054,2,5,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,7,,E
+4,Arizona,6054,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand with Gravel,215,,,,,,,,1,,E
+4,Arizona,6054,3,2,,5,Base Layer,GB,Unbound (granular) base,797.56,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,6054,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,177.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+4,Arizona,6054,3,4,,1,Overlay,AC,Asphalt concrete layer,35.56,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,6,,E
+4,Arizona,6054,3,5,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,7,,E
+4,Arizona,6055,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,6055,1,2,,5,Base Layer,GB,Unbound (granular) base,299.72,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,COMBINE LAYER 2&3,2,,E
+4,Arizona,6055,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,6055,1,4,,1,Overlay,AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,6,,E
+4,Arizona,6055,1,5,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,7,,E
+4,Arizona,6055,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,6055,2,2,,5,Base Layer,GB,Unbound (granular) base,299.72,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,COMBINE LAYER 2&3,2,,E
+4,Arizona,6055,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,6055,2,4,,1,Overlay,AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,6,,E
+4,Arizona,6055,2,5,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,7,,E
+4,Arizona,6055,2,6,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Sand Seal,82,Z,Other (Enter description in COMMENT_NOTE field.),,,,,PRELIMINARY INFO,,,E
+4,Arizona,6055,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,,,,,,,,1,,E
+4,Arizona,6055,3,2,,5,Base Layer,GB,Unbound (granular) base,299.72,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,Z,Other (Enter description in COMMENT_NOTE field.),,,,,COMBINE LAYER 2&3,2,,E
+4,Arizona,6055,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,6055,3,4,,1,Overlay,AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,6,,E
+4,Arizona,6055,3,5,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC/THICKNESS FROM SAMPLING,7,,E
+4,Arizona,6055,3,6,,2,Seal Coat,AC,Asphalt concrete layer,0,Sand Seal,82,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC/THICKNESS FROM SAMPLING,,,E
+4,Arizona,6055,3,7,,1,Overlay,AC,Asphalt concrete layer,50.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC/THICKNESS FROM SAMPLING,,,E
+4,Arizona,6055,3,8,,9,Friction Course,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Open Graded",2,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC/THICKNESS FROM SAMPLING,,,E
+4,Arizona,6060,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 267 IS MOST REP.,1,,E
+4,Arizona,6060,1,2,,5,Base Layer,GB,Unbound (granular) base,254,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,6060,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,106.68,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,6060,1,4,,1,Overlay,AC,Asphalt concrete layer,86.36,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+4,Arizona,6060,1,5,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,6,,E
+4,Arizona,6060,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 267 IS MOST REP.,1,,E
+4,Arizona,6060,2,2,,5,Base Layer,GB,Unbound (granular) base,254,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,6060,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,106.68,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,6060,2,4,,1,Overlay,AC,Asphalt concrete layer,86.36,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+4,Arizona,6060,2,5,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,6,,E
+4,Arizona,6060,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 267 IS MOST REP.,1,,E
+4,Arizona,6060,3,2,,5,Base Layer,GB,Unbound (granular) base,254,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,6060,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,106.68,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,6060,3,4,,1,Overlay,AC,Asphalt concrete layer,86.36,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+4,Arizona,6060,3,5,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,6,,E
+4,Arizona,6060,3,6,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Fog Seal,73,Z,Other (Enter description in COMMENT_NOTE field.),,,,,ESTIMATED LAYER THICKNESS,,,E
+4,Arizona,6060,4,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 267 IS MOST REP.,1,,E
+4,Arizona,6060,4,2,,5,Base Layer,GB,Unbound (granular) base,254,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,6060,4,3,,3,Original Surface Layer,AC,Asphalt concrete layer,106.68,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,6060,4,4,,1,Overlay,AC,Asphalt concrete layer,86.36,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+4,Arizona,6060,4,5,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,6,,E
+4,Arizona,6060,4,6,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Fog Seal,73,Z,Other (Enter description in COMMENT_NOTE field.),,,,,ESTIMATED LAYER THICKNESS,,,E
+4,Arizona,6060,5,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Gravel with Sand,267,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC 267 IS MOST REP.,1,,E
+4,Arizona,6060,5,2,,5,Base Layer,GB,Unbound (granular) base,254,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+4,Arizona,6060,5,3,,3,Original Surface Layer,AC,Asphalt concrete layer,106.68,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+4,Arizona,6060,5,4,,1,Overlay,AC,Asphalt concrete layer,10.16,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,5,,E
+4,Arizona,6060,5,5,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,S,Layer was completely removed by milling.,,,,,,6,,E
+4,Arizona,6060,5,6,,2,Seal Coat,AC,Asphalt concrete layer,0,Fog Seal,73,S,Layer was completely removed by milling.,,,,,,,,E
+4,Arizona,6060,5,7,,1,Overlay,AC,Asphalt concrete layer,66.04,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC BEST JUSTEMENT,,,E
+4,Arizona,6060,5,8,,9,Friction Course,AC,Asphalt concrete layer,22.86,"Hot Mixed, Hot Laid AC, Open Graded",2,Z,Other (Enter description in COMMENT_NOTE field.),,,,,MCC BEST JUSTEMENT,,,E
+13,Georgia,1001,1,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Sandy Silt,145,,,,,,,,1,,E
+13,Georgia,1001,1,2,,5,Base Layer,GB,Unbound (granular) base,218.44,Crushed Gravel,304,,,,,,,,2,,E
+13,Georgia,1001,1,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,104.14,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,1001,1,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,1001,1,5,,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+13,Georgia,1001,2,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Sandy Silt,145,,,,,,,,1,,E
+13,Georgia,1001,2,2,,5,Base Layer,GB,Unbound (granular) base,218.44,Crushed Gravel,304,,,,,,,,2,,E
+13,Georgia,1001,2,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,104.14,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,1001,2,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,1001,2,5,,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+13,Georgia,1004,1,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Sandy Lean Clay,114,,,,,,,,1,,E
+13,Georgia,1004,1,2,,5,Base Layer,GB,Unbound (granular) base,193.04,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+13,Georgia,1004,1,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,76.2,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,1004,1,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,48.26,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,1004,1,5,,3,Original Surface Layer,AC,Asphalt concrete layer,48.26,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+13,Georgia,1004,2,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Sandy Lean Clay,114,,,,,,,,1,,E
+13,Georgia,1004,2,2,,5,Base Layer,GB,Unbound (granular) base,193.04,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+13,Georgia,1004,2,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,76.2,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,1004,2,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,48.26,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,1004,2,5,,3,Original Surface Layer,AC,Asphalt concrete layer,48.26,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+13,Georgia,1005,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand,216,E,Gradations similar at section ends and averaged to determine material code.,,,,,,1,,E
+13,Georgia,1005,1,2,,5,Base Layer,GB,Unbound (granular) base,223.52,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+13,Georgia,1005,1,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,101.6,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,1005,1,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,55.88,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,1005,1,5,,3,Original Surface Layer,AC,Asphalt concrete layer,35.56,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+13,Georgia,1005,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand,216,E,Gradations similar at section ends and averaged to determine material code.,,,,,,1,,E
+13,Georgia,1005,2,2,,5,Base Layer,GB,Unbound (granular) base,223.52,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+13,Georgia,1005,2,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,101.6,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,1005,2,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,55.88,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,1005,2,5,,3,Original Surface Layer,AC,Asphalt concrete layer,35.56,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+13,Georgia,1031,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand,214,E,Gradations similar at section ends and averaged to determine material code.,,,,,,1,,E
+13,Georgia,1031,1,2,,5,Base Layer,GB,Unbound (granular) base,223.52,Fine-Grained Soils,309,,,,,,,,2,,E
+13,Georgia,1031,1,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,208.28,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,1031,1,4,,3,Original Surface Layer,AC,Asphalt concrete layer,60.96,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,1031,1,5,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+13,Georgia,1031,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand,214,E,Gradations similar at section ends and averaged to determine material code.,,,,,,1,,E
+13,Georgia,1031,2,2,,5,Base Layer,GB,Unbound (granular) base,223.52,Fine-Grained Soils,309,,,,,,,,2,,E
+13,Georgia,1031,2,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,208.28,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,1031,2,4,,3,Original Surface Layer,AC,Asphalt concrete layer,60.96,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,1031,2,5,,9,Friction Course,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+13,Georgia,1031,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand,214,E,Gradations similar at section ends and averaged to determine material code.,,,,,,1,,E
+13,Georgia,1031,3,2,,5,Base Layer,GB,Unbound (granular) base,223.52,Fine-Grained Soils,309,,,,,,,,2,,E
+13,Georgia,1031,3,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,208.28,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,1031,3,4,,3,Original Surface Layer,AC,Asphalt concrete layer,55.88,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,1031,3,5,,9,Friction Course,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+13,Georgia,1031,3,6,,9,Friction Course,AC,Asphalt concrete layer,22.86,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,,,E
+13,Georgia,4092,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand,216,,,,,,,,1,,E
+13,Georgia,4092,1,2,,5,Base Layer,TB,Bound (treated) base,210.82,Soil Cement,339,,,,,,,,2,,E
+13,Georgia,4092,1,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4092,1,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,50.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,4092,1,5,,3,Original Surface Layer,AC,Asphalt concrete layer,30.48,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+13,Georgia,4092,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand,216,,,,,,,,1,,E
+13,Georgia,4092,2,2,,5,Base Layer,TB,Bound (treated) base,210.82,Soil Cement,339,,,,,,,,2,,E
+13,Georgia,4092,2,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4092,2,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,50.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,4092,2,5,,3,Original Surface Layer,AC,Asphalt concrete layer,30.48,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+13,Georgia,4093,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand,216,E,Gradations similar at section ends and averaged to determine material code.,,,,,,1,,E
+13,Georgia,4093,1,2,,5,Base Layer,TB,Bound (treated) base,198.12,Soil Cement,339,,,,,,,,2,,E
+13,Georgia,4093,1,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,71.12,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4093,1,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,4093,1,5,,3,Original Surface Layer,AC,Asphalt concrete layer,30.48,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+13,Georgia,4093,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand,216,E,Gradations similar at section ends and averaged to determine material code.,,,,,,1,,E
+13,Georgia,4093,2,2,,5,Base Layer,TB,Bound (treated) base,198.12,Soil Cement,339,,,,,,,,2,,E
+13,Georgia,4093,2,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,71.12,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4093,2,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,4093,2,5,,3,Original Surface Layer,AC,Asphalt concrete layer,30.48,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+13,Georgia,4096,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand,216,,,,,,,,1,,E
+13,Georgia,4096,1,2,,5,Base Layer,TB,Bound (treated) base,160.02,Soil Cement,339,,,,,,,,2,,E
+13,Georgia,4096,1,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,71.12,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4096,1,4,,3,Original Surface Layer,AC,Asphalt concrete layer,33.02,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,4096,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Clayey Sand,216,,,,,,,,1,,E
+13,Georgia,4096,2,2,,5,Base Layer,TB,Bound (treated) base,160.02,Soil Cement,339,,,,,,,,2,,E
+13,Georgia,4096,2,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,71.12,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4096,2,4,,3,Original Surface Layer,AC,Asphalt concrete layer,33.02,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,4096,2,5,,2,Seal Coat,AC,Asphalt concrete layer,7.62,Chip Seal,71,,,,,,,,,,E
+13,Georgia,4096,2,6,,1,Overlay,AC,Asphalt concrete layer,35.56,"Recycled AC, Hot Laid, Central Plant Mix",13,,,,,,,,,,E
+13,Georgia,4111,1,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Sandy Clay,113,E,Gradations similar at section ends and averaged to determine material code.,,,,,,1,,E
+13,Georgia,4111,1,2,,5,Base Layer,GB,Unbound (granular) base,208.28,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+13,Georgia,4111,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,205.74,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,INV. LAYERS 3&4 COMBN'D,4,,E
+13,Georgia,4111,1,4,,9,Friction Course,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,5,,E
+13,Georgia,4112,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soils: Poorly Graded Sand,202,,,,,,,,1,,E
+13,Georgia,4112,1,2,,5,Base Layer,TB,Bound (treated) base,322.58,HMAC,319,,,,,,,,2,,E
+13,Georgia,4112,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,78.74,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4112,1,4,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Slurry Seal,72,,,,,,,,4,,E
+13,Georgia,4112,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soils: Poorly Graded Sand,202,,,,,,,,1,,E
+13,Georgia,4112,2,2,,5,Base Layer,TB,Bound (treated) base,322.58,HMAC,319,,,,,,,,2,,E
+13,Georgia,4112,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,78.74,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4112,2,4,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Slurry Seal,72,,,,,,,,4,,E
+13,Georgia,4112,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soils: Poorly Graded Sand,202,,,,,,,,1,,E
+13,Georgia,4112,3,2,,5,Base Layer,TB,Bound (treated) base,322.58,HMAC,319,,,,,,,,2,,E
+13,Georgia,4112,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,78.74,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4112,3,4,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Slurry Seal,72,,,,,,,,4,,E
+13,Georgia,4112,3,5,,1,Overlay,AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,LAYER INFO FOR RHB SECTION 134113 ADJACENT,,,E
+13,Georgia,4113,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soils: Poorly Graded Sand with Silt,204,,,,,,,,1,,E
+13,Georgia,4113,1,2,,5,Base Layer,TB,Bound (treated) base,292.1,Asphalt Treated Mixture,321,,,,,,,,2,,E
+13,Georgia,4113,1,3,,3,Original Surface Layer,AC,Asphalt concrete layer,91.44,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4113,1,4,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Chip Seal,71,,,,,,,,4,,E
+13,Georgia,4113,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soils: Poorly Graded Sand with Silt,204,,,,,,,,1,,E
+13,Georgia,4113,2,2,,5,Base Layer,TB,Bound (treated) base,292.1,Asphalt Treated Mixture,321,,,,,,,,2,,E
+13,Georgia,4113,2,3,,3,Original Surface Layer,AC,Asphalt concrete layer,91.44,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4113,2,4,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Chip Seal,71,Z,Other (Enter description in COMMENT_NOTE field.),,,,,OVERLAY INFO FROM RHB DATA,4,,E
+13,Georgia,4113,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soils: Poorly Graded Sand with Silt,204,,,,,,,,1,,E
+13,Georgia,4113,3,2,,5,Base Layer,TB,Bound (treated) base,292.1,Asphalt Treated Mixture,321,,,,,,,,2,,E
+13,Georgia,4113,3,3,,3,Original Surface Layer,AC,Asphalt concrete layer,91.44,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4113,3,4,,2,Seal Coat,AC,Asphalt concrete layer,2.54,Chip Seal,71,Z,Other (Enter description in COMMENT_NOTE field.),,,,,OVERLAY INFO FROM RHB DATA,4,,E
+13,Georgia,4113,3,5,,1,Overlay,AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+13,Georgia,4119,1,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Sandy Silt,145,,,,,,,,1,,E
+13,Georgia,4119,1,2,,6,Subbase Layer,GS,Unbound (granular) subbase,416.56,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+13,Georgia,4119,1,3,,5,Base Layer,TB,Bound (treated) base,350.52,HMAC,319,Z,Other (Enter description in COMMENT_NOTE field.),,,,,COMBINATION OF INV. LAYERS 3 AND 4,3,4,E
+13,Georgia,4119,1,4,,3,Original Surface Layer,AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+13,Georgia,4119,1,5,,9,Friction Course,AC,Asphalt concrete layer,20.32,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,6,,E
+13,Georgia,4119,2,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Sandy Silt,145,,,,,,,,1,,E
+13,Georgia,4119,2,2,,6,Subbase Layer,GS,Unbound (granular) subbase,416.56,Soil-Aggregate Mixture (Predominantly Coarse-Grained),308,,,,,,,,2,,E
+13,Georgia,4119,2,3,,5,Base Layer,TB,Bound (treated) base,350.52,HMAC,319,Z,Other (Enter description in COMMENT_NOTE field.),,,,,COMBINATION OF INV. LAYERS 3 AND 4,3,4,E
+13,Georgia,4119,2,4,,3,Original Surface Layer,AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+13,Georgia,4119,2,5,,9,Friction Course,AC,Asphalt concrete layer,20.32,"Hot Mixed, Hot Laid AC, Open Graded",2,,,,,,,,6,,E
+13,Georgia,4420,1,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand,214,,,,,,,,1,,E
+13,Georgia,4420,1,2,,5,Base Layer,TB,Bound (treated) base,200.66,Soil Cement,339,,,,,,,,2,,E
+13,Georgia,4420,1,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,73.66,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4420,1,4,,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,4420,2,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand,214,,,,,,,,1,,E
+13,Georgia,4420,2,2,,5,Base Layer,TB,Bound (treated) base,200.66,Soil Cement,339,,,,,,,,2,,E
+13,Georgia,4420,2,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,73.66,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4420,2,4,,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,4420,3,1,,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand,214,,,,,,,,1,,E
+13,Georgia,4420,3,2,,5,Base Layer,TB,Bound (treated) base,200.66,Soil Cement,339,,,,,,,,2,,E
+13,Georgia,4420,3,3,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,73.66,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,3,,E
+13,Georgia,4420,3,4,,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+13,Georgia,4420,3,5,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+13,Georgia,4420,3,6,,1,Overlay,AC,Asphalt concrete layer,27.94,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0104,1,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0104,1,2,D,5,Base Layer,TB,Bound (treated) base,304.8,HMAC,319,,,,,,,,,,E
+39,Ohio,0104,1,3,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,132.08,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0104,1,4,G,3,Original Surface Layer,AC,Asphalt concrete layer,40.64,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0104,2,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0104,2,2,D,5,Base Layer,TB,Bound (treated) base,304.8,HMAC,319,,,,,,,,,,E
+39,Ohio,0104,2,3,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,132.08,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0104,2,4,G,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0104,2,5,J,1,Overlay,AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,WARM MIX ASPHALT,,,E
+39,Ohio,0111,1,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0111,1,2,C,5,Base Layer,TB,Bound (treated) base,106.68,"Open Graded, Hot Laid, Central Plant Mix",325,,,,,,,,,,E
+39,Ohio,0111,1,3,D,5,Base Layer,TB,Bound (treated) base,185.42,HMAC,319,,,,,,,,,,E
+39,Ohio,0111,1,4,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0111,1,5,G,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0111,2,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0111,2,2,C,5,Base Layer,TB,Bound (treated) base,106.68,"Open Graded, Hot Laid, Central Plant Mix",325,,,,,,,,,,E
+39,Ohio,0111,2,3,D,5,Base Layer,TB,Bound (treated) base,185.42,HMAC,319,,,,,,,,,,E
+39,Ohio,0111,2,4,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0111,2,5,G,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0111,2,6,H,1,Overlay,AC,Asphalt concrete layer,53.34,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0111,2,7,K,1,Overlay,AC,Asphalt concrete layer,20.32,"Recycled AC, Hot Laid, Central Plant Mix",13,,,,,,,,,,E
+39,Ohio,0111,3,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0111,3,2,C,5,Base Layer,TB,Bound (treated) base,106.68,"Open Graded, Hot Laid, Central Plant Mix",325,,,,,,,,,,E
+39,Ohio,0111,3,3,D,5,Base Layer,TB,Bound (treated) base,185.42,HMAC,319,,,,,,,,,,E
+39,Ohio,0111,3,4,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0111,3,5,G,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0111,3,6,H,1,Overlay,AC,Asphalt concrete layer,53.34,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0111,3,7,K,1,Overlay,AC,Asphalt concrete layer,20.32,"Recycled AC, Hot Laid, Central Plant Mix",13,,,,,,,,,,E
+39,Ohio,0112,1,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0112,1,2,C,5,Base Layer,TB,Bound (treated) base,106.68,"Open Graded, Hot Laid, Central Plant Mix",325,,,,,,,,,,E
+39,Ohio,0112,1,3,D,5,Base Layer,TB,Bound (treated) base,297.18,HMAC,319,,,,,,,,,,E
+39,Ohio,0112,1,4,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0112,1,5,G,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0112,2,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0112,2,2,C,5,Base Layer,TB,Bound (treated) base,101.6,"Open Graded, Hot Laid, Central Plant Mix",325,,,,,,,,,,E
+39,Ohio,0112,2,3,D,5,Base Layer,TB,Bound (treated) base,297.18,HMAC,319,,,,,,,,,,E
+39,Ohio,0112,2,4,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,,,E
+39,Ohio,0112,2,5,G,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+39,Ohio,0112,2,6,J,1,Overlay,AC,Asphalt concrete layer,53.34,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0159,1,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0159,1,2,B,5,Base Layer,GB,Unbound (granular) base,152.4,Crushed Stone,303,V,No sampling at either end.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM AGENCY INFORMATION,,,E
+39,Ohio,0159,1,3,E,5,Base Layer,TB,Bound (treated) base,109.22,Cement Aggregate Mixture,331,,,,,,,,,,E
+39,Ohio,0159,1,4,D,5,Base Layer,TB,Bound (treated) base,383.54,HMAC,319,,,,,,,,,,E
+39,Ohio,0159,1,5,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0159,1,6,G,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0159,2,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0159,2,2,B,5,Base Layer,GB,Unbound (granular) base,152.4,Crushed Stone,303,V,No sampling at either end.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM AGENCY INFORMATION,,,E
+39,Ohio,0159,2,3,E,5,Base Layer,TB,Bound (treated) base,109.22,Cement Aggregate Mixture,331,,,,,,,,,,E
+39,Ohio,0159,2,4,D,5,Base Layer,TB,Bound (treated) base,383.54,HMAC,319,,,,,,,,,,E
+39,Ohio,0159,2,5,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0159,2,6,G,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0159,3,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0159,3,2,B,5,Base Layer,GB,Unbound (granular) base,152.4,Crushed Stone,303,V,No sampling at either end.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM AGENCY INFORMATION,,,E
+39,Ohio,0159,3,3,E,5,Base Layer,TB,Bound (treated) base,109.22,Cement Aggregate Mixture,331,,,,,,,,,,E
+39,Ohio,0159,3,4,D,5,Base Layer,TB,Bound (treated) base,383.54,HMAC,319,,,,,,,,,,E
+39,Ohio,0159,3,5,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0159,3,6,G,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0159,4,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0159,4,2,B,5,Base Layer,GB,Unbound (granular) base,152.4,Crushed Stone,303,V,No sampling at either end.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM AGENCY INFORMATION,,,E
+39,Ohio,0159,4,3,E,5,Base Layer,TB,Bound (treated) base,109.22,Cement Aggregate Mixture,331,,,,,,,,,,E
+39,Ohio,0159,4,4,D,5,Base Layer,TB,Bound (treated) base,383.54,HMAC,319,,,,,,,,,,E
+39,Ohio,0159,4,5,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0159,4,6,G,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0159,5,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0159,5,2,B,5,Base Layer,GB,Unbound (granular) base,152.4,Crushed Stone,303,V,No sampling at either end.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM AGENCY INFORMATION,,,E
+39,Ohio,0159,5,3,E,5,Base Layer,TB,Bound (treated) base,109.22,Cement Aggregate Mixture,331,,,,,,,,,,E
+39,Ohio,0159,5,4,D,5,Base Layer,TB,Bound (treated) base,383.54,HMAC,319,,,,,,,,,,E
+39,Ohio,0159,5,5,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,58.42,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0159,5,6,G,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0159,6,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0159,6,2,B,5,Base Layer,GB,Unbound (granular) base,152.4,Crushed Stone,303,V,No sampling at either end.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM AGENCY INFORMATION,,,E
+39,Ohio,0159,6,3,E,5,Base Layer,TB,Bound (treated) base,109.22,Cement Aggregate Mixture,331,,,,,,,,,,E
+39,Ohio,0159,6,4,D,5,Base Layer,TB,Bound (treated) base,383.54,HMAC,319,,,,,,,,,,E
+39,Ohio,0159,6,5,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+39,Ohio,0159,6,6,G,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+39,Ohio,0159,6,7,I,1,Overlay,AC,Asphalt concrete layer,83.82,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0159,7,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0159,7,2,B,5,Base Layer,GB,Unbound (granular) base,152.4,Crushed Stone,303,V,No sampling at either end.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM AGENCY INFORMATION,,,E
+39,Ohio,0159,7,3,E,5,Base Layer,TB,Bound (treated) base,109.22,Cement Aggregate Mixture,331,,,,,,,,,,E
+39,Ohio,0159,7,4,D,5,Base Layer,TB,Bound (treated) base,383.54,HMAC,319,,,,,,,,,,E
+39,Ohio,0159,7,5,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+39,Ohio,0159,7,6,G,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+39,Ohio,0159,7,7,I,1,Overlay,AC,Asphalt concrete layer,83.82,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0160,1,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0160,1,2,B,5,Base Layer,GB,Unbound (granular) base,101.6,Crushed Stone,303,,,,,,,,,,E
+39,Ohio,0160,1,3,D,5,Base Layer,TB,Bound (treated) base,279.4,HMAC,319,,,,,,,,,,E
+39,Ohio,0160,1,4,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,53.34,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0160,1,5,G,3,Original Surface Layer,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0160,2,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0160,2,2,B,5,Base Layer,GB,Unbound (granular) base,101.6,Crushed Stone,303,,,,,,,,,,E
+39,Ohio,0160,2,3,D,5,Base Layer,TB,Bound (treated) base,259.08,HMAC,319,R,Layer was partially removed by milling.,,,,,,,,E
+39,Ohio,0160,2,4,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+39,Ohio,0160,2,5,G,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+39,Ohio,0160,2,6,I,1,Overlay,AC,Asphalt concrete layer,119.38,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0160,3,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0160,3,2,B,5,Base Layer,GB,Unbound (granular) base,101.6,Crushed Stone,303,,,,,,,,,,E
+39,Ohio,0160,3,3,D,5,Base Layer,TB,Bound (treated) base,259.08,HMAC,319,R,Layer was partially removed by milling.,,,,,,,,E
+39,Ohio,0160,3,4,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+39,Ohio,0160,3,5,G,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+39,Ohio,0160,3,6,I,1,Overlay,AC,Asphalt concrete layer,119.38,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0901,1,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0901,1,2,B,11,Embankment Layer,GS,Unbound (granular) subbase,304.8,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0901,1,3,C,6,Subbase Layer,GS,Unbound (granular) subbase,152.4,Crushed Stone,303,T,Sampling only occurred at approach end.,,,,,,,,E
+39,Ohio,0901,1,4,D,6,Subbase Layer,TS,Bound (treated) subbase,106.68,"Open Graded, Hot Laid, Central Plant Mix",325,,,,,,,,,,E
+39,Ohio,0901,1,5,E,5,Base Layer,TB,Bound (treated) base,279.4,Asphalt Treated Mixture,321,,,,,,,,,,E
+39,Ohio,0901,1,6,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,60.96,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0901,1,7,G,3,Original Surface Layer,AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0901,2,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0901,2,2,B,11,Embankment Layer,GS,Unbound (granular) subbase,304.8,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0901,2,3,C,6,Subbase Layer,GS,Unbound (granular) subbase,152.4,Crushed Stone,303,T,Sampling only occurred at approach end.,,,,,,,,E
+39,Ohio,0901,2,4,D,6,Subbase Layer,TS,Bound (treated) subbase,106.68,"Open Graded, Hot Laid, Central Plant Mix",325,,,,,,,,,,E
+39,Ohio,0901,2,5,E,5,Base Layer,TB,Bound (treated) base,279.4,Asphalt Treated Mixture,321,,,,,,,,,,E
+39,Ohio,0901,2,6,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,60.96,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0901,2,7,G,3,Original Surface Layer,AC,Asphalt concrete layer,7.62,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,,,E
+39,Ohio,0901,2,8,J,1,Overlay,AC,Asphalt concrete layer,38.1,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,DERIVED FROM AGENCY INFORMATION,,,E
+39,Ohio,0901,3,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0901,3,2,B,11,Embankment Layer,GS,Unbound (granular) subbase,304.8,Fine-Grained Soils: Silty Clay,131,,,,,,,,,,E
+39,Ohio,0901,3,3,C,6,Subbase Layer,GS,Unbound (granular) subbase,152.4,Crushed Stone,303,T,Sampling only occurred at approach end.,,,,,,,,E
+39,Ohio,0901,3,4,D,6,Subbase Layer,TS,Bound (treated) subbase,106.68,"Open Graded, Hot Laid, Central Plant Mix",325,,,,,,,,,,E
+39,Ohio,0901,3,5,E,5,Base Layer,TB,Bound (treated) base,279.4,Asphalt Treated Mixture,321,,,,,,,,,,E
+39,Ohio,0901,3,6,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,60.96,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0901,3,7,G,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+39,Ohio,0901,3,8,J,1,Overlay,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+39,Ohio,0901,3,9,K,1,Overlay,AC,Asphalt concrete layer,50.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0903,1,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,P,Material code for layer derived from lab. testing of adjacent test section.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM SECTION 390902,,,E
+39,Ohio,0903,1,2,C,6,Subbase Layer,GS,Unbound (granular) subbase,152.4,Crushed Stone,303,P,Material code for layer derived from lab. testing of adjacent test section.,Q,Layer thickness derived by measuring same material from adjacent test section.,Z,Other (Enter description in COMMENT_NOTE field.),DERIVED FROM SECTION 390902,,,E
+39,Ohio,0903,1,3,D,6,Subbase Layer,TS,Bound (treated) subbase,93.98,"Open Graded, Hot Laid, Central Plant Mix",325,,,,,,,,,,E
+39,Ohio,0903,1,4,E,5,Base Layer,TB,Bound (treated) base,307.34,Asphalt Treated Mixture,321,,,,,,,,,,E
+39,Ohio,0903,1,5,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,53.34,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0903,1,6,I,3,Original Surface Layer,AC,Asphalt concrete layer,50.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0903,2,1,A,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silty Clay,131,P,Material code for layer derived from lab. testing of adjacent test section.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM SECTION 390902,,,E
+39,Ohio,0903,2,2,C,6,Subbase Layer,GS,Unbound (granular) subbase,152.4,Crushed Stone,303,P,Material code for layer derived from lab. testing of adjacent test section.,Q,Layer thickness derived by measuring same material from adjacent test section.,Z,Other (Enter description in COMMENT_NOTE field.),DERIVED FROM SECTION 390902,,,E
+39,Ohio,0903,2,3,D,6,Subbase Layer,TS,Bound (treated) subbase,93.98,"Open Graded, Hot Laid, Central Plant Mix",325,,,,,,,,,,E
+39,Ohio,0903,2,4,E,5,Base Layer,TB,Bound (treated) base,307.34,Asphalt Treated Mixture,321,,,,,,,,,,E
+39,Ohio,0903,2,5,F,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,50.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+39,Ohio,0903,2,6,I,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+39,Ohio,0903,2,7,K,1,Overlay,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,0903,1,1,C,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand,214,,,,,,,,,,E
+87,Ontario,0903,1,2,E,6,Subbase Layer,GS,Unbound (granular) subbase,266.7,Crushed Gravel,304,,,,,,,,,,E
+87,Ontario,0903,1,3,H,5,Base Layer,GB,Unbound (granular) base,215.9,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,PULVERIZED AC MIXED WITH UNDERLYING GRANULAR,,,E
+87,Ontario,0903,1,4,I,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,76.2,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,0903,1,5,L,3,Original Surface Layer,AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,0903,2,1,C,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand,214,,,,,,,,,,E
+87,Ontario,0903,2,2,E,6,Subbase Layer,GS,Unbound (granular) subbase,266.7,Crushed Gravel,304,,,,,,,,,,E
+87,Ontario,0903,2,3,H,5,Base Layer,GB,Unbound (granular) base,215.9,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,PULVERIZED AC MIXED WITH UNDERLYING GRANULAR,,,E
+87,Ontario,0903,2,4,I,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,76.2,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,0903,2,5,L,3,Original Surface Layer,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM AGENCY INFORMATION,,,E
+87,Ontario,0903,2,6,P,1,Overlay,AC,Asphalt concrete layer,50.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,DERIVED FROM AGENCY INFORMATION,,,E
+87,Ontario,0960,1,1,B,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soils: Poorly Graded Sand with Silt,204,,,,,,,,,,E
+87,Ontario,0960,1,2,D,6,Subbase Layer,GS,Unbound (granular) subbase,50.8,Gravel (Uncrushed),302,,,,,,,,,,E
+87,Ontario,0960,1,3,H,5,Base Layer,GB,Unbound (granular) base,228.6,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,PULVERIZED AC MIXED WITH UNDERLYING GRANULAR,,,E
+87,Ontario,0960,1,4,I,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,0960,1,5,M,3,Original Surface Layer,AC,Asphalt concrete layer,66.04,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,0960,2,1,B,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soils: Poorly Graded Sand with Silt,204,,,,,,,,,,E
+87,Ontario,0960,2,2,D,6,Subbase Layer,GS,Unbound (granular) subbase,50.8,Gravel (Uncrushed),302,,,,,,,,,,E
+87,Ontario,0960,2,3,H,5,Base Layer,GB,Unbound (granular) base,228.6,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,PULVERIZED AC MIXED WITH UNDERLYING GRANULAR,,,E
+87,Ontario,0960,2,4,I,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,0960,2,5,M,3,Original Surface Layer,AC,Asphalt concrete layer,66.04,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,0960,3,1,B,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soils: Poorly Graded Sand with Silt,204,,,,,,,,,,E
+87,Ontario,0960,3,2,D,6,Subbase Layer,GS,Unbound (granular) subbase,50.8,Gravel (Uncrushed),302,,,,,,,,,,E
+87,Ontario,0960,3,3,H,5,Base Layer,GB,Unbound (granular) base,228.6,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,PULVERIZED AC MIXED WITH UNDERLYING GRANULAR,,,E
+87,Ontario,0960,3,4,I,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,0960,3,5,M,3,Original Surface Layer,AC,Asphalt concrete layer,15.24,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM AGENCY INFORMATION,,,E
+87,Ontario,0960,3,6,P,1,Overlay,AC,Asphalt concrete layer,50.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,DERIVED FROM AGENCY INFORMATION,,,E
+87,Ontario,0961,1,1,C,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand,214,,,,,,,,,,E
+87,Ontario,0961,1,2,D,6,Subbase Layer,GS,Unbound (granular) subbase,25.4,Gravel (Uncrushed),302,,,,,,,,,,E
+87,Ontario,0961,1,3,H,5,Base Layer,GB,Unbound (granular) base,215.9,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,PULVERIZED AC MIXED WITH UNDERLYING GRANULAR,,,E
+87,Ontario,0961,1,4,I,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,0961,1,5,N,3,Original Surface Layer,AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,0961,2,1,C,7,Subgrade,SS,Subgrade (untreated),,Coarse-Grained Soil: Silty Sand,214,,,,,,,,,,E
+87,Ontario,0961,2,2,D,6,Subbase Layer,GS,Unbound (granular) subbase,25.4,Gravel (Uncrushed),302,,,,,,,,,,E
+87,Ontario,0961,2,3,H,5,Base Layer,GB,Unbound (granular) base,215.9,Crushed Gravel,304,Z,Other (Enter description in COMMENT_NOTE field.),,,,,PULVERIZED AC MIXED WITH UNDERLYING GRANULAR,,,E
+87,Ontario,0961,2,4,I,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,63.5,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,0961,2,5,N,3,Original Surface Layer,AC,Asphalt concrete layer,12.7,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM AGENCY INFORMATION,,,E
+87,Ontario,0961,2,6,P,1,Overlay,AC,Asphalt concrete layer,50.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,DERIVED FROM AGENCY INFORMATION,,,E
+87,Ontario,1620,1,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Lean Inorganic Clay,102,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1620,1,2,,6,Subbase Layer,GS,Unbound (granular) subbase,607.06,Sand,306,G,"Gradations different at section ends, material code from leave end used.",,,,,,2,,E
+87,Ontario,1620,1,3,,5,Base Layer,GB,Unbound (granular) base,144.78,Sand,306,,,,,,,,3,,E
+87,Ontario,1620,1,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,35.56,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+87,Ontario,1620,1,5,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,55.88,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+87,Ontario,1620,1,6,,3,Original Surface Layer,AC,Asphalt concrete layer,30.48,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,6,,E
+87,Ontario,1620,2,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Lean Inorganic Clay,102,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1620,2,2,,6,Subbase Layer,GS,Unbound (granular) subbase,607.06,Sand,306,G,"Gradations different at section ends, material code from leave end used.",,,,,,2,,E
+87,Ontario,1620,2,3,,5,Base Layer,GB,Unbound (granular) base,144.78,Sand,306,,,,,,,,3,,E
+87,Ontario,1620,2,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,35.56,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+87,Ontario,1620,2,5,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,53.34,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,5,,E
+87,Ontario,1620,2,6,,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,6,,E
+87,Ontario,1620,2,7,,1,Overlay,AC,Asphalt concrete layer,35.56,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1620,2,8,,1,Overlay,AC,Asphalt concrete layer,30.48,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1620,3,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Lean Inorganic Clay,102,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1620,3,2,,6,Subbase Layer,GS,Unbound (granular) subbase,607.06,Sand,306,G,"Gradations different at section ends, material code from leave end used.",,,,,,2,,E
+87,Ontario,1620,3,3,,5,Base Layer,GB,Unbound (granular) base,144.78,Sand,306,,,,,,,,3,,E
+87,Ontario,1620,3,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,35.56,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+87,Ontario,1620,3,5,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,53.34,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,5,,E
+87,Ontario,1620,3,6,,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,6,,E
+87,Ontario,1620,3,7,,1,Overlay,AC,Asphalt concrete layer,35.56,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1620,3,8,,1,Overlay,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,,,E
+87,Ontario,1620,3,9,,1,Overlay,AC,Asphalt concrete layer,40.64,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1620,3,10,,1,Overlay,AC,Asphalt concrete layer,48.26,"Recycled AC, Hot Laid, Central Plant Mix",13,,,,,,,,,,E
+87,Ontario,1620,4,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Lean Inorganic Clay,102,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1620,4,2,,6,Subbase Layer,GS,Unbound (granular) subbase,607.06,Sand,306,G,"Gradations different at section ends, material code from leave end used.",,,,,,2,,E
+87,Ontario,1620,4,3,,5,Base Layer,GB,Unbound (granular) base,144.78,Sand,306,,,,,,,,3,,E
+87,Ontario,1620,4,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,35.56,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+87,Ontario,1620,4,5,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,53.34,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,5,,E
+87,Ontario,1620,4,6,,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,6,,E
+87,Ontario,1620,4,7,,1,Overlay,AC,Asphalt concrete layer,35.56,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1620,4,8,,1,Overlay,AC,Asphalt concrete layer,17.78,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,,,E
+87,Ontario,1620,4,9,,1,Overlay,AC,Asphalt concrete layer,40.64,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1620,4,10,,1,Overlay,AC,Asphalt concrete layer,7.62,"Recycled AC, Hot Laid, Central Plant Mix",13,R,Layer was partially removed by milling.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM AGENCY DATA,,,E
+87,Ontario,1620,4,11,,1,Overlay,AC,Asphalt concrete layer,60.96,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,DERIVED FROM AGENCY DATA,,,E
+87,Ontario,1620,4,12,,1,Overlay,AC,Asphalt concrete layer,50.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,DERIVED FROM AGENCY DATA,,,E
+87,Ontario,1620,4,13,,1,Overlay,AC,Asphalt concrete layer,40.64,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,DERIVED FROM AGENCY DATA,,,E
+87,Ontario,1622,1,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Sandy Silt,145,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1622,1,2,,6,Subbase Layer,GS,Unbound (granular) subbase,668.02,Sand,306,,,,,,,,2,,E
+87,Ontario,1622,1,3,,5,Base Layer,GB,Unbound (granular) base,170.18,Crushed Gravel,304,,,,,,,,3,,E
+87,Ontario,1622,1,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,38.1,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+87,Ontario,1622,1,5,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,78.74,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+87,Ontario,1622,1,6,,3,Original Surface Layer,AC,Asphalt concrete layer,27.94,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,6,,E
+87,Ontario,1622,2,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Sandy Silt,145,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1622,2,2,,6,Subbase Layer,GS,Unbound (granular) subbase,668.02,Sand,306,,,,,,,,2,,E
+87,Ontario,1622,2,3,,5,Base Layer,GB,Unbound (granular) base,170.18,Crushed Gravel,304,,,,,,,,3,,E
+87,Ontario,1622,2,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,30.48,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+87,Ontario,1622,2,5,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,45.72,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,5,,E
+87,Ontario,1622,2,6,,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,6,,E
+87,Ontario,1622,2,7,,1,Overlay,AC,Asphalt concrete layer,60.96,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1622,2,8,,1,Overlay,AC,Asphalt concrete layer,55.88,"Recycled AC, Hot Laid, Central Plant Mix",13,,,,,,,,,,E
+87,Ontario,1680,1,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silt with Sand,143,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1680,1,2,,6,Subbase Layer,GS,Unbound (granular) subbase,624.84,Sand,306,,,,,,,,2,,E
+87,Ontario,1680,1,3,,6,Subbase Layer,GS,Unbound (granular) subbase,86.36,Crushed Gravel,304,,,,,,,,3,,E
+87,Ontario,1680,1,4,,5,Base Layer,TB,Bound (treated) base,223.52,HMAC,319,,,,,,,,4,5,E
+87,Ontario,1680,1,5,,3,Original Surface Layer,AC,Asphalt concrete layer,38.1,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,6,,E
+87,Ontario,1680,2,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silt with Sand,143,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1680,2,2,,6,Subbase Layer,GS,Unbound (granular) subbase,624.84,Sand,306,,,,,,,,2,,E
+87,Ontario,1680,2,3,,6,Subbase Layer,GS,Unbound (granular) subbase,86.36,Crushed Gravel,304,,,,,,,,3,,E
+87,Ontario,1680,2,4,,5,Base Layer,TB,Bound (treated) base,223.52,HMAC,319,,,,,,,,4,5,E
+87,Ontario,1680,2,5,,3,Original Surface Layer,AC,Asphalt concrete layer,20.32,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,6,,E
+87,Ontario,1680,2,6,,1,Overlay,AC,Asphalt concrete layer,50.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1680,3,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silt with Sand,143,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1680,3,2,,6,Subbase Layer,GS,Unbound (granular) subbase,624.84,Sand,306,,,,,,,,2,,E
+87,Ontario,1680,3,3,,6,Subbase Layer,GS,Unbound (granular) subbase,86.36,Crushed Gravel,304,,,,,,,,3,,E
+87,Ontario,1680,3,4,,5,Base Layer,TB,Bound (treated) base,223.52,HMAC,319,,,,,,,,4,5,E
+87,Ontario,1680,3,5,,3,Original Surface Layer,AC,Asphalt concrete layer,20.32,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,6,,E
+87,Ontario,1680,3,6,,1,Overlay,AC,Asphalt concrete layer,50.8,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1680,4,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silt with Sand,143,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1680,4,2,,6,Subbase Layer,GS,Unbound (granular) subbase,624.84,Sand,306,,,,,,,,2,,E
+87,Ontario,1680,4,3,,6,Subbase Layer,GS,Unbound (granular) subbase,86.36,Crushed Gravel,304,,,,,,,,3,,E
+87,Ontario,1680,4,4,,5,Base Layer,TB,Bound (treated) base,200.66,HMAC,319,R,Layer was partially removed by milling.,,,,,,4,5,E
+87,Ontario,1680,4,5,,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,6,,E
+87,Ontario,1680,4,6,,1,Overlay,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+87,Ontario,1680,4,7,,1,Overlay,AC,Asphalt concrete layer,40.64,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1680,5,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silt with Sand,143,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1680,5,2,,6,Subbase Layer,GS,Unbound (granular) subbase,624.84,Sand,306,,,,,,,,2,,E
+87,Ontario,1680,5,3,,6,Subbase Layer,GS,Unbound (granular) subbase,86.36,Crushed Gravel,304,,,,,,,,3,,E
+87,Ontario,1680,5,4,,5,Base Layer,TB,Bound (treated) base,200.66,HMAC,319,R,Layer was partially removed by milling.,,,,,,4,5,E
+87,Ontario,1680,5,5,,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,6,,E
+87,Ontario,1680,5,6,,1,Overlay,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+87,Ontario,1680,5,7,,1,Overlay,AC,Asphalt concrete layer,40.64,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1680,5,8,,1,Overlay,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1806,1,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silt,141,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1806,1,2,,6,Subbase Layer,GS,Unbound (granular) subbase,970.28,Sand,306,,,,,,,,2,,E
+87,Ontario,1806,1,3,,5,Base Layer,GB,Unbound (granular) base,180.34,Crushed Gravel,304,,,,,,,,3,,E
+87,Ontario,1806,1,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,101.6,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,4,,E
+87,Ontario,1806,1,5,,3,Original Surface Layer,AC,Asphalt concrete layer,40.64,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,5,,E
+87,Ontario,1806,2,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silt,141,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1806,2,2,,6,Subbase Layer,GS,Unbound (granular) subbase,970.28,Sand,306,,,,,,,,2,,E
+87,Ontario,1806,2,3,,5,Base Layer,GB,Unbound (granular) base,180.34,Crushed Gravel,304,,,,,,,,3,,E
+87,Ontario,1806,2,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,86.36,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+87,Ontario,1806,2,5,,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,5,,E
+87,Ontario,1806,2,6,,1,Overlay,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1806,3,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silt,141,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1806,3,2,,6,Subbase Layer,GS,Unbound (granular) subbase,970.28,Sand,306,,,,,,,,2,,E
+87,Ontario,1806,3,3,,5,Base Layer,GB,Unbound (granular) base,180.34,Crushed Gravel,304,,,,,,,,3,,E
+87,Ontario,1806,3,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,86.36,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+87,Ontario,1806,3,5,,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,5,,E
+87,Ontario,1806,3,6,,1,Overlay,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1806,4,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silt,141,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1806,4,2,,6,Subbase Layer,GS,Unbound (granular) subbase,970.28,Sand,306,,,,,,,,2,,E
+87,Ontario,1806,4,3,,5,Base Layer,GB,Unbound (granular) base,180.34,Crushed Gravel,304,,,,,,,,3,,E
+87,Ontario,1806,4,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,86.36,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+87,Ontario,1806,4,5,,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,5,,E
+87,Ontario,1806,4,6,,1,Overlay,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,Z,Other (Enter description in COMMENT_NOTE field.),,,DERIVED FROM AGENCY INFORMATION,,,E
+87,Ontario,1806,4,7,,1,Overlay,AC,Asphalt concrete layer,38.1,"Hot Mixed, Hot Laid AC, Dense Graded",1,Z,Other (Enter description in COMMENT_NOTE field.),,,,,DERIVED FROM AGENCY INFORMATION,,,E
+87,Ontario,1806,5,1,,7,Subgrade,SS,Subgrade (untreated),,Fine-Grained Soils: Silt,141,G,"Gradations different at section ends, material code from leave end used.",,,,,,1,,E
+87,Ontario,1806,5,2,,6,Subbase Layer,GS,Unbound (granular) subbase,970.28,Sand,306,,,,,,,,2,,E
+87,Ontario,1806,5,3,,5,Base Layer,GB,Unbound (granular) base,180.34,Crushed Gravel,304,,,,,,,,3,,E
+87,Ontario,1806,5,4,,4,AC Layer Below Surface (Binder Course),AC,Asphalt concrete layer,86.36,"Hot Mixed, Hot Laid AC, Dense Graded",1,R,Layer was partially removed by milling.,,,,,,4,,E
+87,Ontario,1806,5,5,,3,Original Surface Layer,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,5,,E
+87,Ontario,1806,5,6,,1,Overlay,AC,Asphalt concrete layer,0,"Hot Mixed, Hot Laid AC, Dense Graded",1,S,Layer was completely removed by milling.,,,,,,,,E
+87,Ontario,1806,5,7,,1,Overlay,AC,Asphalt concrete layer,38.1,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E
+87,Ontario,1806,5,8,,1,Overlay,AC,Asphalt concrete layer,43.18,"Hot Mixed, Hot Laid AC, Dense Graded",1,,,,,,,,,,E

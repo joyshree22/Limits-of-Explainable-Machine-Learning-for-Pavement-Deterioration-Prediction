@@ -1,0 +1,1112 @@
+TABLE_NAME,FIELD_NAME,FIELD_ALIAS,FIELD_DESCRIPTION,FIELD_UNIT,FIELD_CODETYPE,UNIT_SYSTEM
+ANALYSIS_DIS_AC,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_DIS_AC,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_DIS_AC,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_DIS_AC,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_DIS_AC,SURVEY_DATE,Survey Date,Date survey was performed.,,,
+ANALYSIS_DIS_AC,HPMS16_CRACKING_PERCENT_AC,2016 HPMS AC Cracking Percentage,Percent of section cracked using 2016 HPMS Field Guide definitions. Includes only longitudinal and fatigue cracking in assumed 1m wide wheel paths.,%,,Metric
+ANALYSIS_DIS_AC,MEPDG_CRACKING_PERCENT_AC,MEPDG AC Cracking Percentage,"The total area of alligator cracking summed across all levels of severity, divided by the total area of the test section, in accordance with MEPDG definitions. Note that LTPP alligator cracking interpretations are not restricted to the wheel path.",%,,Metric
+ANALYSIS_DIS_AC,MEPDG_TRANS_CRACK_LENGTH_AC,MEPDG AC Transverse Cracking Length,"Total length of sealed and unsealed transverse cracks at all levels of severity, divided by test section length in accordance with current pavement MEPDG distress definitions.",m/km,,Metric
+ANALYSIS_DIS_AC,MEPDG_LONG_CRACK_LENGTH_AC,MEPDG AC Longitudinal Cracking Length,Total length of sealed and unsealed longitudinal cracks in the wheel path at all severity levels divided by test section length.,m/km,,Metric
+ANALYSIS_DIS_AC,ME_PERCENT_WHEEL_PATH_CRACK,MEPDG Wheel Path Cracking Percentage,Percentage of cracking in assumed 0.61 meter wide wheel paths corresponding to the MEPDG_CRACKING_PERCENT_AC field reported in the 2016 and 2017 LTPP data releases,%,,Metric
+ANALYSIS_DIS_AC,SURVEY_WIDTH,Survey Width,Width of pavement surveyed for distress measurements.,m,,Metric
+ANALYSIS_DIS_AC,GATOR_CRACK_A,Alligator Cracking Area Total,Total alligator (fatigue) cracking area.,sq m,,Metric
+ANALYSIS_DIS_AC,GATOR_CRACK_A_L,Low Severity Alligator Cracking Area,"Area of alligator (fatigue) cracking of low severity. (No or few connecting cracks, not spalled or sealed, no pumping evident.)",sq m,,Metric
+ANALYSIS_DIS_AC,GATOR_CRACK_A_M,Medium Severity Alligator Cracking Area,"Area of alligator (fatigue) cracking of moderate severity. (Interconnected cracks possibly slightly spalled, may be sealed, pumping may be evident.)",sq m,,Metric
+ANALYSIS_DIS_AC,GATOR_CRACK_A_H,High Severity Alligator Cracking Area,"Area of alligator (fatigue) cracking of high severity. (Moderately or severely spalled interconnected cracks, may be sealed, pumping may be evident.)",sq m,,Metric
+ANALYSIS_DIS_AC,BLK_CRACK_A,Block Cracking Area Total,Total area of block cracking.,sq m,,Metric
+ANALYSIS_DIS_AC,BLK_CRACK_A_L,Low Severity Block Cracking Area,Area of low severity block cracking. (Cracks of unknown width well sealed or with mean width of 6 mm or less.),sq m,,Metric
+ANALYSIS_DIS_AC,BLK_CRACK_A_M,Medium Severity Block Cracking Area,Area of moderate severity block cracking. (Mean crack width from 6 to 19 mm or under 19 mm with adjacent low severity random cracking.),sq m,,Metric
+ANALYSIS_DIS_AC,BLK_CRACK_A_H,High Severity Block Cracking Area,Area of high severity block cracking. (Mean crack width greater than 19 mm or under 19 mm with moderate to high severity random cracking.),sq m,,Metric
+ANALYSIS_DIS_AC,EDGE_CRACK_L,Edge Crack Length,Total length of edge cracking.,m,,Metric
+ANALYSIS_DIS_AC,EDGE_CRACK_L_L,Low Severity Edge Crack Length,Length of low severity edge cracking.,m,,Metric
+ANALYSIS_DIS_AC,EDGE_CRACK_L_M,Medium Severity Edge Crack Length,Length of moderate severity edge cracking.,m,,Metric
+ANALYSIS_DIS_AC,EDGE_CRACK_L_H,High Severity Edge Crack Length,Length of high severity edge cracking.,m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_WP_L,Wheel Path Longitudinal Crack Length Total,Total longitudinal cracking length in wheel path.,m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_WP_L_L,Low Severity Wheel Path Longitudinal Crack Length,"Length of low severity, longitudinal cracking in wheel path. (Cracks of unknown width well sealed or with mean width of 6 mm or less.)",m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_WP_L_M,Medium Severity Wheel Path Longitudinal Crack Length,"Length of moderate severity, longitudinal cracking in wheel path. (Mean crack width from 6 to 19 mm or under 19 mm with adjacent low severity random cracking.)",m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_WP_L_H,High Severity Wheel Path Longitudinal Crack Length,"Length of high severity, longitudinal cracking in wheel path. (Mean crack width greater than 19 mm or under 19 mm with adjacent moderate to high severity random cracking.)",m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_NWP_L,Non-Wheel Path Longitudinal Crack Length Total,Total length of non-wheel path longitudinal cracking.,m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_NWP_L_L,Low Severity Non-Wheel Path Longitudinal Crack Length,"Length of low severity, non-wheel path longitudinal cracking. (Cracks of unknown width well sealed or with mean width of 6 mm or less.)",m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_NWP_L_M,Medium Severity Non-Wheel Path Longitudinal Crack Length,"Length of moderate severity, non-wheel path longitudinal cracking. (Mean crack width from 6 to 19 mm or under 19 mm with adjacent low severity random cracking.)",m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_NWP_L_H,High Severity Non-Wheel Path Longitudinal Crack Length,"Length of high severity, non-wheel path longitudinal cracking. (Mean crack width greater than 19 mm or under 19 mm with adjacent moderate to high severity random cracking.)",m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_WP_SEAL_L,Well-Sealed Wheel Path Longitudinal Crack Length Total,Total well sealed longitudinal cracking length in wheel path.,m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_WP_SEAL_L_L,Low Severity Well-Sealed Wheel Path Longitudinal Crack Length,"Length of low severity, well sealed longitudinal cracking in wheel path. (Cracks of unknown width or with mean width of 6 mm or less.)",m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_WP_SEAL_L_M,Medium Severity Well-Sealed Wheel Path Longitudinal Crack Length,"Length of moderate severity, well sealed longitudinal cracking in wheel path. (Mean crack width from 6 to 19 mm or under 19 mm with adjacent low severity random cracking.)",m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_WP_SEAL_L_H,High Severity Well-Sealed Wheel Path Longitudinal Crack Length,"Length of high severity, well sealed longitudinal cracking in wheel path. (Crack mean width greater than 19 mm or under 19 mm with adjacent moderate to high severity random cracking.)",m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_NWP_SEAL_L,Non-Well-Sealed Wheel Path Longitudinal Crack Length Total,Total length of well sealed non-wheel path longitudinal cracking.,m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_NWP_SEAL_L_L,Low Severity Non-Wheel Path Well-Sealed Longitudinal Crack Length,"Length of low severity, well sealed non-wheel path longitudinal cracking. (Cracks of unknown width or with mean width of 6 mm or less.)",m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_NWP_SEAL_L_M,Medium Severity Non-Wheel Path Well-Sealed Longitudinal Crack Length,"Length of moderate severity, well sealed non-wheel path longitudinal cracking. (Mean crack width from 6 to 19 mm or under 19 mm with adjacent low severity random cracking.)",m,,Metric
+ANALYSIS_DIS_AC,LONG_CRACK_NWP_SEAL_L_H,High Severity Non-Wheel Path Well-Sealed Longitudinal Crack Length,"Length of high severity, well sealed non-wheel path longitudinal cracking. (Mean crack width greater than 19 mm or under 19 mm with adjacent moderate to high severity random cracking.)",m,,Metric
+ANALYSIS_DIS_AC,TRANS_CRACK_NO,Transverse Crack Number Total,Total number of transverse cracks.,,,
+ANALYSIS_DIS_AC,TRANS_CRACK_NO_L,Low Severity Transverse Cracks Number,Number of low severity transverse cracks. (Cracks of unknown width well sealed or with mean width of 6 mm or less.),,,
+ANALYSIS_DIS_AC,TRANS_CRACK_NO_M,Medium Severity Transverse Cracks Number,Number of moderate severity transverse cracks. (Mean crack width from 6 to 19 mm or under 19 mm with adjacent low severity random cracking.),,,
+ANALYSIS_DIS_AC,TRANS_CRACK_NO_H,High Severity Transverse Cracks Number,Number of high severity transverse cracks. (Mean crack width greater than 19 mm or under 19 mm with adjacent moderate to high severity random cracking.),,,
+ANALYSIS_DIS_AC,TRANS_CRACK_L,Transverse Crack Length Total,Total transverse cracking length.,m,,Metric
+ANALYSIS_DIS_AC,TRANS_CRACK_L_L,Low Severity Transverse Crack Length,Length of low severity transverse cracking. (Cracks of unknown width well sealed or with mean width of 6 mm or less.),m,,Metric
+ANALYSIS_DIS_AC,TRANS_CRACK_L_M,Medium Severity Transverse Crack Length,Length of moderate severity transverse cracking. (Crack mean width from 6 to 19 mm or under 19 mm with adjacent low severity random cracking.),m,,Metric
+ANALYSIS_DIS_AC,TRANS_CRACK_L_H,High Severity Transverse Crack Length,Length of high severity transverse cracking. (Mean crack width greater than 19 mm or under 19 mm with adjacent moderate to high severity random cracking.),m,,Metric
+ANALYSIS_DIS_AC,TRANS_CRACK_SEAL_L,Well Sealed Transverse Crack Length Total,Total length of well sealed transverse cracking.,m,,Metric
+ANALYSIS_DIS_AC,TRANS_CRACK_SEAL_L_L,Low Severity Well Sealed Transverse Crack Length,"Length of well sealed, low severity transverse cracking. (Cracks of unknown width or with mean width of 6 mm or less.)",m,,Metric
+ANALYSIS_DIS_AC,TRANS_CRACK_SEAL_L_M,Medium Severity Well Sealed Transverse Crack Length,"Length of well sealed, moderate severity transverse cracking. (Mean crack width from 6 to 19 mm or under 19 mm with adjacent low severity random cracking.)",m,,Metric
+ANALYSIS_DIS_AC,TRANS_CRACK_SEAL_L_H,High Severity Well Sealed Transverse Crack Length,"Length of well sealed, high severity transverse cracking. (Mean crack width greater than 19 mm or under 19 mm with adjacent moderate to high severity random cracking.)",m,,Metric
+ANALYSIS_DIS_AC,PATCH_NO,Patches Number Total,Total number of patches.,,,
+ANALYSIS_DIS_AC,PATCH_NO_L,Low Severity Patches Number,Number of patches/patch deteriorations with low severity distress of any type.,,,
+ANALYSIS_DIS_AC,PATCH_NO_M,Medium Severity Patches Number,Number of patches/patch deteriorations with moderate severity distress of any type.,,,
+ANALYSIS_DIS_AC,PATCH_NO_H,High Severity Patches Number,Number of patches/patch deteriorations with high severity distress of any type.,,,
+ANALYSIS_DIS_AC,PATCH_A,Patches Area Total,Total area of patching.,sq m,,Metric
+ANALYSIS_DIS_AC,PATCH_A_L,Low Severity Patches Area,Area of patching with low severity distress or patch deterioration.,sq m,,Metric
+ANALYSIS_DIS_AC,PATCH_A_M,Medium Severity Patches Area,Area of patching with moderate severity distress or patch deterioration.,sq m,,Metric
+ANALYSIS_DIS_AC,PATCH_A_H,High Severity Patches Area,Area of patching with high severity distress or patch deterioration.,sq m,,Metric
+ANALYSIS_DIS_AC,POTHOLES_NO,Potholes Number Total,Total number of potholes.,,,
+ANALYSIS_DIS_AC,POTHOLES_NO_L,Low Severity Potholes Number,Number of low severity potholes (less than 25 mm deep).,,,
+ANALYSIS_DIS_AC,POTHOLES_NO_M,Medium Severity Potholes Number,Number of moderate severity potholes (from 25 to 50 mm deep).,,,
+ANALYSIS_DIS_AC,POTHOLES_NO_H,High Severity Potholes Number,Number of high severity potholes (more than 50 mm deep).,,,
+ANALYSIS_DIS_AC,POTHOLES_A,Potholes Area Total,Total pothole area.,sq m,,Metric
+ANALYSIS_DIS_AC,POTHOLES_A_L,Low Severity Pothole Area,Area of low severity potholes (less than 25 mm deep).,sq m,,Metric
+ANALYSIS_DIS_AC,POTHOLES_A_M,Medium Severity Pothole Area,Area of moderate severity potholes (from 25 to 50 mm deep).,sq m,,Metric
+ANALYSIS_DIS_AC,POTHOLES_A_H,High Severity Pothole Area,Area of high severity potholes (more than 50 mm deep).,sq m,,Metric
+ANALYSIS_DIS_AC,SHOVING_NO,Shoving Number,Number of areas where shoving exists.,,,
+ANALYSIS_DIS_AC,SHOVING_A,Shoving Area,"Area of shoving, localized longitudinal displacement of the pavement surface.",sq m,,Metric
+ANALYSIS_DIS_AC,BLEEDING,Bleeding Area,"Presence of excess asphalt on the pavement surface which may create a shiny, glass-like reflective surface.",sq m,,Metric
+ANALYSIS_DIS_AC,POLISH_AGG_A,Polished Aggregate Area,Area of polished aggregate (binder worn away to expose coarse aggregate).,sq m,,Metric
+ANALYSIS_DIS_AC,RAVELING,Raveling Area,Wearing away of the pavement surface caused by the dislodging of aggregate particles and loss of asphalt binder.,sq m,,Metric
+ANALYSIS_DIS_AC,PUMPING_NO,Pumping and Bleeding Number,Number of occurrences of water bleeding and pumping.,,,
+ANALYSIS_DIS_AC,PUMPING_L,Pumping and Bleeding Length,Length of pavement affected by water bleeding and pumping.,m,,Metric
+ANALYSIS_DIS_AC,WP_LENGTH_CRACKED,Wheel Path Length Cracked,Wheel path cracking length.,m,,Metric
+ANALYSIS_DIS_AC,TRANS_CRACK_L_GT183,Transverse Crack Length Greater Than 1.83m,Total length of transverse cracks greater than 1.83 meters.,m,,Metric
+ANALYSIS_DIS_AC,LONGIGATOR_CRACKING,Longigator Crack Area,Longitudinal cracking area at a foot-width plus the alligator cracking area. Used as a measure to identify change in distress definition.,sq m,,Metric
+ANALYSIS_DIS_AC,BLOCKVERSE_CRACKING,Blockverse Crack Area,Transverse cracking area at a foot-length plus the block cracking area. Used as a measure to identify change in distress definition.,sq m,,Metric
+ANALYSIS_DIS_AC,OTHER,Other,Description of surface distress present but not otherwise accounted for by the survey.,,,
+ANALYSIS_DIS_AC,HPMS16_CRACKING_PERCENT_AC_FLAG,2016 HPMS AC Cracking Percentage Outlier Type,Flag indicating that the HPMS 2016 cracking percent is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,HPMS16_CRACKING_PERCENT_AC_FLAG_EXP,2016 HPMS AC Cracking Percentage Outlier Type (Code Expansion),Flag indicating that the HPMS 2016 cracking percent is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,MEPDG_CRACKING_PERCENT_AC_FLAG,MEPDG AC Cracking Percentage Outlier Type,Flag indicating that the MEPDG cracking percent is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,MEPDG_CRACKING_PERCENT_AC_FLAG_EXP,MEPDG AC Cracking Percentage Outlier Type (Code Expansion),Flag indicating that the MEPDG cracking percent is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,MEPDG_TRANS_CRACK_LENGTH_AC_FLAG,MEPDG AC Longitudinal Cracking Length Outlier Type,Flag indicating that the MEPDG transverse cracking length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,MEPDG_TRANS_CRACK_LENGTH_AC_FLAG_EXP,MEPDG AC Longitudinal Cracking Length Outlier Type (Code Expansion),Flag indicating that the MEPDG transverse cracking length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,MEPDG_LONG_CRACK_LENGTH_AC_FLAG,MEPDG AC Transverse Cracking Length Outlier Type,Flag indicating that the MEPDG longitudinal cracking length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,MEPDG_LONG_CRACK_LENGTH_AC_FLAG_EXP,MEPDG AC Transverse Cracking Length Outlier Type (Code Expansion),Flag indicating that the MEPDG longitudinal cracking length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,WP_LENGTH_CRACKED_FLAG,Wheel Path Length Cracked Outlier Type,Flag indicating that the wheel path cracking length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,WP_LENGTH_CRACKED_FLAG_EXP,Wheel Path Length Cracked Outlier Type (Code Expansion),Flag indicating that the wheel path cracking length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,GATOR_CRACK_A_FLAG,Alligator Cracking Area Outlier Type,Flag indicating that the alligator (fatigue) cracking area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,GATOR_CRACK_A_FLAG_EXP,Alligator Cracking Area Outlier Type (Code Expansion),Flag indicating that the alligator (fatigue) cracking area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,BLK_CRACK_A_FLAG,Block Cracking Area Outlier Type,Flag indicating that the block cracking area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,BLK_CRACK_A_FLAG_EXP,Block Cracking Area Outlier Type (Code Expansion),Flag indicating that the block cracking area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,EDGE_CRACK_L_FLAG,Edge Crack Length Outlier Type,Flag indicating that the edge cracking length is a potential anomaly,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,EDGE_CRACK_L_FLAG_EXP,Edge Crack Length Outlier Type (Code Expansion),Flag indicating that the edge cracking length is a potential anomaly (Code Expansion),,,
+ANALYSIS_DIS_AC,LONG_CRACK_WP_L_FLAG,Wheel Path Longitudinal Crack Length Outlier Type,Flag indicating that the length of longitudinal cracking in wheel path is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,LONG_CRACK_WP_L_FLAG_EXP,Wheel Path Longitudinal Crack Length Outlier Type (Code Expansion),Flag indicating that the length of longitudinal cracking in wheel path is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,LONG_CRACK_WP_SEAL_L_FLAG,Well-Sealed Wheel Path Longitudinal Crack Length Outlier Type,Flag indicating that the length of well sealed longitudinal cracking in wheel path is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,LONG_CRACK_WP_SEAL_L_FLAG_EXP,Well-Sealed Wheel Path Longitudinal Crack Length Outlier Type (Code Expansion),Flag indicating that the length of well sealed longitudinal cracking in wheel path is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,LONG_CRACK_NWP_L_FLAG,Non-Wheel Path Longitudinal Crack Length Outlier Type,Flag indicating that the non-wheel path longitudinal cracking length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,LONG_CRACK_NWP_L_FLAG_EXP,Non-Wheel Path Longitudinal Crack Length Outlier Type (Code Expansion),Flag indicating that the non-wheel path longitudinal cracking length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,LONG_CRACK_NWP_SEAL_L_FLAG,Non-Well-Sealed Wheel Path Longitudinal Crack Length Outlier Type,Flag indicating that the well sealed non-wheel path longitudinal cracking length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,LONG_CRACK_NWP_SEAL_L_FLAG_EXP,Non-Well-Sealed Wheel Path Longitudinal Crack Length Outlier Type (Code Expansion),Flag indicating that the well sealed non-wheel path longitudinal cracking length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,TRANS_CRACK_NO_FLAG,Transverse Crack Number Outlier Type,Flag indicating that the number of transverse cracks is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,TRANS_CRACK_NO_FLAG_EXP,Transverse Crack Number Outlier Type (Code Expansion),Flag indicating that the number of transverse cracks is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,TRANS_CRACK_L_FLAG,Transverse Crack Length Outlier Type,Flag indicating that the length of transverse cracking is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,TRANS_CRACK_L_FLAG_EXP,Transverse Crack Length Outlier Type (Code Expansion),Flag indicating that the length of transverse cracking is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,TRANS_CRACK_SEAL_L_FLAG,Well Sealed Transverse Crack Length Outlier Type,Flag indicating that the length of well sealed transverse cracking is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,TRANS_CRACK_SEAL_L_FLAG_EXP,Well Sealed Transverse Crack Length Outlier Type (Code Expansion),Flag indicating that the length of well sealed transverse cracking is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,PATCH_NO_FLAG,Patches Number Outlier Type,Flag indicating that the number of patches is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,PATCH_NO_FLAG_EXP,Patches Number Outlier Type (Code Expansion),Flag indicating that the number of patches is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,PATCH_A_FLAG,Patches Area Outlier Type,Flag indicating that the area of patches is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,PATCH_A_FLAG_EXP,Patches Area Outlier Type (Code Expansion),Flag indicating that the area of patches is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,POTHOLES_NO_FLAG,Potholes Number Outlier Type,Flag indicating that the number of potholes is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,POTHOLES_NO_FLAG_EXP,Potholes Number Outlier Type (Code Expansion),Flag indicating that the number of potholes is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,POTHOLES_A_FLAG,Potholes Area Outlier Type,Flag indicating that the area of potholes is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,POTHOLES_A_FLAG_EXP,Potholes Area Outlier Type (Code Expansion),Flag indicating that the area of potholes is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,SHOVING_NO_FLAG,Shoving Number Outlier Type,Flag indicating that the number of areas where shoving exists is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,SHOVING_NO_FLAG_EXP,Shoving Number Outlier Type (Code Expansion),Flag indicating that the number of areas where shoving exists is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,SHOVING_A_FLAG,Shoving Area Outlier Type,"Flag indicating that the area of shoving, localized longitudinal displacement of the pavement surface, is a potential anomaly.",,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,SHOVING_A_FLAG_EXP,Shoving Area Outlier Type (Code Expansion),"Flag indicating that the area of shoving, localized longitudinal displacement of the pavement surface, is a potential anomaly. (Code Expansion)",,,
+ANALYSIS_DIS_AC,BLEEDING_FLAG,Bleeding Outlier Type,Flag indicating that the presence of excess asphalt on the surface is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,BLEEDING_FLAG_EXP,Bleeding Outlier Type (Code Expansion),Flag indicating that the presence of excess asphalt on the surface is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,POLISH_AGG_A_FLAG,Polished Aggregate Area Outlier Type,Flag indicating that the area of polished aggregate is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,POLISH_AGG_A_FLAG_EXP,Polished Aggregate Area Outlier Type (Code Expansion),Flag indicating that the area of polished aggregate is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,RAVELING_FLAG,Raveling Outlier Type,Flag indicating that the wearing away of the pavement surface caused by the dislodging of aggregate particles and loss of asphalt binder is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,RAVELING_FLAG_EXP,Raveling Outlier Type (Code Expansion),Flag indicating that the wearing away of the pavement surface caused by the dislodging of aggregate particles and loss of asphalt binder is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,PUMPING_NO_FLAG,Pumping Number Outlier Type,Flag indicating that the number of occurrences of water bleeding and pumping is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,PUMPING_NO_FLAG_EXP,Pumping Number Outlier Type (Code Expansion),Flag indicating that the number of occurrences of water bleeding and pumping is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,PUMPING_L_FLAG,Pumping Length Outlier Type,Flag indicating that the length of pavement affected by water bleeding and pumping is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,PUMPING_L_FLAG_EXP,Pumping Length Outlier Type (Code Expansion),Flag indicating that the length of pavement affected by water bleeding and pumping is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,LONGIGATOR_CRACKING_FLAG,Longigator Crack Area Outlier Type,Flag indicating the area of longigator cracking is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,LONGIGATOR_CRACKING_FLAG_EXP,Longigator Crack Area Outlier Type (Code Expansion),Flag indicating the area of longigator cracking is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,BLOCKVERSE_CRACKING_FLAG,Blockverse Crack Area Outlier Type,Flag indicating that the area of blockverse cracking is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_AC,BLOCKVERSE_CRACKING_FLAG_EXP,Blockverse Crack Area Outlier Type (Code Expansion),Flag indicating that the area of blockverse cracking is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_AC,PAVEMENT_FAMILY,Pavement Family,Code indicating pavement family assigned based on experiment design and layer structure of the pavement section.,,PAVEMENT_FAMILY,
+ANALYSIS_DIS_AC,PAVEMENT_FAMILY_EXP,Pavement Family (Code Expansion),Code indicating pavement family assigned based on experiment design and layer structure of the pavement section. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_DIS_CRCP,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_DIS_CRCP,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,SURVEY_DATE,Survey Date,Date survey was performed.,,,
+ANALYSIS_DIS_CRCP,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_DIS_CRCP,HPMS16_CRACKING_PERCENT_CRCP,2016 HPMS CRCP Cracking Percentage,"Percent of section cracked using 2016 HPMS Field Guide definitions. Includes punchouts, patching, and longitudinal cracking.",%,,Metric
+ANALYSIS_DIS_CRCP,MEPDG_PUNCHOUTS_CRCP,MEPDG CRCP Punchouts,Number of punchouts per unit length using AASHTO MEPDG definitions.  Includes medium and high severity punchouts.,1/km,,Metric
+ANALYSIS_DIS_CRCP,SURVEY_WIDTH,Survey Width,Width of pavement surveyed for distress measurements.,m,,Metric
+ANALYSIS_DIS_CRCP,DURAB_CRACK_A,Durability Crack Area,Total area of durability cracking.,sq m,,Metric
+ANALYSIS_DIS_CRCP,DURAB_CRACK_A_L,Low Severity Durability Crack Area,"Area of low severity durability (""D"") cracking.",sq m,,Metric
+ANALYSIS_DIS_CRCP,DURAB_CRACK_A_M,Medium Severity Durability Crack Area,"Area of moderate severity durability (""D"") cracking.",sq m,,Metric
+ANALYSIS_DIS_CRCP,DURAB_CRACK_A_H,High Severity Durability Crack Area,"Area of high severity durability (""D"") cracking.",sq m,,Metric
+ANALYSIS_DIS_CRCP,DURAB_CRACK_NO,Durability Crack Number,Total number of areas affected by durability cracking.,,,
+ANALYSIS_DIS_CRCP,DURAB_CRACK_NO_L,Low Severity Durability Crack Number,"Number of areas affected by low severity durability (""D"") cracking.",,,
+ANALYSIS_DIS_CRCP,DURAB_CRACK_NO_M,Medium Severity Durability Crack Number,"Number of areas affected by moderate severity durability (""D"") cracking.",,,
+ANALYSIS_DIS_CRCP,DURAB_CRACK_NO_H,High Severity Durability Crack Number,"Number of areas affected by high severity durability (""D"") cracking.",,,
+ANALYSIS_DIS_CRCP,LONG_CRACK_L,Longitudinal Crack Length,Total length of longitudinal cracking.,m,,Metric
+ANALYSIS_DIS_CRCP,LONG_CRACK_L_L,Low Severity Longitudinal Crack Length,"Length of high severity longitudinal cracking. (Crack widths less than 3 mm, no spalling or measurable faulting.)",m,,Metric
+ANALYSIS_DIS_CRCP,LONG_CRACK_L_M,Medium Severity Longitudinal Crack Length,Length of moderate severity longitudinal cracking. (Crack widths between 3 and 13 mm or spalling less than 75 mm or faulting up to 13 mm.),m,,Metric
+ANALYSIS_DIS_CRCP,LONG_CRACK_L_H,High Severity Longitudinal Crack Length,Length of high severity longitudinal cracking. (Crack widths greater than 13 mm or spalling greater than 75 mm or faulting greater than 13 mm.),m,,Metric
+ANALYSIS_DIS_CRCP,LONG_CRACK_SEAL_L,Well Sealed Longitudinal Crack Length,Total length of well sealed longitudinal cracking.,m,,Metric
+ANALYSIS_DIS_CRCP,LONG_CRACK_SEAL_L_L,Low Severity Well Sealed Longitudinal Crack Length,"Length of well sealed, low severity longitudinal cracking. (Crack widths less than 3 mm, no spalling or measurable faulting.)",m,,Metric
+ANALYSIS_DIS_CRCP,LONG_CRACK_SEAL_L_M,Medium Severity Well Sealed Longitudinal Crack Length,"Length of well sealed, moderate severity longitudinal cracking. (Crack widths between 3 and 13 mm or spalling less than 75 mm or faulting up to 13 mm.)",m,,Metric
+ANALYSIS_DIS_CRCP,LONG_CRACK_SEAL_L_H,High Severity Well Sealed Longitudinal Crack Length,"Length of well sealed, high severity longitudinal cracking. (Crack widths greater than 13 mm or spalling greater than 75 mm or faulting greater than 13 mm.)",m,,Metric
+ANALYSIS_DIS_CRCP,LONG_JT_SEAL_DAM_L,Low Severity Joint Seal Damage Longitudinal Joint Length,Length of sealed longitudinal joints with joint seal damage.,m,,Metric
+ANALYSIS_DIS_CRCP,LONG_JT_SEAL_NO,Sealed Longitudinal Joints Number,Number of longitudinal joints that have been sealed.,,,
+ANALYSIS_DIS_CRCP,TRANS_CRACK_L,Transverse Crack Length,Total length of transverse cracking.,m,,Metric
+ANALYSIS_DIS_CRCP,TRANS_CRACK_L_L,Low Severity Transverse Crack Length,Length of low severity transverse cracking. (Spalling along no more than 10 percent of the crack length.),m,,Metric
+ANALYSIS_DIS_CRCP,TRANS_CRACK_L_M,Medium Severity Transverse Crack Length,Length of moderate severity transverse cracking. (Spalling of at least 10 percent but no more than 50 percent of the crack length.),m,,Metric
+ANALYSIS_DIS_CRCP,TRANS_CRACK_L_H,High Severity Transverse Crack Length,Length of high severity transverse cracking. (Spalling along more than 50 percent of the crack length.),m,,Metric
+ANALYSIS_DIS_CRCP,TRANS_CRACK_NO,Transverse Crack Number,Total number of transverse cracks.,,,
+ANALYSIS_DIS_CRCP,TRANS_CRACK_NO_L,Low Severity Transverse Crack Number,Number of low severity transverse cracks. (No spalling exceeding 10 percent of length).,,,
+ANALYSIS_DIS_CRCP,TRANS_CRACK_NO_M,Medium Severity Transverse Crack Number,Number of moderate severity (spalling of at least 10 percent but no more than 50 percent) transverse cracks.,,,
+ANALYSIS_DIS_CRCP,TRANS_CRACK_NO_H,High Severity Transverse Crack Number,Number of high severity (greater than 50 percent spalled) transverse cracks.,,,
+ANALYSIS_DIS_CRCP,SCALING_A,Scaling Area,Area of scaling (deterioration of upper slab surface between 3 and 13 mm).,sq m,,Metric
+ANALYSIS_DIS_CRCP,SCALING_NO,Scaling Number,Number of areas with scaling.,,,
+ANALYSIS_DIS_CRCP,POLISH_AGG_A,Polished Aggregate Area,Area of polished aggregate (surface worn away to expose coarse aggregate).,sq m,,Metric
+ANALYSIS_DIS_CRCP,BLOWUPS_NO,Blowups Number,Number of blowups.,,,
+ANALYSIS_DIS_CRCP,PUMPING_L,Pumping and Bleeding Length,Length of pavement affected by water bleeding and pumping.,m,,Metric
+ANALYSIS_DIS_CRCP,PUMPING_NO,Pumping and Bleeding Number,Number of occurrences of water bleeding and pumping.,,,
+ANALYSIS_DIS_CRCP,MAP_CRACK_A,Map Cracking Area,Area of map cracking (surface cracks).,sq m,,Metric
+ANALYSIS_DIS_CRCP,MAP_CRACK_NO,Map Cracking Number,Number of map cracking areas.,,,
+ANALYSIS_DIS_CRCP,CONST_JOINT_NO,Construction Joint Number,Total number of construction joint deterioration areas.,,,
+ANALYSIS_DIS_CRCP,CONST_JOINT_NO_L,Low Severity Construction Joint Number,Number of low severity transverse construction joint deterioration areas. (No spalling within .6 m of joint.),,,
+ANALYSIS_DIS_CRCP,CONST_JOINT_NO_M,Medium Severity Construction Joint Number,Number of moderate severity transverse construction joint deterioration areas. (Spalling less than 75 mm exists within .6 m of joint.),,,
+ANALYSIS_DIS_CRCP,CONST_JOINT_NO_H,High Severity Construction Joint Number,Number of high severity transverse construction joint deterioration areas. (Spalling greater than 75 mm and breakup within .6 m of joint.),,,
+ANALYSIS_DIS_CRCP,PATCH_FLEX_A,Flexible Patch Area,Total area of flexible patching showing distress of any type.,sq m,,Metric
+ANALYSIS_DIS_CRCP,PATCH_FLEX_A_L,Low Severity Flexible Patch Area,"Area of flexible patching showing, at most, low severity distress of any type and no settlement at the perimeter.",sq m,,Metric
+ANALYSIS_DIS_CRCP,PATCH_FLEX_A_M,Medium Severity Flexible Patch Area,Area of flexible patching showing moderate severity distress of any type or settlement of up to 6 mm at the perimeter.,sq m,,Metric
+ANALYSIS_DIS_CRCP,PATCH_FLEX_A_H,High Severity Flexible Patch Area,Area of flexible patching showing high severity distress of any type or settlement of 6 mm or more at the perimeter.,sq m,,Metric
+ANALYSIS_DIS_CRCP,PATCH_FLEX_NO,Flexible Patch Number,Total number of flexible patches showing distress of any type.,,,
+ANALYSIS_DIS_CRCP,PATCH_FLEX_NO_L,Low Severity Flexible Patch Number,"Number of flexible patches showing, at most, low severity distress of any type and no settlement at the perimeter.",,,
+ANALYSIS_DIS_CRCP,PATCH_FLEX_NO_M,Medium Severity Flexible Patch Number,Number of flexible patches showing moderate severity distress of any type or settlement of up to 6 mm at the perimeter.,,,
+ANALYSIS_DIS_CRCP,PATCH_FLEX_NO_H,High Severity Flexible Patch Number,Number of flexible patches showing high severity distress or settlement of 6 mm or more at the perimeter.,,,
+ANALYSIS_DIS_CRCP,PATCH_RIGID_A,Rigid Patch Area,Total area of rigid patching showing distress of any type.,sq m,,Metric
+ANALYSIS_DIS_CRCP,PATCH_RIGID_A_L,Low Severity Rigid Patch Area,"Area of rigid patching showing, at most, low severity distress of any type and no settlement at the perimeter.",sq m,,Metric
+ANALYSIS_DIS_CRCP,PATCH_RIGID_A_M,Medium Severity Rigid Patch Area,Area of rigid patching showing moderate severity distress of any type or settlement of up to 6 mm at the perimeter.,sq m,,Metric
+ANALYSIS_DIS_CRCP,PATCH_RIGID_A_H,High Severity Rigid Patch Area,Area of rigid patching showing high severity distress of any type or settlement of 6 mm or more at the perimeter.,sq m,,Metric
+ANALYSIS_DIS_CRCP,PATCH_RIGID_NO,Rigid Patch Number,Total number of rigid patches showing distress of any type.,,,
+ANALYSIS_DIS_CRCP,PATCH_RIGID_NO_L,Low Severity Rigid Patch Number,"Number of rigid patches showing, at most, low severity distress of any type and no settlement at the perimeter.",,,
+ANALYSIS_DIS_CRCP,PATCH_RIGID_NO_M,Medium Severity Rigid Patch Number,Number of rigid patches showing moderate severity distress of any type or settlement of up to 6 mm at the perimeter.,,,
+ANALYSIS_DIS_CRCP,PATCH_RIGID_NO_H,High Severity Rigid Patch Number,Number of rigid patches showing high severity distress of any type or settlement of 6 mm or more at the perimeter.,,,
+ANALYSIS_DIS_CRCP,PUNCHOUTS_NO,Punchouts Number,Total number of punch outs.,,,
+ANALYSIS_DIS_CRCP,PUNCHOUTS_NO_L,Low Severity Punchouts Number,Number of low severity punch outs (tight cracks with spalling less than 75 mm or faulting less than 6 mm.),,,
+ANALYSIS_DIS_CRCP,PUNCHOUTS_NO_M,Medium Severity Punchouts Number,Number of moderate severity punch outs (spalling of at least 75 mm but less than 150 mm and faulting of at least 6 mm but less than 13 mm.),,,
+ANALYSIS_DIS_CRCP,PUNCHOUTS_NO_H,High Severity Punchouts Number,Number of high severity punch outs (spalling of at least 150 mm or concrete punched down at least 13 mm.),,,
+ANALYSIS_DIS_CRCP,LONG_SPALLING_L,Longitudinal Joint Spalling Length,Total length of spalling of longitudinal joints.,m,,Metric
+ANALYSIS_DIS_CRCP,LONG_SPALLING_L_L,Low Severity Longitudinal Joint Spalling Length,Length of low severity spalling of longitudinal joints. (Spalls less than 75 mm measured to center of joint with no loss of material.),m,,Metric
+ANALYSIS_DIS_CRCP,LONG_SPALLING_L_M,Medium Severity Longitudinal Joint Spalling Length,Length of moderate severity spalling of longitudinal joints. (Spalls between 75 and 150 mm wide measured to center of joint with loss of material.),m,,Metric
+ANALYSIS_DIS_CRCP,LONG_SPALLING_L_H,High Severity Longitudinal Joint Spalling Length,Length of high severity spalling of longitudinal joints. (Spalls greater than 150 mm measured to center of joint with loss of material.),m,,Metric
+ANALYSIS_DIS_CRCP,OTHER,Other,Description of surface distress present but not otherwise accounted for by the survey.,,,
+ANALYSIS_DIS_CRCP,MEPDG_PUNCHOUTS_CRCP_FLAG,MEPDG CRCP Punchouts Outlier Type,Flag indicating that the MEPDG punchouts count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,MEPDG_PUNCHOUTS_CRCP_FLAG_EXP,MEPDG CRCP Punchouts Outlier Type (Code Expansion),Flag indicating that the MEPDG punchouts count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,DURAB_CRACK_A_FLAG,Durability Crack Area Outlier Type,Flag indicating that the durability cracking area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,DURAB_CRACK_A_FLAG_EXP,Durability Crack Area Outlier Type (Code Expansion),Flag indicating that the durability cracking area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,DURAB_CRACK_NO_FLAG,Durability Crack Number Outlier Type,Flag indicating that the durability crack count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,DURAB_CRACK_NO_FLAG_EXP,Durability Crack Number Outlier Type (Code Expansion),Flag indicating that the durability crack count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,LONG_CRACK_L_FLAG,Longitudinal Crack Length Outlier Type,Flag indicating that the longitudinal cracking length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,LONG_CRACK_L_FLAG_EXP,Longitudinal Crack Length Outlier Type (Code Expansion),Flag indicating that the longitudinal cracking length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,LONG_CRACK_SEAL_L_FLAG,Well Sealed Longitudinal Crack Outlier Type,Flag indicating that the longitudinal cracking seal length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,LONG_CRACK_SEAL_L_FLAG_EXP,Well Sealed Longitudinal Crack Outlier Type (Code Expansion),Flag indicating that the longitudinal cracking seal length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,LONG_JT_SEAL_DAM_L_FLAG,Joint Seal Damage Longitudinal Joint Length Outlier Type,Flag indicating that the damaged well-sealed longitudinal joint area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,LONG_JT_SEAL_DAM_L_FLAG_EXP,Joint Seal Damage Longitudinal Joint Length Outlier Type (Code Expansion),Flag indicating that the damaged well-sealed longitudinal joint area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,LONG_JT_SEAL_NO_FLAG,Sealed Longitudinal Joints Number Outlier Type,Flag indicating that the damaged well-sealed longitudinal joint count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,LONG_JT_SEAL_NO_FLAG_EXP,Sealed Longitudinal Joints Number Outlier Type (Code Expansion),Flag indicating that the damaged well-sealed longitudinal joint count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,TRANS_CRACK_L_FLAG,Transverse Crack Length Outlier Type,Flag indicating that the transverse cracking length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,TRANS_CRACK_L_FLAG_EXP,Transverse Crack Length Outlier Type (Code Expansion),Flag indicating that the transverse cracking length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,TRANS_CRACK_NO_FLAG,Transverse Crack Number Outlier Type,Flag indicating that the transverse cracking count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,TRANS_CRACK_NO_FLAG_EXP,Transverse Crack Number Outlier Type (Code Expansion),Flag indicating that the transverse cracking count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,SCALING_A_FLAG,Scaling Area Outlier Type,Flag indicating that the scaling area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,SCALING_A_FLAG_EXP,Scaling Area Outlier Type (Code Expansion),Flag indicating that the scaling area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,SCALING_NO_FLAG,Scaling Number Outlier Type,Flag indicating that the scaling count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,SCALING_NO_FLAG_EXP,Scaling Number Outlier Type (Code Expansion),Flag indicating that the scaling count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,POLISH_AGG_A_FLAG,Polished Aggregate Area Outlier Type,Flag indicating that the polished aggregate area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,POLISH_AGG_A_FLAG_EXP,Polished Aggregate Area Outlier Type (Code Expansion),Flag indicating that the polished aggregate area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,BLOWUPS_NO_FLAG,Blowups Number Outlier Type,Flag indicating that the blowups count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,BLOWUPS_NO_FLAG_EXP,Blowups Number Outlier Type (Code Expansion),Flag indicating that the blowups count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,PUMPING_L_FLAG,Pumping Length Outlier Type,Flag indicating that the pumping count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,PUMPING_L_FLAG_EXP,Pumping Length Outlier Type (Code Expansion),Flag indicating that the pumping count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,PUMPING_NO_FLAG,Pumping Number Outlier Type,Flag indicating that the MEPDG Punchouts count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,PUMPING_NO_FLAG_EXP,Pumping Number Outlier Type (Code Expansion),Flag indicating that the MEPDG Punchouts count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,MAP_CRACK_A_FLAG,Map Cracking Area Outlier Type,Flag indicating that the map cracking area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,MAP_CRACK_A_FLAG_EXP,Map Cracking Area Outlier Type (Code Expansion),Flag indicating that the map cracking area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,MAP_CRACK_NO_FLAG,Map Cracking Number Outlier Type,Flag indicating that the map cracking count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,MAP_CRACK_NO_FLAG_EXP,Map Cracking Number Outlier Type (Code Expansion),Flag indicating that the map cracking count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,CONST_JOINT_NO_FLAG,Construction Joint Number Outlier Type,Flag indicating that the construction joint deterioration count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,CONST_JOINT_NO_FLAG_EXP,Construction Joint Number Outlier Type (Code Expansion),Flag indicating that the construction joint deterioration count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,PATCH_FLEX_A_FLAG,Flexible Patch Area Outlier Type,Flag indicating that the flex patch area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,PATCH_FLEX_A_FLAG_EXP,Flexible Patch Area Outlier Type (Code Expansion),Flag indicating that the flex patch area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,PATCH_FLEX_NO_FLAG,Flexible Patch Number Outlier Type,Flag indicating that the flex patch count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,PATCH_FLEX_NO_FLAG_EXP,Flexible Patch Number Outlier Type (Code Expansion),Flag indicating that the flex patch count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,PATCH_RIGID_A_FLAG,Rigid Patch Area Outlier Type,Flag indicating that the rigid patch area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,PATCH_RIGID_A_FLAG_EXP,Rigid Patch Area Outlier Type (Code Expansion),Flag indicating that the rigid patch area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,PATCH_RIGID_NO_FLAG,Rigid Patch Number Outlier Type,Flag indicating that the rigid patch count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,PATCH_RIGID_NO_FLAG_EXP,Rigid Patch Number Outlier Type (Code Expansion),Flag indicating that the rigid patch count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,HPMS16_CRACKING_PERCENT_CRCP_FLAG,2016 HPMS CRCP Cracking Percentage Outlier Type,Flag indicating that the HPMS16 cracking percent is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,HPMS16_CRACKING_PERCENT_CRCP_FLAG_EXP,2016 HPMS CRCP Cracking Percentage Outlier Type (Code Expansion),Flag indicating that the HPMS16 cracking percent is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,PUNCHOUTS_NO_FLAG,Punchouts Number Outlier Type,Flag indicating that the punchout count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,PUNCHOUTS_NO_FLAG_EXP,Punchouts Number Outlier Type (Code Expansion),Flag indicating that the punchout count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,LONG_SPALLING_L_FLAG,Longitudinal Spalling Length Outlier Type,Flag indicating that the longitudinal spalling length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_CRCP,LONG_SPALLING_L_FLAG_EXP,Longitudinal Spalling Length Outlier Type (Code Expansion),Flag indicating that the longitudinal spalling length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_CRCP,PAVEMENT_FAMILY,Pavement Family,Code indicating pavement family assigned based on experiment design and layer structure of the pavement section.,,PAVEMENT_FAMILY,
+ANALYSIS_DIS_CRCP,PAVEMENT_FAMILY_EXP,Pavement Family (Code Expansion),Code indicating pavement family assigned based on experiment design and layer structure of the pavement section. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_DIS_JPCC,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_DIS_JPCC,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,SURVEY_DATE,Survey Date,Date survey was performed.,,,
+ANALYSIS_DIS_JPCC,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_DIS_JPCC,HPMS16_CRACKING_PERCENT_JPCC,2016 HPMS JPCC Cracking Percentage,Percent of section cracked using 2016 HPMS definitions. Includes longitudinal and transverse cracking at least half slab width in length.,%,,Metric
+ANALYSIS_DIS_JPCC,MEPDG_CRACKING_PERCENT_JPCC,MEPDG JPCC Cracking Percentage,"Percent of slabs cracked computed from the total number of transverse cracks on a test section divided by the ratio of joint spacing and test section length, times 100. This value is truncated to a maximum value of 100 percent.",%,,Metric
+ANALYSIS_DIS_JPCC,ME_PERCENT_CRACKED_SLABS,MEPDG Percentage of Cracked Slabs,Percentage of cracked slabs based on the actual number of slabs in the test section divided by the slabs with transverse cracks that intercepted the outside lane edge and at least 1 foot long.,%,,Metric
+ANALYSIS_DIS_JPCC,SURVEY_WIDTH,Survey Width,Width of pavement surveyed for distress measurements.,m,,Metric
+ANALYSIS_DIS_JPCC,JT_SEALED,Joint Sealed Code,Code indicating if transverse joints were sealed.,,Y_N,
+ANALYSIS_DIS_JPCC,JT_SEALED_EXP,Joint Sealed Code (Code Expansion),Code indicating if transverse joints were sealed. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,TRANS_CRACK_L,Transverse Crack Length,Total length of transverse cracking.,m,,Metric
+ANALYSIS_DIS_JPCC,TRANS_CRACK_L_L,Low Severity Transverse Crack Length,"Length of low severity transverse cracking. (Crack widths less than 3 mm, no spalling and no measurable faulting.)",m,,Metric
+ANALYSIS_DIS_JPCC,TRANS_CRACK_L_M,Medium Severity Transverse Crack Length,Length of moderate severity transverse cracking. (Crack widths between 3 and 6 mm or spalling under 75 mm or faulting up to 6 mm.),m,,Metric
+ANALYSIS_DIS_JPCC,TRANS_CRACK_L_H,High Severity Transverse Crack Length,Length of high severity transverse cracking. (Crack widths greater than 6 mm or spalling over 75 mm or faulting over 6 mm.),m,,Metric
+ANALYSIS_DIS_JPCC,TRANS_CRACK_NO,Transverse Crack Number,Total number of transverse cracks.,,,
+ANALYSIS_DIS_JPCC,TRANS_CRACK_NO_L,Low Severity Transverse Crack Number,Number of low severity transverse cracks. (No spalling exceeding 10 percent of length.),,,
+ANALYSIS_DIS_JPCC,TRANS_CRACK_NO_M,Medium Severity Transverse Crack Number,Number of transverse cracks for which moderate severity distress is the highest level observed for at least 10 percent of the crack.,,,
+ANALYSIS_DIS_JPCC,TRANS_CRACK_NO_H,High Severity Transverse Crack Number,Number of transverse cracks for which high severity distress exceeds 10 percent of the length.,,,
+ANALYSIS_DIS_JPCC,TRANS_CRACK_SEAL_L,Well Sealed Transverse Crack Length,Total length of transverse cracking with sealant in good condition for at least 90 percent of length of crack.,m,,Metric
+ANALYSIS_DIS_JPCC,TRANS_CRACK_SEAL_L_L,Low Severity Well Sealed Transverse Crack Length,Length of low severity transverse cracking with sealant in good condition for at least 90 percent of length of crack.,m,,Metric
+ANALYSIS_DIS_JPCC,TRANS_CRACK_SEAL_L_M,Medium Severity Well Sealed Transverse Crack Length,Length of moderate severity transverse cracking with sealant in good condition for at least 90 percent of length of crack.,m,,Metric
+ANALYSIS_DIS_JPCC,TRANS_CRACK_SEAL_L_H,High Severity Well Sealed Transverse Crack Length,Length of high severity transverse cracking with sealant in good condition for at least 90 percent of length of crack.,m,,Metric
+ANALYSIS_DIS_JPCC,LONG_CRACK_L,Longitudinal Crack Length,Total length of longitudinal cracking.,m,,Metric
+ANALYSIS_DIS_JPCC,LONG_CRACK_L_L,Low Severity Longitudinal Crack Length,"Length of low severity longitudinal cracking. (Crack widths less than 3 mm, no spalling or measurable faulting.)",m,,Metric
+ANALYSIS_DIS_JPCC,LONG_CRACK_L_M,Medium Severity Longitudinal Crack Length,Length of moderate severity longitudinal cracking. (Crack widths between 3 and 13 mm or spalling less than 75 mm or faulting less than 13 mm.),m,,Metric
+ANALYSIS_DIS_JPCC,LONG_CRACK_L_H,High Severity Longitudinal Crack Length,Length of high severity longitudinal cracking. (Crack widths greater than 13 mm or spalling greater than 75 mm or faulting greater than 13 mm.),m,,Metric
+ANALYSIS_DIS_JPCC,LONG_CRACK_SEAL_L,Well Sealed Longitudinal Crack Length,Total length of well sealed longitudinal cracking.,m,,Metric
+ANALYSIS_DIS_JPCC,LONG_CRACK_SEAL_L_L,Low Severity Well Sealed Longitudinal Crack Length,"Length of well sealed, low severity longitudinal cracking. (Crack widths less than 3 mm, no spalling or measurable faulting.)",m,,Metric
+ANALYSIS_DIS_JPCC,LONG_CRACK_SEAL_L_M,Medium Severity Well Sealed Longitudinal Crack Length,"Length of well sealed, moderate severity longitudinal cracking. (Crack widths between 3 and 13 mm or spalling less than 75 mm or faulting up to 13 mm.)",m,,Metric
+ANALYSIS_DIS_JPCC,LONG_CRACK_SEAL_L_H,High Severity Well Sealed Longitudinal Crack Length,"Length of well sealed, high severity longitudinal cracking. (Crack widths greater than 13 mm or spalling greater than 75 mm or faulting greater than 13 mm.)",m,,Metric
+ANALYSIS_DIS_JPCC,DURAB_CRACK_A,Durability Crack Area,Total area of durability cracking,sq m,,Metric
+ANALYSIS_DIS_JPCC,DURAB_CRACK_A_L,Low Severity Durability Crack Area,Area of low severity durability (“D”) cracking.,sq m,,Metric
+ANALYSIS_DIS_JPCC,DURAB_CRACK_A_M,Medium Severity Durability Crack Area,Area of moderate severity durability (“D”) cracking.,sq m,,Metric
+ANALYSIS_DIS_JPCC,DURAB_CRACK_A_H,High Severity Durability Crack Area,Area of high severity durability (“D”) cracking.,sq m,,Metric
+ANALYSIS_DIS_JPCC,DURAB_CRACK_NO,Durability Crack Number,Total number of slabs affected with durability cracking.,,,
+ANALYSIS_DIS_JPCC,DURAB_CRACK_NO_L,Low Severity Durability Crack Number,Number of slabs affected with low severity durability (“D”) cracking.,,,
+ANALYSIS_DIS_JPCC,DURAB_CRACK_NO_M,Medium Severity Durability Crack Number,Number of slabs affected with moderate severity durability (“D”) cracking.,,,
+ANALYSIS_DIS_JPCC,DURAB_CRACK_NO_H,High Severity Durability Crack Number,Number of slabs affected with high severity durability (“D”) cracking.,,,
+ANALYSIS_DIS_JPCC,CORNER_BREAKS_NO,Corner Breaks Number,Total number of corner breaks.,,,
+ANALYSIS_DIS_JPCC,CORNER_BREAKS_NO_L,Low Severity Corner Breaks Number,Number of low severity corner breaks. (Not spalled for more than 10 percent of length; no measurable faulting; corner piece not broken in two or more pieces.),,,
+ANALYSIS_DIS_JPCC,CORNER_BREAKS_NO_M,Medium Severity Corner Breaks Number,Number of moderate severity corner breaks. (Spalled at low severity for more than 10 percent; or faulting less than 13 mm; corner piece not broken in two or more pieces.),,,
+ANALYSIS_DIS_JPCC,CORNER_BREAKS_NO_H,High Severity Corner Breaks Number,Number of high severity corner breaks. (Spalled at moderate to high severity for more than 10 percent of crack; or faulting exceeds 13 mm or corner piece in two or more pieces.),,,
+ANALYSIS_DIS_JPCC,LONG_JT_SEAL_DAM_L,Low Severity Joint Seal Damage Longitudinal Joint Length,Length of sealed longitudinal joints with joint seal damage.,m,,Metric
+ANALYSIS_DIS_JPCC,LONG_JT_SEAL_NO,Sealed Longitudinal Joints Number,Number of longitudinal joints that have been sealed.,,,
+ANALYSIS_DIS_JPCC,LONG_SPALLING_L,Longitudinal Joint Spalling,Total length of spalling of longitudinal joints.,m,,Metric
+ANALYSIS_DIS_JPCC,LONG_SPALLING_L_L,Low Severity Longitudinal Joint Spalling Length,Length of low severity spalling of longitudinal joints. (Spalls less than 75 mm measured to center of joint with no loss of material.),m,,Metric
+ANALYSIS_DIS_JPCC,LONG_SPALLING_L_M,Medium Severity Longitudinal Joint Spalling Length,Length of moderate severity spalling of longitudinal joints. (Spalls between 75 and 150 mm wide measured to center of joint with loss of material.),m,,Metric
+ANALYSIS_DIS_JPCC,LONG_SPALLING_L_H,High Severity Longitudinal Joint Spalling Length,Length of high severity spalling of longitudinal joints. (Spalls greater than 150 mm measured to center of joint with loss of material.),m,,Metric
+ANALYSIS_DIS_JPCC,TRANS_SPALLING_L,Transverse Joint Spalling Length,Total length of spalling of transverse joints.,m,,Metric
+ANALYSIS_DIS_JPCC,TRANS_SPALLING_L_L,Low Severity Transverse Spalling Length,Length of low severity spalling of transverse joints. (Spalls less than 75 mm measured to center of joint or with no loss of material.),m,,Metric
+ANALYSIS_DIS_JPCC,TRANS_SPALLING_L_M,Medium Severity Transverse Spalling Length,Length of moderate severity spalling of transverse joints. (Spalls 75 to 150 mm wide measured to center of joint with loss of material).,m,,Metric
+ANALYSIS_DIS_JPCC,TRANS_SPALLING_L_H,High Severity Transverse Spalling Length,Length of high severity spalling of transverse joints. (Spalls more than 150 mm wide measured to center of joint with loss of material.),m,,Metric
+ANALYSIS_DIS_JPCC,SCALING_A,Scaling Area,Area of scaling (deterioration of upper slab surface between 3 and 13 mm).,sq m,,Metric
+ANALYSIS_DIS_JPCC,SCALING_NO,Scaling Number,Number of areas with scaling.,,,
+ANALYSIS_DIS_JPCC,POLISH_AGG_A,Polished Aggregate Area,Area of polished aggregate (surface worn away to expose coarse aggregate).,sq m,,Metric
+ANALYSIS_DIS_JPCC,BLOWUPS_NO,Blowups Number,Number of blowups.,,,
+ANALYSIS_DIS_JPCC,PUMPING_L,Pumping and Bleeding Length,Length of pavement affected by water bleeding and pumping.,m,,Metric
+ANALYSIS_DIS_JPCC,PUMPING_NO,Pumping and Bleeding Number,Number of occurrences of water bleeding and pumping.,,,
+ANALYSIS_DIS_JPCC,MAP_CRACK_A,Map Cracking Area,Area of map cracking (surface cracks).,sq m,,Metric
+ANALYSIS_DIS_JPCC,MAP_CRACK_NO,Map Cracking Number,Number of map cracking areas.,,,
+ANALYSIS_DIS_JPCC,PATCH_FLEX_A,Flexible Patch Area,Total area of flexible patching showing distress of any type.,sq m,,Metric
+ANALYSIS_DIS_JPCC,PATCH_FLEX_A_H,High Severity Flexible Patch Area,Area of flexible patching showing high severity distress of any type or settlement of 6 mm or more at the perimeter.,sq m,,Metric
+ANALYSIS_DIS_JPCC,PATCH_FLEX_A_L,Low Severity Flexible Patch Area,"Area of flexible patching showing, at most, low severity distress of any type and no settlement at the perimeter.",sq m,,Metric
+ANALYSIS_DIS_JPCC,PATCH_FLEX_A_M,Medium Severity Flexible Patch Area,Area of flexible patching showing moderate severity distress of any type or settlement of up to 6 mm at the perimeter.,sq m,,Metric
+ANALYSIS_DIS_JPCC,PATCH_FLEX_NO,Flexible Patch Number,Total number of flexible patches showing distress.,,,
+ANALYSIS_DIS_JPCC,PATCH_FLEX_NO_L,Low Severity Flexible Patch Number,Number of flexible patches showing at most low severity distress of any type and no settlement at the perimeter.,,,
+ANALYSIS_DIS_JPCC,PATCH_FLEX_NO_M,Medium Severity Flexible Patch Number,Number of flexible patches showing moderate severity distress of any type or settlement of up to 6 mm at the perimeter.,,,
+ANALYSIS_DIS_JPCC,PATCH_FLEX_NO_H,High Severity Flexible Patch Number,Number of flexible patches showing high severity distress or settlement of 6 mm or more at the perimeter.,,,
+ANALYSIS_DIS_JPCC,PATCH_RIGID_A,Rigid Patch Area,Total area of rigid patching showing distress of any type.,sq m,,Metric
+ANALYSIS_DIS_JPCC,PATCH_RIGID_A_L,Low Severity Rigid Patch Area,"Area of rigid patching showing, at most, low severity distress of any type and no settlement at the perimeter.",sq m,,Metric
+ANALYSIS_DIS_JPCC,PATCH_RIGID_A_M,Medium Severity Rigid Patch Area,Area of rigid patching showing moderate severity distress of any type or settlement of up to 6 mm at the perimeter.,sq m,,Metric
+ANALYSIS_DIS_JPCC,PATCH_RIGID_A_H,High Severity Rigid Patch Area,Area of rigid patching showing high severity distress of any type or settlement of 6 mm or more at the perimeter.,sq m,,Metric
+ANALYSIS_DIS_JPCC,PATCH_RIGID_NO,Rigid Patch Number,Total number of rigid patches showing distress of any type.,,,
+ANALYSIS_DIS_JPCC,PATCH_RIGID_NO_L,Low Severity Rigid Patch Number,"Number of rigid patches showing, at most, low severity distress of any type and no settlement at the perimeter.",,,
+ANALYSIS_DIS_JPCC,PATCH_RIGID_NO_M,Medium Severity Rigid Patch Number,Number of rigid patches showing moderate severity distress of any type or settlement of up to 6 mm at the perimeter.,,,
+ANALYSIS_DIS_JPCC,PATCH_RIGID_NO_H,High Severity Rigid Patch Number,Number of rigid patches showing high severity distress of any type or settlement of 6 mm or more at the perimeter.,,,
+ANALYSIS_DIS_JPCC,CRACKED_SLABS_HALF,Half-Width Transverse Cracked Slabs,"Number of slabs with transverse cracks extending to at least the midpoint of the slab, and with length at least half of the slab width.",,,
+ANALYSIS_DIS_JPCC,CRACKED_SLABS_TOTAL,Total Cracked Slabs,Number of slabs with either transverse or longitudinal cracking.,,,
+ANALYSIS_DIS_JPCC,CRACKED_SLABS_TRANS,Transverse Cracked Slabs,Number of slabs with transverse cracking.,,,
+ANALYSIS_DIS_JPCC,JOINT_SEAL_TRANS_NO,Transverse Joint Seal Damage Number,Total number of transverse joints with seal damage.,,,
+ANALYSIS_DIS_JPCC,JOINT_SEAL_TRANS_NO_L,Low Severity Transverse Joint Seal Damage Number,Number of transverse joints with low severity seal damage (damage on less than 10 percent of the joint).,,,
+ANALYSIS_DIS_JPCC,JOINT_SEAL_TRANS_NO_M,Medium Severity Transverse Joint Seal Damage Number,Number of transverse joints with moderate severity seal damage (damage on 10 percent to 50 percent of joint).,,,
+ANALYSIS_DIS_JPCC,JOINT_SEAL_TRANS_NO_H,High Severity Transverse Joint Seal Damage Number,Number of transverse joints with high severity seal damage (damage over more than 50 percent of joint).,,,
+ANALYSIS_DIS_JPCC,SLAB_COUNT,Slab Count,Total number of included slabs.,,,
+ANALYSIS_DIS_JPCC,TRANS_SPALLING_NO,Transverse Joint Spalling Number,Total number of transverse joints with spalling.,,,
+ANALYSIS_DIS_JPCC,TRANS_SPALLING_NO_L,Low Severity Transverse Spalling Number,Number of transverse joints with low severity spalling. (Spalls less than 75 mm wide measured to center of joint.),,,
+ANALYSIS_DIS_JPCC,TRANS_SPALLING_NO_M,Medium Severity Transverse Spalling Number,Number of transverse joints with moderate severity spalling. (Spalls between 75 and 150 mm wide measured to center of joint.),,,
+ANALYSIS_DIS_JPCC,TRANS_SPALLING_NO_H,High Severity Transverse Spalling Number,Number of transverse joints with high severity spalling. (Spalls more than 150 mm wide measured to center of joint.),,,
+ANALYSIS_DIS_JPCC,AVG_EDGE_FAULT,Average Edge Fault,Average edge faulting calculated per site per survey.,mm,,Metric
+ANALYSIS_DIS_JPCC,AVG_WHEELPATH_FAULT,Average Wheel path Fault,Average wheel path faulting calculated per site per survey.,mm,,Metric
+ANALYSIS_DIS_JPCC,OTHER,Other,Description of surface distress present but not otherwise accounted for by the survey.,,,
+ANALYSIS_DIS_JPCC,HPMS16_CRACKING_PERCENT_JPCC_FLAG,2016 HPMS JPCC Cracking Percentage Outlier Type,Flag indicating that the HPMS16 cracking percent is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,HPMS16_CRACKING_PERCENT_JPCC_FLAG_EXP,2016 HPMS JPCC Cracking Percentage Outlier Type (Code Expansion),Flag indicating that the HPMS16 cracking percent is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,MEPDG_CRACKING_PERCENT_JPCC_FLAG,MEPDG JPCC Cracking Percentage Outlier Type,Flag indicating that the MEPDG cracking percent is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,MEPDG_CRACKING_PERCENT_JPCC_FLAG_EXP,MEPDG JPCC Cracking Percentage Outlier Type (Code Expansion),Flag indicating that the MEPDG cracking percent is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,ME_PERCENT_CRACKED_SLABS_FLAG,MEPDG Percentage of Cracked Slabs Outlier Type,Flag indicating that the percent of ME slabs with cracks is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,ME_PERCENT_CRACKED_SLABS_FLAG_EXP,MEPDG Percentage of Cracked Slabs Outlier Type (Code Expansion),Flag indicating that the percent of ME slabs with cracks is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,TRANS_CRACK_L_FLAG,Transverse Crack Length Outlier Type,Flag indicating that the transverse cracking length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,TRANS_CRACK_L_FLAG_EXP,Transverse Crack Length Outlier Type (Code Expansion),Flag indicating that the transverse cracking length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,TRANS_CRACK_NO_FLAG,Transverse Crack Number Outlier Type,Flag indicating that the transverse cracking count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,TRANS_CRACK_NO_FLAG_EXP,Transverse Crack Number Outlier Type (Code Expansion),Flag indicating that the transverse cracking count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,TRANS_CRACK_SEAL_L_FLAG,Well Sealed Transverse Crack Length Outlier Type,Flag indicating that the transverse cracking seal length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,TRANS_CRACK_SEAL_L_FLAG_EXP,Well Sealed Transverse Crack Length Outlier Type (Code Expansion),Flag indicating that the transverse cracking seal length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,LONG_CRACK_L_FLAG,Longitudinal Crack Length Outlier Type,Flag indicating that the longitudinal cracking length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,LONG_CRACK_L_FLAG_EXP,Longitudinal Crack Length Outlier Type (Code Expansion),Flag indicating that the longitudinal cracking length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,LONG_CRACK_SEAL_L_FLAG,Well Sealed Longitudinal Crack Length Outlier Type,Flag indicating that the longitudinal cracking seal length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,LONG_CRACK_SEAL_L_FLAG_EXP,Well Sealed Longitudinal Crack Length Outlier Type (Code Expansion),Flag indicating that the longitudinal cracking seal length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,DURAB_CRACK_A_FLAG,Durability Crack Area Outlier Type,Flag indicating that the durability cracking area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,DURAB_CRACK_A_FLAG_EXP,Durability Crack Area Outlier Type (Code Expansion),Flag indicating that the durability cracking area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,DURAB_CRACK_NO_FLAG,Durability Crack Number Outlier Type,Flag indicating that the durability cracking count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,DURAB_CRACK_NO_FLAG_EXP,Durability Crack Number Outlier Type (Code Expansion),Flag indicating that the durability cracking count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,CORNER_BREAKS_NO_FLAG,Corner Breaks Number Outlier Type,Flag indicating that the corner break count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,CORNER_BREAKS_NO_FLAG_EXP,Corner Breaks Number Outlier Type (Code Expansion),Flag indicating that the corner break count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,LONG_JT_SEAL_DAM_L_FLAG,Joint Seal Damage Longitudinal Joint Length Outlier Type,Flag indicating that the damaged well sealed longitudinal joint cracking is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,LONG_JT_SEAL_DAM_L_FLAG_EXP,Joint Seal Damage Longitudinal Joint Length Outlier Type (Code Expansion),Flag indicating that the damaged well sealed longitudinal joint cracking is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,LONG_JT_SEAL_NO_FLAG,Sealed Longitudinal Joints Number Outlier Type,Flag indicating that the well sealed longitudinal joint cracking count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,LONG_JT_SEAL_NO_FLAG_EXP,Sealed Longitudinal Joints Number Outlier Type (Code Expansion),Flag indicating that the well sealed longitudinal joint cracking count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,LONG_SPALLING_L_FLAG,Longitudinal Joint Spalling Length Outlier Type,Flag indicating that the longitudinal spalling length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,LONG_SPALLING_L_FLAG_EXP,Longitudinal Joint Spalling Length Outlier Type (Code Expansion),Flag indicating that the longitudinal spalling length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,TRANS_SPALLING_L_FLAG,Transverse Joint Spalling Length Outlier Type,Flag indicating that the transverse spalling length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,TRANS_SPALLING_L_FLAG_EXP,Transverse Joint Spalling Length Outlier Type (Code Expansion),Flag indicating that the transverse spalling length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,SCALING_A_FLAG,Scaling Area Outlier Type,Flag indicating that the scaling area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,SCALING_A_FLAG_EXP,Scaling Area Outlier Type (Code Expansion),Flag indicating that the scaling area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,SCALING_NO_FLAG,Scaling Number Outlier Type,Flag indicating that the scaling count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,SCALING_NO_FLAG_EXP,Scaling Number Outlier Type (Code Expansion),Flag indicating that the scaling count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,POLISH_AGG_A_FLAG,Polished Aggregate Area Outlier Type,Flag indicating that the polished aggregate count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,POLISH_AGG_A_FLAG_EXP,Polished Aggregate Area Outlier Type (Code Expansion),Flag indicating that the polished aggregate count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,BLOWUPS_NO_FLAG,Blowups Number Outlier Type,Flag indicating that the blowups count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,BLOWUPS_NO_FLAG_EXP,Blowups Number Outlier Type (Code Expansion),Flag indicating that the blowups count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,PUMPING_L_FLAG,Pumping Length Outlier Type,Flag indicating that the pumping length is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,PUMPING_L_FLAG_EXP,Pumping Length Outlier Type (Code Expansion),Flag indicating that the pumping length is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,PUMPING_NO_FLAG,Pumping Number Outlier Type,Flag indicating that the pumping count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,PUMPING_NO_FLAG_EXP,Pumping Number Outlier Type (Code Expansion),Flag indicating that the pumping count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,MAP_CRACK_A_FLAG,Map Crack Area Outlier Type,Flag indicating that the map cracking area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,MAP_CRACK_A_FLAG_EXP,Map Crack Area Outlier Type (Code Expansion),Flag indicating that the map cracking area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,MAP_CRACK_NO_FLAG,Map Crack Number Outlier Type,Flag indicating that the map cracking count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,MAP_CRACK_NO_FLAG_EXP,Map Crack Number Outlier Type (Code Expansion),Flag indicating that the map cracking count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,PATCH_FLEX_A_FLAG,Flexible Patch Area Outlier Type,Flag indicating that the flex patch area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,PATCH_FLEX_A_FLAG_EXP,Flexible Patch Area Outlier Type (Code Expansion),Flag indicating that the flex patch area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,PATCH_FLEX_NO_FLAG,Flexible Patch Number Outlier Type,Flag indicating that the flex patch count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,PATCH_FLEX_NO_FLAG_EXP,Flexible Patch Number Outlier Type (Code Expansion),Flag indicating that the flex patch count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,PATCH_RIGID_A_FLAG,Rigid Patch Area Outlier Type,Flag indicating that the rigid patch area is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,PATCH_RIGID_A_FLAG_EXP,Rigid Patch Area Outlier Type (Code Expansion),Flag indicating that the rigid patch area is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,PATCH_RIGID_NO_FLAG,Rigid Patch Number Outlier Type,Flag indicating that the rigid patch count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,PATCH_RIGID_NO_FLAG_EXP,Rigid Patch Number Outlier Type (Code Expansion),Flag indicating that the rigid patch count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,CRACKED_SLABS_HALF_FLAG,Half-Width Transverse Cracked Slabs Outlier Type,Flag indicating that the count of slabs cracked at least half is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,CRACKED_SLABS_HALF_FLAG_EXP,Half-Width Transverse Cracked Slabs Outlier Type (Code Expansion),Flag indicating that the count of slabs cracked at least half is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,CRACKED_SLABS_TOTAL_FLAG,Total Cracked Slabs Outlier Type,Flag indicating that the total cracked slab count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,CRACKED_SLABS_TOTAL_FLAG_EXP,Total Cracked Slabs Outlier Type (Code Expansion),Flag indicating that the total cracked slab count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,CRACKED_SLABS_TRANS_FLAG,Transverse Cracked Slabs Outlier Type,Flag indicating that the transverse cracked slab count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,CRACKED_SLABS_TRANS_FLAG_EXP,Transverse Cracked Slabs Outlier Type (Code Expansion),Flag indicating that the transverse cracked slab count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,JOINT_SEAL_TRANS_NO_FLAG,Transverse Joint Seal Damage Number Outlier Type,Flag indicating that the transverse joint seal count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,JOINT_SEAL_TRANS_NO_FLAG_EXP,Transverse Joint Seal Damage Number Outlier Type (Code Expansion),Flag indicating that the transverse joint seal count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,SLAB_COUNT_FLAG,Slab Count Outlier Type,Flag indicating that the total cracked slab count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,SLAB_COUNT_FLAG_EXP,Slab Count Outlier Type (Code Expansion),Flag indicating that the total cracked slab count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,TRANS_SPALLING_NO_FLAG,Transverse Joint Spalling Number Outlier Type,Flag indicating that the transverse spalling count is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,TRANS_SPALLING_NO_FLAG_EXP,Transverse Joint Spalling Number Outlier Type (Code Expansion),Flag indicating that the transverse spalling count is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,AVG_EDGE_FAULT_FLAG,Average Edge Fault Outlier Type,Flag indicating that the average edge faulting is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,AVG_EDGE_FAULT_FLAG_EXP,Average Edge Fault Outlier Type (Code Expansion),Flag indicating that the average edge faulting is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,AVG_WHEELPATH_FAULT_FLAG,Average Wheel path Fault Outlier Type,Flag indicating that the average wheel path faulting is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_DIS_JPCC,AVG_WHEELPATH_FAULT_FLAG_EXP,Average Wheel path Fault Outlier Type (Code Expansion),Flag indicating that the average wheel path faulting is a potential anomaly. (Code Expansion),,,
+ANALYSIS_DIS_JPCC,PAVEMENT_FAMILY,Pavement Family,Code indicating pavement family assigned based on experiment design and layer structure of the pavement section.,,PAVEMENT_FAMILY,
+ANALYSIS_DIS_JPCC,PAVEMENT_FAMILY_EXP,Pavement Family (Code Expansion),Code indicating pavement family assigned based on experiment design and layer structure of the pavement section. (Code Expansion),,,
+ANALYSIS_DRAINAGE,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_DRAINAGE,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_DRAINAGE,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_DRAINAGE,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_DRAINAGE,POINT_LOC,Point Location,Longitudinal distance from the section start to the core location.,m,,Metric
+ANALYSIS_DRAINAGE,HYD_GRADIENT,Hydraulic Gradient,Hydraulic gradient,m/m,,Metric
+ANALYSIS_DRAINAGE,HYDRAULIC_CONDUCTIVITY,Hydraulic Conductivity,Estimated hydraulic conductivity of PATB,m/day,,Metric
+ANALYSIS_DRAINAGE,CROSS_SLOPE,Cross Slope,Cross slope at core location as measured with digital level.,%,,Metric
+ANALYSIS_DRAINAGE,GRADE,Grade,Longitudinal grade at core location as measured with digital level.,%,,Metric
+ANALYSIS_DRAINAGE,SS_INFILTRATION,Steady State Infiltration Rate,Steady State infiltration rate.,L/min,,Metric
+ANALYSIS_DRAINAGE,DRAINAGE_LOCATION,Drainage Location Code,Code indicating if subsurface drainage is continuous along section or at intermittent locations or not provided.,,DRAINAGE_LOCATION,
+ANALYSIS_DRAINAGE,DRAINAGE_LOCATION_EXP,Drainage Location Code (Code Expansion),Code indicating if subsurface drainage is continuous along section or at intermittent locations or not provided. (Code Expansion),,,
+ANALYSIS_DRAINAGE,DRAINAGE_TYPE,Drainage Type,Code indicating type of subsurface drainage.,,DRAINAGE_TYPE,
+ANALYSIS_DRAINAGE,DRAINAGE_TYPE_EXP,Drainage Type (Code Expansion),Code indicating type of subsurface drainage. (Code Expansion),,,
+ANALYSIS_DRAINAGE,DRAINPIPE_DIAMETER,Drainpipe Diameter,Inside diameter of longitudinal drainpipes used for subsurface drainage.,mm,,Metric
+ANALYSIS_DRAINAGE,LATERALS_SPACING,Laterals Spacing,Average spacing for subdrainage laterals.,m,,Metric
+ANALYSIS_DRAINAGE,DATE_COMPLETE,Date Complete,Date activity was completed.,,,
+ANALYSIS_DRAINAGE,DRAINAGE_PIPE_TYPE,Drainage Pipe Type Code,Code indicating type of pipe used as sub drains.,,DRAINAGE_PIPE,
+ANALYSIS_DRAINAGE,DRAINAGE_PIPE_TYPE_EXP,Drainage Pipe Type Code (Code Expansion),Code indicating type of pipe used as sub drains. (Code Expansion),,,
+ANALYSIS_DRAINAGE,FILTER_PERMEABILITY,Filter Permeability,Average permeability of the primary filter material.,m/day,,Metric
+ANALYSIS_DRAINAGE,FILTER_TYPE,Filter Material Type Code,Code indicating the type of primary filter material used to prevent clogging of drain.,,FILTER_TYPE,
+ANALYSIS_DRAINAGE,FILTER_TYPE_EXP,Filter Material Type Code (Code Expansion),Code indicating the type of primary filter material used to prevent clogging of drain. (Code Expansion),,,
+ANALYSIS_DRAINAGE,HORIZ_PIPE_PLACEMENT,Horizontal Pipe Placement,Horizontal distance between the edge of the full depth pavement surface and the centerline of the sub drain pipe.,mm,,Metric
+ANALYSIS_DRAINAGE,MAX_PARTICLE_SIZE,Maximum Particle Size,Maximum aggregate size used for the primary filter material (if granular).,mm,,Metric
+ANALYSIS_DRAINAGE,PIPE_DEPTH,Pipe Depth,Average depth from the top of the pavement surface to the top of the sub drain pipe.,mm,,Metric
+ANALYSIS_DRAINAGE,PIPE_DIAMETER,Pipe Diameter,Diameter of sub drain pipe.,mm,,Metric
+ANALYSIS_DRAINAGE,SUBDRAIN_PURPOSE,Subsurface Drainage Purpose Code,Code indicating the primary purpose of subdrainage installation.,,SUBDRAIN_PURPOSE,
+ANALYSIS_DRAINAGE,SUBDRAIN_PURPOSE_EXP,Subsurface Drainage Purpose Code (Code Expansion),Code indicating the primary purpose of subdrainage installation. (Code Expansion),,,
+ANALYSIS_IRI,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_IRI,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_IRI,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_IRI,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_IRI,VISIT_DATE,Visit Date,Date the profile visit was started.,,,
+ANALYSIS_IRI,VISIT_NO,Longitudinal Survey Unique Visit Number,Unique identification for each site visit made by profiling equipment.,,,
+ANALYSIS_IRI,RUN_NUMBER,Longitudinal Survey Run Number,Number indicating the position of the run in the series.,,,
+ANALYSIS_IRI,IRI_LEFT_WHEEL_PATH,Left Wheel Path IRI,IRI value for left wheel path.,m/km,,Metric
+ANALYSIS_IRI,IRI_RIGHT_WHEEL_PATH,Right Wheel Path IRI,IRI value for right wheel path.,m/km,,Metric
+ANALYSIS_IRI,IRI_CENTER_LANE,Center Lane IRI,IRI value for center of the lane.,m/km,,Metric
+ANALYSIS_IRI,MRI,Mean Roughness Index,Mean Roughness Index - Average of the left and right wheel path IRI values.,m/km,,Metric
+ANALYSIS_IRI,IRI_LEFT_WHEEL_PATH_FLAG,Left Wheel Path IRI Outlier Type,Flag indicating that the IRI left lane value is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_IRI,IRI_LEFT_WHEEL_PATH_FLAG_EXP,Left Wheel Path IRI Outlier Type (Code Expansion),Flag indicating that the IRI left lane value is a potential anomaly. (Code Expansion),,,
+ANALYSIS_IRI,IRI_RIGHT_WHEEL_PATH_FLAG,Right Wheel Path IRI Outlier Type,Flag indicating that the IRI right lane value is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_IRI,IRI_RIGHT_WHEEL_PATH_FLAG_EXP,Right Wheel Path IRI Outlier Type (Code Expansion),Flag indicating that the IRI right lane value is a potential anomaly. (Code Expansion),,,
+ANALYSIS_IRI,IRI_CENTER_LANE_FLAG,Center Lane IRI Outlier Type,Flag indicating that the IRI center lane value is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_IRI,IRI_CENTER_LANE_FLAG_EXP,Center Lane IRI Outlier Type (Code Expansion),Flag indicating that the IRI center lane value is a potential anomaly. (Code Expansion),,,
+ANALYSIS_IRI,MRI_FLAG,Mean Roughness Index Outlier Type,Flag indicating that the Mean Roughness Index value is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_IRI,MRI_FLAG_EXP,Mean Roughness Index Outlier Type (Code Expansion),Flag indicating that the Mean Roughness Index value is a potential anomaly. (Code Expansion),,,
+ANALYSIS_IRI,PAVEMENT_FAMILY,Pavement Family,Code indicating pavement family assigned based on experiment design and layer structure of the pavement section.,,PAVEMENT_FAMILY,
+ANALYSIS_IRI,PAVEMENT_FAMILY_EXP,Pavement Family (Code Expansion),Code indicating pavement family assigned based on experiment design and layer structure of the pavement section. (Code Expansion),,,
+ANALYSIS_JOINT,LAYER_NO,Layer Number,"Unique sequential number assigned to pavement layers, starting with layer 1 as the deepest layer (subgrade).",,,
+ANALYSIS_JOINT,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_JOINT,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_JOINT,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_JOINT,DEPTH_OF_SAWCUT,Depth of Sawcut,Average depth of saw cut.,mm,,Metric
+ANALYSIS_JOINT,LONG_JOINT_FORMING,Longitudinal Joint Forming Method,Code for method used to form the longitudinal joint between the lanes.,,LONG_JOINT_FORMED,
+ANALYSIS_JOINT,LONG_JOINT_FORMING_EXP,Longitudinal Joint Forming Method (Code Expansion),Code for method used to form the longitudinal joint between the lanes. (Code Expansion),,,
+ANALYSIS_JOINT,SHOULDER_JOINT_FORMING,Shoulder to Traffic Lane Joint Forming Method,Code for method used to form joint between the shoulder and the traffic lane.,,SH_JOINT_FORMED,
+ANALYSIS_JOINT,SHOULDER_JOINT_FORMING_EXP,Shoulder to Traffic Lane Joint Forming Method (Code Expansion),Code for method used to form joint between the shoulder and the traffic lane. (Code Expansion),,,
+ANALYSIS_JOINT,TIME_BETWEEN_PLACE_SAWCUT,Time Between PCC Placement and Saw Cut,Time between the time of concrete placement and the time of joint saw cutting.,hr,,Metric
+ANALYSIS_JOINT,TRANS_JOINT_FORMING,Transverse Joint Forming Method,Code indicating method used to form transverse joints.,,TRANS_METHOD,
+ANALYSIS_JOINT,TRANS_JOINT_FORMING_EXP,Transverse Joint Forming Method (Code Expansion),Code indicating method used to form transverse joints. (Code Expansion),,,
+ANALYSIS_JOINT,LONG_SEAL_RESVR_DEPTH,Longitudinal Joint Sealant Reservoir Depth,Average depth of the longitudinal joint sealant reservoir.,mm,,Metric
+ANALYSIS_JOINT,LONG_SEAL_RESVR_WIDTH,Longitudinal Joint Sealant Reservoir Width,Average width of the longitudinal joint sealant reservoir.,mm,,Metric
+ANALYSIS_JOINT,SH_TRAFFIC_SEAL_RESVR_DEPTH,Shoulder to Traffic Lane Joint Sealant Reservoir Depth,Average depth of joint sealant reservoir between the shoulder and the traffic lane.,mm,,Metric
+ANALYSIS_JOINT,SH_TRAFFIC_SEAL_RESVR_WIDTH,Shoulder to Traffic Lane Joint Sealant Reservoir Width,Average width of joint sealant reservoir between the shoulder and the traffic lane.,mm,,Metric
+ANALYSIS_JOINT,TRANS_SEAL_TYPE,Transverse Joint Sealant Type Code,Code indicating type of joint sealant used in transverse joints.,,TRANS_SEAL_TYPE,
+ANALYSIS_JOINT,TRANS_SEAL_TYPE_EXP,Transverse Joint Sealant Type Code (Code Expansion),Code indicating type of joint sealant used in transverse joints. (Code Expansion),,,
+ANALYSIS_JOINT,AVG_CONTRACTION_SPACING,Average Contraction Spacing,Average spacing between consecutive contraction joints.,m,,Metric
+ANALYSIS_JOINT,AVG_SAWED_SPACING,Average Sawed Spacing,Average intermediate sawed joint spacing.,m,,Metric
+ANALYSIS_JOINT,BUILT_IN_EXPANSION_SPACING,Built In Expansion Spacing,Average spacing between consecutive expansion joints.,m,,Metric
+ANALYSIS_JOINT,JOINT_SKEWNESS,Joint Skewness,Average deviation of the contraction joint across the slab from a right angle with the edge.,m/lane,,Metric
+ANALYSIS_JOINT,RANDOM_SPACING,Random Spacing,Description of any random spacing.,,,
+ANALYSIS_JOINT,DOWEL_COATING,Dowel Coating Code,Code indicating type of material covering the dowel bar surfaces.,,DOWEL_COATING,
+ANALYSIS_JOINT,DOWEL_COATING_EXP,Dowel Coating Code (Code Expansion),Code indicating type of material covering the dowel bar surfaces. (Code Expansion),,,
+ANALYSIS_JOINT,DOWEL_DISTANCE, Dowel to Edge Distance,Distance of nearest dowel from outside lane-shoulder edge.,mm,,Metric
+ANALYSIS_JOINT,DOWEL_LENGTH,Dowel Length,Length of retrofit dowel bars.,mm,,Metric
+ANALYSIS_JOINT,DOWEL_MLTD_SPACING,Load Transfer Device Spacing,Dowel or MLTD spacing.,mm,,Metric
+ANALYSIS_JOINT,MLTD_METHOD,Load Transfer Device Placement Method,Code indicating the method used to install the mechanical load transfer devices.,,MLTD_METHOD,
+ANALYSIS_JOINT,MLTD_METHOD_EXP,Load Transfer Device Placement Method (Code Expansion),Code indicating the method used to install the mechanical load transfer devices. (Code Expansion),,,
+ANALYSIS_JOINT,ROUND_DOWEL_DIAMETER,Round Dowel Diameter,Outer diameter of round dowel bars used as the load transfer device.,mm,,Metric
+ANALYSIS_JOINT,TRANS_CONT_JLTS,Transverse Contraction Joint Load Transfer System Code,Code for transverse contraction joint load transfer system.,,TRANS_CONT_JLTS_RHB,
+ANALYSIS_JOINT,TRANS_CONT_JLTS_EXP,Transverse Contraction Joint Load Transfer System Code (Code Expansion),Code for transverse contraction joint load transfer system. (Code Expansion),,,
+ANALYSIS_JOINT,TIE_BAR_DIAMETER,Tie Bar Diameter,Nominal diameter of the tie bars used across longitudinal joint between lanes.,mm,,Metric
+ANALYSIS_JOINT,TIE_BAR_LENGTH,Tie Bar Length,Mean length of the tie bars used across the longitudinal joint between lanes.,mm,,Metric
+ANALYSIS_JOINT,TIE_BAR_SPACING,Tie Bar Spacing,Mean spacing of the tie bars used across the longitudinal joint between lanes.,mm,,Metric
+ANALYSIS_LTE,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_LTE,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_LTE,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_LTE,TEST_DATE,Test Date,Date the test was performed.,,,
+ANALYSIS_LTE,TEST_TIME,Test Time,Time deflection test sequence at this location was begun.,,,
+ANALYSIS_LTE,DEFL_UNIT_ID,Deflection Unit Identifier,Serial number or other unique ID for the deflection device.,,,
+ANALYSIS_LTE,POINT_LOC,Point Location,Distance from the start of the section to where the test was performed.,m,,Metric
+ANALYSIS_LTE,LANE_NO,FWD Test Lane Position Code,Code indicating the lane or position where the deflection test was performed.,,LANE_SPEC,
+ANALYSIS_LTE,LANE_NO_EXP,FWD Test Lane Position Code (Code Expansion),Code indicating the lane or position where the deflection test was performed. (Code Expansion),,,
+ANALYSIS_LTE,DROP_NO,Drop Number,Sequential number indicating the order of the drop in the series.,,,
+ANALYSIS_LTE,DROP_HEIGHT,Drop Height Code,Integer code for the height from which the weight was dropped.,,DROP_HEIGHT,
+ANALYSIS_LTE,DROP_HEIGHT_EXP,Drop Height Code (Code Expansion),Integer code for the height from which the weight was dropped. (Code Expansion),,,
+ANALYSIS_LTE,DROP_LOAD,Drop Load,Peak drop load (plate pressure).,kPa,,Metric
+ANALYSIS_LTE,LOAD_TRANSFER_EFFICIENCY,Load Transfer Efficiency,Uncorrected load transfer efficiency computed from the deflection ratio of unloaded and loaded sensors from FWD measurements at transverse joints and cracks.,%,,Metric
+ANALYSIS_LTE,APPROACH_LEAVE,Approach Leave Code,"Code indicating if load was placed on A - approach, or L - Leave side of joint or crack.",,APPROACH_LEAVE,
+ANALYSIS_LTE,APPROACH_LEAVE_EXP,Approach Leave Code (Code Expansion),"Code indicating if load was placed on A - approach, or L - Leave side of joint or crack. (Code Expansion)",,,
+ANALYSIS_LTE,UNLOAD_SENSOR_NO,Unloaded Sensor Number,Number of the deflection sensor on the unloaded side of the joint/crack used for the LTE computation.,,,
+ANALYSIS_LTE,UNLOAD_PEAK_DEFLECTION,Unloaded Peak Deflection,Peak deflection value on the unloaded side of the joint/crack used for the LTE computation.,microns,,Metric
+ANALYSIS_LTE,PEAK_DEFL_1,Peak Deflection Sensor 1,Peak deflection value from the sensor located at the center of the load plate on the loaded side of the joint/crack used for the LTE computation.,microns,,Metric
+ANALYSIS_LTE,LTE_FLAG,Load Transfer Efficiency Outlier Type,Flag for when Load Transfer Efficiency measurement is anomalous.,,PERFORMANCE_FLAG,
+ANALYSIS_LTE,LTE_FLAG_EXP,Load Transfer Efficiency Outlier Type (Code Expansion),Flag for when Load Transfer Efficiency measurement is anomalous. (Code Expansion),,,
+ANALYSIS_LTE,PAVEMENT_FAMILY,Pavement Family,Code indicating pavement family assigned based on experiment design and layer structure of the pavement section.,,PAVEMENT_FAMILY,
+ANALYSIS_LTE,PAVEMENT_FAMILY_EXP,Pavement Family (Code Expansion),Code indicating pavement family assigned based on experiment design and layer structure of the pavement section. (Code Expansion),,,
+ANALYSIS_MIT,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_MIT,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_MIT,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_MIT,JOINT_NO,Joint Number,Sequential number assigned to pavement joint.,,,
+ANALYSIS_MIT,MIT_SCAN_DATE,MIT Scan Date,Date of MIT Scan.,,,
+ANALYSIS_MIT,JOINT_STATION,Joint Station,Longitudinal location of the joint from the start of the section.,m,,Metric
+ANALYSIS_MIT,MIT_SLAB_THICKNESS,Assumed Slab Thickness,Slab thickness used in determining dowel alignment properties.,mm,,Metric
+ANALYSIS_MIT,NOMINAL_DOWEL_DIAMETER,Reported Dowel Bar Diameter,Reported dowel bar diameter.,mm,,Metric
+ANALYSIS_MIT,DATA_FILENAME,Data Filename,Raw data filename.,,,
+ANALYSIS_MIT,VISIT_COMMENT,Joint Comment,General comment from MIT scan visit.,,,
+ANALYSIS_MIT,JOINT_SCORE,Joint Score,Score assigned to joint based on dowel bar misalignment.,,,
+ANALYSIS_MIT,EFFECTIVE_DOWEL_DIAMETER,Effective Dowel Bar Diameter,Effective dowel diameter based on dowel bar misalignment.,mm,,Metric
+ANALYSIS_MIT,JOINT_COMMENT,Joint Comment,Comment related to analysis of joint.,,,
+ANALYSIS_MIT,BAR_NO,Dowel Bar Number,Number assigned to each dowel bar starting from the pavement edge.,,,
+ANALYSIS_MIT,DOWEL_SCORE,Dowel Bar Score,Score assigned to dowel bar based on value of misalignment.,,,
+ANALYSIS_MIT,MISALIGNMENT,Dowel Bar Misalignment,Square root of the sum of squares of the horizontal skew and vertical tilt.,mm,,Metric
+ANALYSIS_MIT,HORIZONTAL_SKEW,Dowel Bar Horizontal Skew,Deviation of dowel bar from perpindicular to the joint.,mm,,Metric
+ANALYSIS_MIT,VERTICAL_TILT,Dowel Bar Vertical Tilt,Deviation of dowel bar from parallel to pavement surface.,mm,,Metric
+ANALYSIS_MIT,VERTICAL_TRANSLATION,Dowel Bar Vertical Translation,Difference between dowel bar depth and half of the slab depth. Negative value indicates the bar is closer to the surface.,mm,,Metric
+ANALYSIS_MIT,LONGITUDINAL_TRANSLATION,Dowel Bar Longitudinal Translation,Difference between longitudinal location of the bar center and the joint center.,mm,,Metric
+ANALYSIS_MIT,X_POS,Dowel Bar Lateral Location,Lateral location of dowel bar determined from MIT scan process.,mm,,Metric
+ANALYSIS_MIT,DEPTH,Dowel Bar Depth,Depth of dowel bar from pavement surface as determined by MIT scan process.,mm,,Metric
+ANALYSIS_MIT,MINIMAL_COVER,Dowel Bar Minimum Cover,Least amount of distance between the dowel bar and the pavement surface.,mm,,Metric
+ANALYSIS_MIT,MINIMUM_EMBEDMENT_LENGTH,Dowel Bar Minimum Embedment Length,Least distance between the dowel bar end and the joint.,mm,,Metric
+ANALYSIS_MIT,BAR_COMMENT,Dowel Bar Comment,Comment related to analysis of dowel bar.,,,
+ANALYSIS_MIT,INCLUDED_IN_JOINT_SCORE,Dowel Bar Included in Joint Score Code,Code indicating whether the dowel score from this bar was used in calculating the joint score.,,Y_N,
+ANALYSIS_MIT,INCLUDED_IN_JOINT_SCORE_EXP,Dowel Bar Included in Joint Score Code (Code Expansion),Code indicating whether the dowel score from this bar was used in calculating the joint score. (Code Expansion),,,
+ANALYSIS_RUTTING,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_RUTTING,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_RUTTING,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_RUTTING,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_RUTTING,VISIT_NO,Longitudinal Survey Unique Visit Number,Unique identification for each site visit made by profiling equipment.,,,
+ANALYSIS_RUTTING,RUN_NUMBER,Longitudinal Survey Run Number,Number indicating the position of the run in the series.,,,
+ANALYSIS_RUTTING,SURVEY_DATE,Survey Date,Date survey was performed.,,,
+ANALYSIS_RUTTING,T_PROF_DEVICE_CODE,Transverse Profile Device Code,Code indicating the type of device used to collect transverse profile data.,,DEVICE_CODE_RUT,
+ANALYSIS_RUTTING,T_PROF_DEVICE_CODE_EXP,Transverse Profile Device Code (Code Expansion),Code indicating the type of device used to collect transverse profile data. (Code Expansion),,,
+ANALYSIS_RUTTING,NO_PROFILES,Number of Profiles,Number of transverse profile measurements used to compute section statistics.,,,
+ANALYSIS_RUTTING,START_DATE,Start Date,Date of the start of the run.,,,
+ANALYSIS_RUTTING,START_TIME,Start Time,Time of the start of the run.,,,
+ANALYSIS_RUTTING,LOAD_DATE,Load Date,Date the data were loaded into the IMS.,,,
+ANALYSIS_RUTTING,PVMT_WIDTH,Pavement Width,Width of transverse profile measurement.,m,,Metric
+ANALYSIS_RUTTING,FOOTPAD_SPACING,Footpad Spacing,Distance between centers of the dipstick footpads.,mm,,Metric
+ANALYSIS_RUTTING,GPS_LATITUDE_START,GPS Latitude Section Start,"Latitude of the start of the profile measurement, as measured by the vehicle’s GPS.",,,
+ANALYSIS_RUTTING,GPS_LONGITUDE_START,GPS Longitude Section Start,"Longitude of the start of the profile measurement, as measured by the vehicle’s GPS.",,,
+ANALYSIS_RUTTING,AVG_AIR_TEMP,Average Air Temperature,Ambient air temperature averaged over the run.,deg C,,Metric
+ANALYSIS_RUTTING,AVG_SURFACE_TEMP,Average Surface Temperature,Pavement surface temperature averaged over the length of the run.,deg C,,Metric
+ANALYSIS_RUTTING,LLH_DEPTH_1_8_MEAN,Average Left Lane Half Depth From 1.8m Straight Edge,Mean section LLH_DEPTH_1_8.,mm,,Metric
+ANALYSIS_RUTTING,RLH_DEPTH_1_8_MEAN,Average Right Lane Half Depth From 1.8m Straight Edge,Mean section RLH_DEPTH_1_8.,mm,,Metric
+ANALYSIS_RUTTING,MAX_MEAN_DEPTH_1_8,Maximum Average Depth From 1.8m Straight Edge,Maximum value of LLH_DEPTH_1_8_MEAN or RLH_DEPTH_1_8_MEAN.,mm,,Metric
+ANALYSIS_RUTTING,LLH_DEPTH_WIRE_REF_MEAN,Average Left Lane Half Depth From Wire Reference,Mean section LLH_DEPTH_WIRE_REF.,mm,,Metric
+ANALYSIS_RUTTING,RLH_DEPTH_WIRE_REF_MEAN,Average Right Lane Half Depth From Wire Reference,Mean section RLH_DEPTH_WIRE_REF.,mm,,Metric
+ANALYSIS_RUTTING,MAX_MEAN_DEPTH_WIRE_REF,Maximum Average Depth From Wire Reference,Maximum value of LLH_DEPTH_WIRE_REF_MEAN or RLH_DEPTH_WIRE_REF_MEAN.,mm,,Metric
+ANALYSIS_RUTTING,LLH_DEPTH_1_8_MEAN_FLAG,Average Left Lane Half Depth From 1.8m Straight Edge Outlier Type,Flag indicating that this rutting is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_RUTTING,LLH_DEPTH_1_8_MEAN_FLAG_EXP,Average Left Lane Half Depth From 1.8m Straight Edge Outlier Type (Code Expansion),Flag indicating that this rutting is a potential anomaly. (Code Expansion),,,
+ANALYSIS_RUTTING,RLH_DEPTH_1_8_MEAN_FLAG,Average Right Lane Half Depth From 1.8m Straight Edge Outlier Type,Flag indicating that this rutting is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_RUTTING,RLH_DEPTH_1_8_MEAN_FLAG_EXP,Average Right Lane Half Depth From 1.8m Straight Edge Outlier Type (Code Expansion),Flag indicating that this rutting is a potential anomaly. (Code Expansion),,,
+ANALYSIS_RUTTING,MAX_MEAN_DEPTH_1_8_FLAG,Maximum Average Depth From 1.8m Straight Edge Outlier Type,Flag indicating that this rutting is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_RUTTING,MAX_MEAN_DEPTH_1_8_FLAG_EXP,Maximum Average Depth From 1.8m Straight Edge Outlier Type (Code Expansion),Flag indicating that this rutting is a potential anomaly. (Code Expansion),,,
+ANALYSIS_RUTTING,LLH_DEPTH_WIRE_REF_MEAN_FLAG,Average Left Lane Half Depth From Wire Reference Outlier Type,Flag indicating that this rutting is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_RUTTING,LLH_DEPTH_WIRE_REF_MEAN_FLAG_EXP,Average Left Lane Half Depth From Wire Reference Outlier Type (Code Expansion),Flag indicating that this rutting is a potential anomaly. (Code Expansion),,,
+ANALYSIS_RUTTING,RLH_DEPTH_WIRE_REF_MEAN_FLAG,Average Right Lane Half Depth From Wire Reference Outlier Type,Flag indicating that this rutting is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_RUTTING,RLH_DEPTH_WIRE_REF_MEAN_FLAG_EXP,Average Right Lane Half Depth From Wire Reference Outlier Type (Code Expansion),Flag indicating that this rutting is a potential anomaly. (Code Expansion),,,
+ANALYSIS_RUTTING,MAX_MEAN_DEPTH_WIRE_REF_FLAG,Maximum Average Depth From Wire Reference Outlier Type,Flag indicating that this rutting is a potential anomaly.,,PERFORMANCE_FLAG,
+ANALYSIS_RUTTING,MAX_MEAN_DEPTH_WIRE_REF_FLAG_EXP,Maximum Average Depth From Wire Reference Outlier Type (Code Expansion),Flag indicating that this rutting is a potential anomaly. (Code Expansion),,,
+ANALYSIS_RUTTING,PAVEMENT_FAMILY,Pavement Family,Code indicating pavement family assigned based on experiment design and layer structure of the pavement section.,,PAVEMENT_FAMILY,
+ANALYSIS_RUTTING,PAVEMENT_FAMILY_EXP,Pavement Family (Code Expansion),Code indicating pavement family assigned based on experiment design and layer structure of the pavement section. (Code Expansion),,,
+ANALYSIS_SHOULDER,POINT_LOC,Point Location,Distance from the start of the section to where the test was performed.,m,,Metric
+ANALYSIS_SHOULDER,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_SHOULDER,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_SHOULDER,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_SHOULDER,SURVEY_DATE,Survey Date,Date survey was performed.,,,
+ANALYSIS_SHOULDER,DROPOFF,Lane To Shoulder Drop-off,Difference in elevation between the lane and the shoulder.,mm,,Metric
+ANALYSIS_SHOULDER,SEPARATION,Separation,Length of the separation between the lane and the shoulder.,mm,,Metric
+ANALYSIS_SHOULDER,WELL_SEALED,Well Sealed Code,Code indicating if lane shoulder joint is well sealed.,,Y_N,
+ANALYSIS_SHOULDER,WELL_SEALED_EXP,Well Sealed Code (Code Expansion),Code indicating if lane shoulder joint is well sealed. (Code Expansion),,,
+ANALYSIS_SHOULDER,IMP_TYPE,Improvement Type Code,Code for type of maintenance or rehabilitation work performed.,,MAINT_WORK,
+ANALYSIS_SHOULDER,IMP_TYPE_EXP,Improvement Type Code (Code Expansion),Code for type of maintenance or rehabilitation work performed. (Code Expansion),,,
+ANALYSIS_SHOULDER,SHOULDER_RESTORED,Shoulder Restored Code,Code for shoulder restored.,,LOCATION_OF_LANE,
+ANALYSIS_SHOULDER,SHOULDER_RESTORED_EXP,Shoulder Restored Code (Code Expansion),Code for shoulder restored. (Code Expansion),,,
+ANALYSIS_SHOULDER,AC_MATERIAL_TYPE,Asphalt Material Type Code,Code for type of AC materials used.,,AC_MATERIAL_TYPE,
+ANALYSIS_SHOULDER,AC_MATERIAL_TYPE_EXP,Asphalt Material Type Code (Code Expansion),Code for type of AC materials used. (Code Expansion),,,
+ANALYSIS_SHOULDER,DATE_COMPLETE,Date Complete,Date activity was completed.,,,
+ANALYSIS_SHOULDER,SHOULDER_RESTORE_TYPE,Shoulder Restoration Type Code,Code for type of shoulder restoration.,,SHOULDER_RESTORE,
+ANALYSIS_SHOULDER,SHOULDER_RESTORE_TYPE_EXP,Shoulder Restoration Type Code (Code Expansion),Code for type of shoulder restoration. (Code Expansion),,,
+ANALYSIS_SHOULDER,AC_REMOVED_THICKNESS,Asphalt Removed Thickness,Thickness of AC material removed by cold milling.,mm,,Metric
+ANALYSIS_SHOULDER,ACO_THICKNESS,Asphalt Concrete Overlay Thickness,Asphalt concrete overlay thickness.,mm,,Metric
+ANALYSIS_SHOULDER,LANE_SH_JOINT_SEALANT,Lane To Shoulder Joint Sealant Code,Code indicating method used for lane/shoulder joint sealant.,,JOINT_SEALANT,
+ANALYSIS_SHOULDER,LANE_SH_JOINT_SEALANT_EXP,Lane To Shoulder Joint Sealant Code (Code Expansion),Code indicating method used for lane/shoulder joint sealant. (Code Expansion),,,
+ANALYSIS_SHOULDER,O_SH_BASE_THICKNESS,Outside Shoulder Base Thickness,Average base thickness along outside shoulder.,mm,,Metric
+ANALYSIS_SHOULDER,O_SH_BASE_TYPE,Outside Shoulder Base Type Code,Code identifying base materials used in outside shoulder.,,BASE_MAT,
+ANALYSIS_SHOULDER,O_SH_BASE_TYPE_EXP,Outside Shoulder Base Type Code (Code Expansion),Code identifying base materials used in outside shoulder. (Code Expansion),,,
+ANALYSIS_SHOULDER,O_SH_PAVED_WIDTH,Outside Shoulder Paved Width,Paved width of outside shoulder.,m,,Metric
+ANALYSIS_SHOULDER,O_SH_SURFACE_THICKNESS,Outside Shoulder Surface Thickness,Average thickness of outside shoulder surface.,mm,,Metric
+ANALYSIS_SHOULDER,O_SH_SURFACE_TYPE,Outside Shoulder Surface Type Code,Code for surface type of material used for outside shoulder.,,SH_SURFACE_MAT,
+ANALYSIS_SHOULDER,O_SH_SURFACE_TYPE_EXP,Outside Shoulder Surface Type Code (Code Expansion),Code for surface type of material used for outside shoulder. (Code Expansion),,,
+ANALYSIS_SHOULDER,O_SH_WIDTH,Outside Shoulder Width,Total width of outside shoulder (paved and unpaved).,m,,Metric
+ANALYSIS_SHOULDER,O_SH_REINFORCED,Outside Shoulder Reinforcing Code,Code indicating whether outside shoulder PCC shoulder slab is reinforced or not.,,YES_NO,
+ANALYSIS_SHOULDER,O_SH_REINFORCED_EXP,Outside Shoulder Reinforcing Code (Code Expansion),Code indicating whether outside shoulder PCC shoulder slab is reinforced or not. (Code Expansion),,,
+ANALYSIS_SHOULDER,O_SH_JOINTS,Outside Shoulder Joint Match Code,Code indicating whether joints in outside shoulder were constructed to match joints in adjacent slab.,,YES_NO,
+ANALYSIS_SHOULDER,O_SH_JOINTS_EXP,Outside Shoulder Joint Match Code (Code Expansion),Code indicating whether joints in outside shoulder were constructed to match joints in adjacent slab. (Code Expansion),,,
+ANALYSIS_SHOULDER,O_SH_JOINT_SKEWNESS,Outside PCC Shoulder Joint Skewness,Average Deviation of outside shoulder contraction joint (skewness).,m,,Metric
+ANALYSIS_SHOULDER,O_SH_PCC_AVG_JOINT_SPACING,Average Outside PCC Shoulder Joint Spacing,Average joint spacing for PCC outside shoulders.,m,,Metric
+ANALYSIS_TST_AC,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_TST_AC,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_TST_AC,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_TST_AC,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_TST_AC,LAYER_NO,Layer Number,"Unique sequential number assigned to pavement layers, starting with layer 1 as the deepest layer (subgrade).",,,
+ANALYSIS_TST_AC,LAYER_TYPE,Layer Type Code,Code identifying the type of layer.,,LAYER_TYPE,
+ANALYSIS_TST_AC,LAYER_TYPE_EXP,Layer Type Code (Code Expansion),Code identifying the type of layer. (Code Expansion),,,
+ANALYSIS_TST_AC,REPR_THICKNESS,Representative Thickness,Representative thickness for a layer in a section.,mm,,Metric
+ANALYSIS_TST_AC,MATL_CODE,Material Code,Code corresponding to the material type classification.,,MATERIAL,
+ANALYSIS_TST_AC,MATL_CODE_EXP,Material Code (Code Expansion),Code corresponding to the material type classification. (Code Expansion),,,
+ANALYSIS_TST_AC,DESCRIPTION,Layer Description Code,Code indicating general type of layer.,,DESCRIPTION,
+ANALYSIS_TST_AC,DESCRIPTION_EXP,Layer Description Code (Code Expansion),Code indicating general type of layer. (Code Expansion),,,
+ANALYSIS_TST_AC,ESTAR_LINK_GROUP,Dynamic Modulus Linking Key Group,Records in ANALYSIS_TST_AC_ESTAR that apply to this section and layer.,,,
+ANALYSIS_TST_AC,DSR_COMPLEX_MODULUS_TANK,Tank Asphalt Binder DSR Complex Modulus,Dynamic Shear Rheometer Complex Modulus for tank asphalt binder.,kPa,,Metric
+ANALYSIS_TST_AC,DSR_COMPLEX_PHASE_ANGLE_TANK,Tank Asphalt Binder DSR Phase Angle,Dynamic Shear Rheometer Phase Angle for tank asphalt binder.,deg,,Metric
+ANALYSIS_TST_AC,DSR_COMPLEX_MODULUS_RTFO,RTFO Aged Asphalt Binder DSR Complex Modulus,Dynamic Shear Rheometer Complex Modulus for RTFO conditioned asphalt binder.,kPa,,Metric
+ANALYSIS_TST_AC,DSR_COMPLEX_PHASE_ANGLE_RTFO,RTFO Aged Asphalt Binder DSR Phase Angle,Dynamic Shear Rheometer Phase Angle for RTFO conditioned asphalt binder.,deg,,Metric
+ANALYSIS_TST_AC,DSR_COMPLEX_MODULUS_PAV,PAV Aged Asphalt Binder DSR Complex Modulus,Dynamic Shear Rheometer Complex Modulus for PAV conditioned asphalt binder.,kPa,,Metric
+ANALYSIS_TST_AC,DSR_COMPLEX_PHASE_ANGLE_PAV,PAV Aged Asphalt Binder DSR Phase Angle,Dynamic Shear Rheometer Phase Angle for PAV conditioned asphalt binder.,deg,,Metric
+ANALYSIS_TST_AC,IDT_AVERAGE,Indirect Tensile Strength Average,"Average indirect tensile strength of specimens 1, 2 and 3.",MPa,,Metric
+ANALYSIS_TST_AC,IDT_TEST_TEMPERATURE,Indirect Tensile Strength Test Temperature,Test temperature for Indirect Tensile Strength testing.,deg C,,Metric
+ANALYSIS_TST_AC,IDT_LOADING_RATE,Indirect Tensile Strength Loading Rate,The constant rate at which the load is applied for indirect tensile strength testing.,mm/min,,Metric
+ANALYSIS_TST_AC,ABSOLUTE_VISC_140_F,Absolute Viscosity 140 F,Absolute viscosity at 140 degrees F.,poise,,Metric
+ANALYSIS_TST_AC,KINEMATIC_VISC_275_F,Kinematic Viscosity 275 F,Kinematic viscosity at 275 degrees F.,centistokes,,Metric
+ANALYSIS_TST_AC,IDT_POISSON_USED,Indirect Tensile Poisson Ratio,Poisson's ratio used for subsequent calculations.,,,
+ANALYSIS_TST_AC,POISSON_RATIO_TEST_TEMP,Poisson Ratio Test Temperature,Test temperature for testing/estimation of Poisson's Ratio.,deg C,,Metric
+ANALYSIS_TST_AC,AIR_VOIDS_AVG_WP,Average Air Voids Wheelpath,Average calculated air voids in the wheel path.,%,,Metric
+ANALYSIS_TST_AC,AIR_VOIDS_AVG_NWP,Average Air Voids Non-Wheelpath,Average calculated air voids outside the wheel path.,%,,Metric
+ANALYSIS_TST_AC,ONE_AND_HALF_PASSING,Percent Passing 1 1/2 Inch Sieve,Percent aggregate passing the 1 1/2 inch sieve.,%,,Metric
+ANALYSIS_TST_AC,ONE_PASSING,Percent Passing 1 Inch Sieve,Percent aggregate passing the 1 inch sieve.,%,,Metric
+ANALYSIS_TST_AC,THREE_FOURTHS_PASSING,Percent Passing 3/4 Inch Sieve,Percent aggregate passing the 3/4 inch sieve.,%,,Metric
+ANALYSIS_TST_AC,ONE_HALF_PASSING,Percent Passing 1/2 Inch Sieve,Percent aggregate passing the 1/2 inch sieve.,%,,Metric
+ANALYSIS_TST_AC,THREE_EIGHTHS_PASSING,Percent Passing 3/8 Inch Sieve,Percent aggregate passing the 3/8 inch sieve.,%,,Metric
+ANALYSIS_TST_AC,NO_4_PASSING,Percent Passing Number 4 Sieve,Percent aggregate passing the #4 sieve.,%,,Metric
+ANALYSIS_TST_AC,NO_10_PASSING,Percent Passing Number 10 Sieve,Percent aggregate passing the #10 sieve.,%,,Metric
+ANALYSIS_TST_AC,NO_40_PASSING,Percent Passing Number 40 Sieve,Percent aggregate passing the #40 sieve.,%,,Metric
+ANALYSIS_TST_AC,NO_80_PASSING,Percent Passing Number 80 Sieve,Percent aggregate passing the #80 sieve.,%,,Metric
+ANALYSIS_TST_AC,NO_200_PASSING,Percent Passing Number 200 Sieve,Percent aggregate passing the #200 sieve.,%,,Metric
+ANALYSIS_TST_AC,ASPHALT_CONTENT_MEAN,Average Asphalt Content,Mean asphalt content - percent by weight of total mixture.,%,,Metric
+ANALYSIS_TST_AC,MAX_SPEC_GRAVITY,Maximum Specific Gravity,Maximum specific gravity of the asphalt concrete sample.,,,
+ANALYSIS_TST_AC,BSG,Bulk Specific Gravity,Bulk specific gravity of the asphalt bound layer.,,,
+ANALYSIS_TST_AC,THERMAL_CONDUCTIVITY,Thermal Conductivity,Thermal conductivity of material.,kcal/hr/m/deg C,,Metric
+ANALYSIS_TST_AC,HEAT_CAPACITY,Heat Capacity,Heat capacity of material.,Cal/g/deg C,,Metric
+ANALYSIS_TST_AC,SUR_SHORTWAVE_ABSORP,Surface Shortwave Absorption,Surface shortwave absorptivity of material.,,,
+ANALYSIS_TST_AC,COEF_THERMAL_CONTRACTION,Coefficient of Thermal Contraction,Measure of how much the aggregate shrinks when cooled.,1/deg C,,Metric
+ANALYSIS_TST_AC,AGGR_SPEC_GRAVITY,Aggregate Specific Gravity,Specific gravity of the mixture aggregate.,,,
+ANALYSIS_TST_AC,BINDER_SPEC_GRAVITY,Binder Specific Gravity,Specific gravity of the binder.,,,
+ANALYSIS_TST_AC,VOIDS_MINERAL_AGGR,Voids in Mineral Aggregate,Mean voids in mineral aggregate.,%,,Metric
+ANALYSIS_TST_AC,VOIDS_FILLED_ASPHALT,Asphalt Filled Voids,Voids filled with asphalt.,%,,Metric
+ANALYSIS_TST_AC,PROJECT_LAYER_CODE,Project Layer Code,Sequential alphabetic code assigned to identify group project wide layers.,,,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,LAYER_NO,Layer Number,"Unique sequential number assigned to pavement layers, starting with layer 1 as the deepest layer (subgrade).",,,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,TEST_TEMPERATURE,Test Temperature,Temperature at which test was performed.,deg C,,Metric
+ANALYSIS_TST_AC_CRCOM_SUPPORT,MATL_PROPERTY,Materials Characteristic,Material property type.,,,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,PROPERTY_MINIMUM,Minimum Property Value,Minimum of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,PROPERTY_MAXIMUM,Maximum Property Value,Maximum of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,PROPERTY_MEDIAN,Median Property Value,Median of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,PROPERTY_AVERAGE,Average Property Value,Average of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,PROPERTY_STANDARD_DEVIATION,Standard Deviation of Property Value,Standard deviation of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,PROPERTY_COEFF_VARIATION,Coefficient of Variation of Property Value,Coefficient of variation of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,REP_CODE_SOURCE_VARIABILITY,Representative Data Source Variability,Subjective measure to rate the source of data and its variability. A measure of the goodness of estimate for the representative material property value.,,REP_CODE_SOURCE_VARIABILITY,
+ANALYSIS_TST_AC_CRCOM_SUPPORT,REP_CODE_SOURCE_VARIABILITY_EXP,Representative Data Source Variability (Code Expansion),Subjective measure to rate the source of data and its variability. A measure of the goodness of estimate for the representative material property value. (Code Expansion),,,
+ANALYSIS_TST_AC_CREEP_COMP,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_TST_AC_CREEP_COMP,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_TST_AC_CREEP_COMP,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_TST_AC_CREEP_COMP,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_TST_AC_CREEP_COMP,LAYER_NO,Layer Number,"Unique sequential number assigned to pavement layers, starting with layer 1 as the deepest layer (subgrade).",,,
+ANALYSIS_TST_AC_CREEP_COMP,FIELD_SET,Field Sampling Event Number,Sequential number indicating the field sampling event. Assigned 1 for first sample event and incremented by 1 for subsequent events.,,,
+ANALYSIS_TST_AC_CREEP_COMP,TEST_TEMPERATURE,Test Temperature,Temperature at which test was performed.,deg C,,Metric
+ANALYSIS_TST_AC_CREEP_COMP,CREEP_COMP_1_SEC,Creep Compliance 1 Second,Creep compliance value at 1 second.,1/GPa,,Metric
+ANALYSIS_TST_AC_CREEP_COMP,CREEP_COMP_2_SEC,Creep Compliance 2 Seconds,Creep compliance value at 2 seconds.,1/GPa,,Metric
+ANALYSIS_TST_AC_CREEP_COMP,CREEP_COMP_5_SEC,Creep Compliance 5 Seconds,Creep compliance value at 5 seconds.,1/GPa,,Metric
+ANALYSIS_TST_AC_CREEP_COMP,CREEP_COMP_10_SEC,Creep Compliance 10 Seconds,Creep compliance value at 10 seconds.,1/GPa,,Metric
+ANALYSIS_TST_AC_CREEP_COMP,CREEP_COMP_20_SEC,Creep Compliance 20 Seconds,Creep compliance value at 20 seconds.,1/GPa,,Metric
+ANALYSIS_TST_AC_CREEP_COMP,CREEP_COMP_50_SEC,Creep Compliance 50 Seconds,Creep compliance value at 50 seconds.,1/GPa,,Metric
+ANALYSIS_TST_AC_CREEP_COMP,CREEP_COMP_100_SEC,Creep Compliance 100 Seconds,Creep compliance value at 100 seconds.,1/GPa,,Metric
+ANALYSIS_TST_AC_SUPPORT,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_TST_AC_SUPPORT,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_TST_AC_SUPPORT,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_TST_AC_SUPPORT,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_TST_AC_SUPPORT,LAYER_NO,Layer Number,"Unique sequential number assigned to pavement layers, starting with layer 1 as the deepest layer (subgrade).",,,
+ANALYSIS_TST_AC_SUPPORT,MATL_PROPERTY,Materials Characteristic,Material property type.,,,
+ANALYSIS_TST_AC_SUPPORT,PROPERTY_MINIMUM,Minimum Property Value,Minimum of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_AC_SUPPORT,PROPERTY_MAXIMUM,Maximum Property Value,Maximum of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_AC_SUPPORT,PROPERTY_MEDIAN,Median Property Value,Median of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_AC_SUPPORT,PROPERTY_AVERAGE,Average Property Value,Average of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_AC_SUPPORT,PROPERTY_STANDARD_DEVIATION,Standard Deviation of Property Value,Standard deviation of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_AC_SUPPORT,PROPERTY_COEFF_VARIATION,Coefficient of Variation of Property Value,Coefficient of variation of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_AC_SUPPORT,REP_CODE_SOURCE_VARIABILITY,Representative Data Source Variability,Subjective measure to rate the source of data and its variability. A measure of the goodness of estimate for the representative material property value.,,REP_CODE_SOURCE_VARIABILITY,
+ANALYSIS_TST_AC_SUPPORT,REP_CODE_SOURCE_VARIABILITY_EXP,Representative Data Source Variability (Code Expansion),Subjective measure to rate the source of data and its variability. A measure of the goodness of estimate for the representative material property value. (Code Expansion),,,
+ANALYSIS_TST_EF,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_TST_EF,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_TST_EF,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_TST_EF,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_TST_EF,LAYER_NO,Layer Number,"Unique sequential number assigned to pavement layers, starting with layer 1 as the deepest layer (subgrade).",,,
+ANALYSIS_TST_EF,LAYER_TYPE,Layer Type Code,Code identifying the type of layer.,,LAYER_TYPE,
+ANALYSIS_TST_EF,LAYER_TYPE_EXP,Layer Type Code (Code Expansion),Code identifying the type of layer. (Code Expansion),,,
+ANALYSIS_TST_EF,REPR_THICKNESS,Representative Thickness,Representative thickness for a layer in a section.,mm,,Metric
+ANALYSIS_TST_EF,MATL_CODE,Material Code,Code corresponding to the material type classification.,,MATERIAL,
+ANALYSIS_TST_EF,MATL_CODE_EXP,Material Code (Code Expansion),Code corresponding to the material type classification. (Code Expansion),,,
+ANALYSIS_TST_EF,DESCRIPTION,Layer Description Code,Code indicating general type of layer.,,DESCRIPTION,
+ANALYSIS_TST_EF,DESCRIPTION_EXP,Layer Description Code (Code Expansion),Code indicating general type of layer. (Code Expansion),,,
+ANALYSIS_TST_EF,PROJECT_LAYER_CODE,Project Layer Code,Sequential alphabetic code assigned to identify group project wide layers.,,,
+ANALYSIS_TST_EF_SUPPORT,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_TST_EF_SUPPORT,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_TST_EF_SUPPORT,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_TST_EF_SUPPORT,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_TST_EF_SUPPORT,LAYER_NO,Layer Number,"Unique sequential number assigned to pavement layers, starting with layer 1 as the deepest layer (subgrade).",,,
+ANALYSIS_TST_EF_SUPPORT,MATL_PROPERTY,Materials Characteristic,Material property type.,,,
+ANALYSIS_TST_EF_SUPPORT,PROPERTY_MINIMUM,Minimum Property Value,Minimum of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_EF_SUPPORT,PROPERTY_MAXIMUM,Maximum Property Value,Maximum of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_EF_SUPPORT,PROPERTY_MEDIAN,Median Property Value,Median of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_EF_SUPPORT,PROPERTY_AVERAGE,Average Property Value,Average of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_EF_SUPPORT,PROPERTY_STANDARD_DEVIATION,Standard Deviation of Property Value,Standard deviation of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_EF_SUPPORT,PROPERTY_COEFF_VARIATION,Coefficient of Variation of Property Value,Coefficient of variation of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_EF_SUPPORT,REP_CODE_SOURCE_VARIABILITY,Representative Data Source Variability,Subjective measure to rate the source of data and its variability. A measure of the goodness of estimate for the representative material property value.,,REP_CODE_SOURCE_VARIABILITY,
+ANALYSIS_TST_EF_SUPPORT,REP_CODE_SOURCE_VARIABILITY_EXP,Representative Data Source Variability (Code Expansion),Subjective measure to rate the source of data and its variability. A measure of the goodness of estimate for the representative material property value. (Code Expansion),,,
+ANALYSIS_TST_TR,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_TST_TR,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_TST_TR,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_TST_TR,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_TST_TR,LAYER_NO,Layer Number,"Unique sequential number assigned to pavement layers, starting with layer 1 as the deepest layer (subgrade).",,,
+ANALYSIS_TST_TR,LAYER_TYPE,Layer Type Code,Code identifying the type of layer.,,LAYER_TYPE,
+ANALYSIS_TST_TR,LAYER_TYPE_EXP,Layer Type Code (Code Expansion),Code identifying the type of layer. (Code Expansion),,,
+ANALYSIS_TST_TR,REPR_THICKNESS,Representative Thickness,Representative thickness for a layer in a section.,mm,,Metric
+ANALYSIS_TST_TR,MATL_CODE,Material Code,Code corresponding to the material type classification.,,MATERIAL,
+ANALYSIS_TST_TR,MATL_CODE_EXP,Material Code (Code Expansion),Code corresponding to the material type classification. (Code Expansion),,,
+ANALYSIS_TST_TR,DESCRIPTION,Layer Description Code,Code indicating general type of layer.,,DESCRIPTION,
+ANALYSIS_TST_TR,DESCRIPTION_EXP,Layer Description Code (Code Expansion),Code indicating general type of layer. (Code Expansion),,,
+ANALYSIS_TST_TR,PROJECT_LAYER_CODE,Project Layer Code,Sequential alphabetic code assigned to identify group project wide layers.,,,
+ANALYSIS_TST_TR_SUPPORT,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_TST_TR_SUPPORT,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_TST_TR_SUPPORT,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_TST_TR_SUPPORT,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_TST_TR_SUPPORT,LAYER_NO,Layer Number,"Unique sequential number assigned to pavement layers, starting with layer 1 as the deepest layer (subgrade).",,,
+ANALYSIS_TST_TR_SUPPORT,MATL_PROPERTY,Materials Characteristic,Material property type.,,,
+ANALYSIS_TST_TR_SUPPORT,PROPERTY_MINIMUM,Minimum Property Value,Minimum of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_TR_SUPPORT,PROPERTY_MAXIMUM,Maximum Property Value,Maximum of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_TR_SUPPORT,PROPERTY_MEDIAN,Median Property Value,Median of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_TR_SUPPORT,PROPERTY_AVERAGE,Average Property Value,Average of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_TR_SUPPORT,PROPERTY_STANDARD_DEVIATION,Standard Deviation of Property Value,Standard deviation of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_TR_SUPPORT,PROPERTY_COEFF_VARIATION,Coefficient of Variation of Property Value,Coefficient of variation of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_TR_SUPPORT,REP_CODE_SOURCE_VARIABILITY,Representative Data Source Variability,Subjective measure to rate the source of data and its variability. A measure of the goodness of estimate for the representative material property value.,,REP_CODE_SOURCE_VARIABILITY,
+ANALYSIS_TST_TR_SUPPORT,REP_CODE_SOURCE_VARIABILITY_EXP,Representative Data Source Variability (Code Expansion),Subjective measure to rate the source of data and its variability. A measure of the goodness of estimate for the representative material property value. (Code Expansion),,,
+ANALYSIS_TST_UNBOUND,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_TST_UNBOUND,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_TST_UNBOUND,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_TST_UNBOUND,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_TST_UNBOUND,LAYER_NO,Layer Number,"Unique sequential number assigned to pavement layers, starting with layer 1 as the deepest layer (subgrade).",,,
+ANALYSIS_TST_UNBOUND,LAYER_TYPE,Layer Type Code,Code identifying the type of layer.,,LAYER_TYPE,
+ANALYSIS_TST_UNBOUND,LAYER_TYPE_EXP,Layer Type Code (Code Expansion),Code identifying the type of layer. (Code Expansion),,,
+ANALYSIS_TST_UNBOUND,PROJECT_LAYER_CODE,Project Layer Code,Sequential alphabetic code assigned to identify group project wide layers.,,,
+ANALYSIS_TST_UNBOUND,MATL_CODE,Material Code,Code corresponding to the material type classification.,,MATERIAL,
+ANALYSIS_TST_UNBOUND,MATL_CODE_EXP,Material Code (Code Expansion),Code corresponding to the material type classification. (Code Expansion),,,
+ANALYSIS_TST_UNBOUND,REPR_THICKNESS,Representative Thickness,Representative thickness for a layer in a section.,mm,,Metric
+ANALYSIS_TST_UNBOUND,DESCRIPTION,Layer Description Code,Code indicating general type of layer.,,DESCRIPTION,
+ANALYSIS_TST_UNBOUND,DESCRIPTION_EXP,Layer Description Code (Code Expansion),Code indicating general type of layer. (Code Expansion),,,
+ANALYSIS_TST_UNBOUND,THREE_PASSING,Percent Passing 3 Inch Sieve,Percent unbound/base material passing the 3 inch sieve.,%,,Metric
+ANALYSIS_TST_UNBOUND,TWO_PASSING,Percent Passing 2 Inch Sieve,Percent unbound/base material passing the 2 inch sieve.,%,,Metric
+ANALYSIS_TST_UNBOUND,ONE_AND_HALF_PASSING,Percent Passing 1 1/2 Inch Sieve,Percent unbound/base material passing the 1 1/2 inch sieve.,%,,Metric
+ANALYSIS_TST_UNBOUND,ONE_PASSING,Percent Passing 1 Inch Sieve,Percent unbound/base material passing the 1 inch sieve.,%,,Metric
+ANALYSIS_TST_UNBOUND,THREE_FOURTHS_PASSING,Percent Passing 3/4 Inch Sieve,Percent unbound/base material passing the 3/4 inch sieve.,%,,Metric
+ANALYSIS_TST_UNBOUND,ONE_HALF_PASSING,Percent Passing 1/2 Inch Sieve,Percent unbound/base material passing the 1/2 inch sieve.,%,,Metric
+ANALYSIS_TST_UNBOUND,THREE_EIGHTHS_PASSING,Percent Passing 3/8 Inch Sieve,Percent unbound/base material passing the 3/8 inch sieve.,%,,Metric
+ANALYSIS_TST_UNBOUND,NO_4_PASSING,Percent Passing Number 4 Sieve,Percent unbound/base material passing the #4 sieve.,%,,Metric
+ANALYSIS_TST_UNBOUND,NO_10_PASSING,Percent Passing Number 10 Sieve,Percent unbound/base material passing the #10 sieve.,%,,Metric
+ANALYSIS_TST_UNBOUND,NO_40_PASSING,Percent Passing Number 40 Sieve,Percent unbound/base material passing the #40 sieve.,%,,Metric
+ANALYSIS_TST_UNBOUND,NO_80_PASSING,Percent Passing Number 80 Sieve,Percent unbound/base material passing the #80 sieve.,%,,Metric
+ANALYSIS_TST_UNBOUND,NO_200_PASSING,Percent Passing Number 200 Sieve,Percent unbound/base material passing the #200 sieve.,%,,Metric
+ANALYSIS_TST_UNBOUND,LIQUID_LIMIT,Liquid Limit,Liquid limit determined by AASHTO T89 and T90.,%,,Metric
+ANALYSIS_TST_UNBOUND,PLASTIC_LIMIT,Plastic Limit,Plastic limit.,%,,Metric
+ANALYSIS_TST_UNBOUND,PLASTICITY_INDEX,Plasticity Index,Plasticity index.,%,,Metric
+ANALYSIS_TST_UNBOUND,AASHTO_SOIL_CLASS,AASHTO Soil Class Code,"Code for AASHTO soil classification for subgrade, base, and subbase material.",,S_CLASS,
+ANALYSIS_TST_UNBOUND,AASHTO_SOIL_CLASS_EXP,AASHTO Soil Class Code (Code Expansion),"Code for AASHTO soil classification for subgrade, base, and subbase material. (Code Expansion)",,,
+ANALYSIS_TST_UNBOUND,SPEC_GRAVITY,Specific Gravity,Specific gravity.,,,
+ANALYSIS_TST_UNBOUND,MAX_LAB_DRY_DENSITY,Maximum Lab Dry Density,Maximum laboratory dry density of the sample.,kg/cu m,,Metric
+ANALYSIS_TST_UNBOUND,OPTIMUM_LAB_MOISTURE,Optimum Lab Moisture Content,Optimum moisture content.,%,,Metric
+ANALYSIS_TST_UNBOUND,RESILIENT_MODULUS,Resilient Modulus,Resilient modulus calculated from laboratory testing per AASHTO T 307 at assumed stress values in the field.,MPa,,Metric
+ANALYSIS_TST_UNBOUND,RESILIENT_MODULUS_K1,Resilient Modulus Coefficient K1,"Regression coefficient K1, obtained by fitting resilient modulus test data per AASHTO T 307 to the generalized constitutive model.",,,
+ANALYSIS_TST_UNBOUND,RESILIENT_MODULUS_K2,Resilient Modulus Coefficient K2,"Regression coefficient K2, obtained by fitting resilient modulus test data per AASHTO T 307 to the generalized constitutive model.",,,
+ANALYSIS_TST_UNBOUND,RESILIENT_MODULUS_K3,Resilient Modulus Coefficient K3,"Regression coefficient K3, obtained by fitting resilient modulus test data per AASHTO T 307 to the generalized constitutive model.",,,
+ANALYSIS_TST_UNBOUND,POISSONS_RATIO,Poisson's Ratio,Poisson's ratio of the material.,,,
+ANALYSIS_TST_UNBOUND,HYDRAULIC_CONDUCTIVITY,Hydraulic Conductivity,Saturated hydraulic conductivity.,,,
+ANALYSIS_TST_UNBOUND_SUPPORT,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+ANALYSIS_TST_UNBOUND_SUPPORT,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+ANALYSIS_TST_UNBOUND_SUPPORT,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+ANALYSIS_TST_UNBOUND_SUPPORT,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+ANALYSIS_TST_UNBOUND_SUPPORT,LAYER_NO,Layer Number,"Unique sequential number assigned to pavement layers, starting with layer 1 as the deepest layer (subgrade).",,,
+ANALYSIS_TST_UNBOUND_SUPPORT,MATL_PROPERTY,Materials Characteristic,Material property type.,,,
+ANALYSIS_TST_UNBOUND_SUPPORT,PROPERTY_MINIMUM,Minimum Property Value,Minimum of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_UNBOUND_SUPPORT,PROPERTY_MAXIMUM,Maximum Property Value,Maximum of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_UNBOUND_SUPPORT,PROPERTY_MEDIAN,Median Property Value,Median of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_UNBOUND_SUPPORT,PROPERTY_AVERAGE,Average Property Value,Average of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_UNBOUND_SUPPORT,PROPERTY_STANDARD_DEVIATION,Standard Deviation of Property Value,Standard deviation of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_UNBOUND_SUPPORT,PROPERTY_COEFF_VARIATION,Coefficient of Variation of Property Value,Coefficient of variation of the material property values measured or used for imputation.,,,
+ANALYSIS_TST_UNBOUND_SUPPORT,REP_CODE_SOURCE_VARIABILITY,Representative Data Source Variability,Subjective measure to rate the source of data and its variability. A measure of the goodness of estimate for the representative material property value.,,REP_CODE_SOURCE_VARIABILITY,
+ANALYSIS_TST_UNBOUND_SUPPORT,REP_CODE_SOURCE_VARIABILITY_EXP,Representative Data Source Variability (Code Expansion),Subjective measure to rate the source of data and its variability. A measure of the goodness of estimate for the representative material property value. (Code Expansion),,,
+CONSTRUCTION_EVENTS_EXP,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+CONSTRUCTION_EVENTS_EXP,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+CONSTRUCTION_EVENTS_EXP,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+CONSTRUCTION_EVENTS_EXP,IMP_DATE,Improvement Date,Date improvements were performed.,,,
+CONSTRUCTION_EVENTS_EXP,IMP_TYPE,Improvement Type Code,Code for type of maintenance or rehabilitation work performed.,,MAINT_WORK,
+CONSTRUCTION_EVENTS_EXP,IMP_TYPE_EXP,Improvement Type Code (Code Expansion),Code for type of maintenance or rehabilitation work performed. (Code Expansion),,,
+CONSTRUCTION_EVENTS_EXP,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+CONSTRUCTION_EVENTS_EXP,IMP_QUANTITY,Improvement Quantity,Quantity of work performed.,,,
+CONSTRUCTION_EVENTS_EXP,IMP_THICKNESS,Improvement Thickness,Improvement thickness.,mm,,Metric
+CONSTRUCTION_EVENTS_EXP,IMP_QUANTITY_UNITS,Improvement Quantity Unit Code,Units defined by MAINT_WORK code in IMP_TYPE field.,,UNITS,
+CONSTRUCTION_EVENTS_EXP,IMP_QUANTITY_UNITS_EXP,Improvement Quantity Unit Code (Code Expansion),Units defined by MAINT_WORK code in IMP_TYPE field. (Code Expansion),,,
+EXPERIMENT_SECTION,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+EXPERIMENT_SECTION,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+EXPERIMENT_SECTION,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+EXPERIMENT_SECTION,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+EXPERIMENT_SECTION,CN_ASSIGN_DATE,Construction Number Assign Date,"The assignment date for the beginning of a construction event. It is equal to acceptance date when a test section is first included in LTPP, i.e. CONSTRUCTION_NO = 1.",,,
+EXPERIMENT_SECTION,CN_CHANGE_REASON,Construction Number Change Reason Code,IMP_TYPE rehabilitation and maintenance activity codes that caused the change in Construction Number (CONSTRUCTION_NO).,,MAINT_WORK,
+EXPERIMENT_SECTION,CN_CHANGE_REASON_EXP,Construction Number Change Reason Code (Code Expansion),IMP_TYPE rehabilitation and maintenance activity codes that caused the change in Construction Number (CONSTRUCTION_NO). (Code Expansion),,,
+EXPERIMENT_SECTION,RECORD_STATUS,Record Status,A code indicating the general quality of the data.,,,
+EXPERIMENT_SECTION,GPS_SPS,Experiment Classification Code,Code indicating if the section is a GPS or SPS section.,,GPS_SPS,
+EXPERIMENT_SECTION,GPS_SPS_EXP,Experiment Classification Code (Code Expansion),Code indicating if the section is a GPS or SPS section. (Code Expansion),,,
+EXPERIMENT_SECTION,EXPERIMENT_NO,Experiment Number Code,Code indicating to which LTPP experiment the pavement section is assigned.,,EXPERIMENT,
+EXPERIMENT_SECTION,EXPERIMENT_NO_EXP,Experiment Number Code (Code Expansion),Code indicating to which LTPP experiment the pavement section is assigned. (Code Expansion),,,
+EXPERIMENT_SECTION,STATUS,Status Code,Code indicating the status of a section for a given construction event.,,STATUS,
+EXPERIMENT_SECTION,STATUS_EXP,Status Code (Code Expansion),Code indicating the status of a section for a given construction event. (Code Expansion),,,
+EXPERIMENT_SECTION,ASSIGN_DATE,Assign Date,Date when a test section was assigned to the LTPP experiment. The experiment designation for a test section is the combination of EXPERIMENT_NO and GPS_SPS fields in the record.,,,
+EXPERIMENT_SECTION,DEASSIGN_DATE,Deassign Date,Date when a test section changed to another experiment or was placed in out of study status in the LTPP program (status = o).,,,
+EXPERIMENT_SECTION,SEAS_ID,Seasonal Identification Code,State specific seasonal identification code.,,,
+EXPERIMENT_SECTION,SUPPLEMENTAL,Supplemental Section Identification Code,A marker to identify state supplemental sections.,,,
+EXPERIMENT_SECTION,EXP_SECT_RS,Experiment Section Record Status,RECORD_STATUS for EXPERIMENT_SECTION table.,,,
+EXPERIMENT_SECTION,BASIC_INFO_RS,Basic Information Record Status,RECORD_STATUS from minimum RECORD_STATUS for selected BASIC_INFO tables.,,,
+EXPERIMENT_SECTION,PAV_STRUCT_RS,Pavement Structure Record Status,"RECORD_STATUS from minimum RECORD_STATUS of all layers for tst_l05b for this SHRP_ID, STATE_CODE, and CONSTRUCTION_NO.",,,
+EXPERIMENT_SECTION,TRAFFIC_RS,Traffic Record Status,RECORD_STATUS  from maximum RECORD_STATUS  for selected monitoring traffic tables.,,,
+EXPERIMENT_SECTION,CLIMATIC_RS,Climatic Record Status,RECORD_STATUS from maximum RECORD_STATUS for selected climatic tables.,,,
+EXPERIMENT_SECTION,PAVEMENT_FAMILY,Pavement Family,Code indicating pavement family assigned based on experiment design and layer structure of the pavement section.,,PAVEMENT_FAMILY,
+EXPERIMENT_SECTION,PAVEMENT_FAMILY_EXP,Pavement Family (Code Expansion),Code indicating pavement family assigned based on experiment design and layer structure of the pavement section. (Code Expansion),,,
+MEPDG_AXLE_LOAD_DIST_FACTOR,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+MEPDG_AXLE_LOAD_DIST_FACTOR,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+MEPDG_AXLE_LOAD_DIST_FACTOR,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+MEPDG_AXLE_LOAD_DIST_FACTOR,ALDF_USE_RATING,Axle Load Distribution Basis Code,Code indicating source of data and method for developing axle load distribution factor (ALDF) estimate.,,ALDF_USE_RATING,
+MEPDG_AXLE_LOAD_DIST_FACTOR,ALDF_USE_RATING_EXP,Axle Load Distribution Basis Code (Code Expansion),Code indicating source of data and method for developing axle load distribution factor (ALDF) estimate. (Code Expansion),,,
+MEPDG_AXLE_LOAD_DIST_FACTOR,AXLE_GROUP,Axle Group Code,Type of axle to which this data applies.,,AXLE_GROUP,
+MEPDG_AXLE_LOAD_DIST_FACTOR,AXLE_GROUP_EXP,Axle Group Code (Code Expansion),Type of axle to which this data applies. (Code Expansion),,,
+MEPDG_AXLE_LOAD_DIST_FACTOR,MONTH,Month,Month the data applies to. ,,,
+MEPDG_AXLE_LOAD_DIST_FACTOR,MONTH_NAME,Month Name,"Name of calendar month, per AASHTOWare Pavement ME format. All 12 calendar months must be present for the site to be used as an input for AASHTOWare Pavement ME.",,,
+MEPDG_AXLE_LOAD_DIST_FACTOR,VEHICLE_CLASS,Vehicle Classification Code,Vehicle classification code using 13 bins as described in the FHWA Traffic Monitoring Guide.,,VEHICLE_CLASS,
+MEPDG_AXLE_LOAD_DIST_FACTOR,VEHICLE_CLASS_EXP,Vehicle Classification Code (Code Expansion),Vehicle classification code using 13 bins as described in the FHWA Traffic Monitoring Guide. (Code Expansion),,,
+MEPDG_AXLE_LOAD_DIST_FACTOR,TOTAL,Axle Distribution Bin Total,Total percentage as a summation of values in bins MEPDG_LG01 through MEPDG_LG39. This field value must equal to 100 percent to be used as an input for AASHTOWare Pavement ME.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG01,Axle Percentage MEPDG Bin 1,Percent of axles whose weight falls in the bin 0-2999 pounds for single axles; 0-5999 pounds for tandem axles; 0-11999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG02,Axle Percentage MEPDG Bin 2,Percent of axles whose weight falls in the bin 3000-3999 pounds for single axles; 6000-7999 pounds for tandem axles; 12000-14999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG03,Axle Percentage MEPDG Bin 3,Percent of axles whose weight falls in the bin 4000-4999 pounds for single axles; 8000-9999 pounds for tandem axles; 15000-17999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG04,Axle Percentage MEPDG Bin 4,Percent of axles whose weight falls in the bin 5000-5999 pounds for single axles; 10000-11999 pounds for tandem axles; 18000-20999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG05,Axle Percentage MEPDG Bin 5,Percent of axles whose weight falls in the bin 6000-6999 pounds for single axles; 12000-13999 pounds for tandem axles; 21000-23999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG06,Axle Percentage MEPDG Bin 6,Percent of axles whose weight falls in the bin 7000-7999 pounds for single axles; 14000-15999 pounds for tandem axles; 24000-26999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG07,Axle Percentage MEPDG Bin 7,Percent of axles whose weight falls in the bin 8000-8999 pounds for single axles; 16000-17999 pounds for tandem axles; 27000-29999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG08,Axle Percentage MEPDG Bin 8,Percent of axles whose weight falls in the bin 9000-9999 pounds for single axles; 18000-19999 pounds for tandem axles; 30000-32999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG09,Axle Percentage MEPDG Bin 9,Percent of axles whose weight falls in the bin 10000-10999 pounds for single axles; 20000-21999 pounds for tandem axles; 33000-35999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG10,Axle Percentage MEPDG Bin 10,Percent of axles whose weight falls in the bin 11000-11999 pounds for single axles; 22000-23999 pounds for tandem axles; 36000-38999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG11,Axle Percentage MEPDG Bin 11,Percent of axles whose weight falls in the bin 12000-12999 pounds for single axles; 24000-25999 pounds for tandem axles; 39000-41999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG12,Axle Percentage MEPDG Bin 12,Percent of axles whose weight falls in the bin 13000-13999 pounds for single axles; 26000-27999 pounds for tandem axles; 42000-44999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG13,Axle Percentage MEPDG Bin 13,Percent of axles whose weight falls in the bin 14000-14999 pounds for single axles; 28000-29999 pounds for tandem axles; 45000-47999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG14,Axle Percentage MEPDG Bin 14,Percent of axles whose weight falls in the bin 15000-15999 pounds for single axles; 30000-31999 pounds for tandem axles; 48000-50999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG15,Axle Percentage MEPDG Bin 15,Percent of axles whose weight falls in the bin 16000-16999 pounds for single axles; 32000-33999 pounds for tandem axles; 51000-53999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG16,Axle Percentage MEPDG Bin 16,Percent of axles whose weight falls in the bin 17000-17999 pounds for single axles; 34000-35999 pounds for tandem axles; 54000-56999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG17,Axle Percentage MEPDG Bin 17,Percent of axles whose weight falls in the bin 18000-18999 pounds for single axles; 36000-37999 pounds for tandem axles; 57000-59999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG18,Axle Percentage MEPDG Bin 18,Percent of axles whose weight falls in the bin 19000-19999 pounds for single axles; 38000-39999 pounds for tandem axles; 60000-62999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG19,Axle Percentage MEPDG Bin 19,Percent of axles whose weight falls in the bin 20000-20999 pounds for single axles; 40000-41999 pounds for tandem axles; 63000-65999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG20,Axle Percentage MEPDG Bin 20,Percent of axles whose weight falls in the bin 21000-21999 pounds for single axles; 42000-43999 pounds for tandem axles; 66000-68999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG21,Axle Percentage MEPDG Bin 21,Percent of axles whose weight falls in the bin 22000-22999 pounds for single axles; 44000-45999 pounds for tandem axles; 69000-71999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG22,Axle Percentage MEPDG Bin 22,Percent of axles whose weight falls in the bin 23000-23999 pounds for single axles; 46000-47999 pounds for tandem axles; 72000-74999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG23,Axle Percentage MEPDG Bin 23,Percent of axles whose weight falls in the bin 24000-24999 pounds for single axles; 48000-49999 pounds for tandem axles; 75000-77999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG24,Axle Percentage MEPDG Bin 24,Percent of axles whose weight falls in the bin 25000-25999 pounds for single axles; 50000-51999 pounds for tandem axles; 78000-80999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG25,Axle Percentage MEPDG Bin 25,Percent of axles whose weight falls in the bin 26000-26999 pounds for single axles; 52000-53999 pounds for tandem axles; 81000-83999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG26,Axle Percentage MEPDG Bin 26,Percent of axles whose weight falls in the bin 27000-27999 pounds for single axles; 54000-55999 pounds for tandem axles; 84000-86999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG27,Axle Percentage MEPDG Bin 27,Percent of axles whose weight falls in the bin 28000-28999 pounds for single axles; 56000-57999 pounds for tandem axles; 87000-89999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG28,Axle Percentage MEPDG Bin 28,Percent of axles whose weight falls in the bin 29000-29999 pounds for single axles; 58000-59999 pounds for tandem axles; 90000-92999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG29,Axle Percentage MEPDG Bin 29,Percent of axles whose weight falls in the bin 30000-30999 pounds for single axles; 60000-61999 pounds for tandem axles; 93000-95999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG30,Axle Percentage MEPDG Bin 30,Percent of axles whose weight falls in the bin 31000-31999 pounds for single axles; 62000-63999 pounds for tandem axles; 96000-98999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG31,Axle Percentage MEPDG Bin 31,Percent of axles whose weight falls in the bin 32000-32999 pounds for single axles; 64000-65999 pounds for tandem axles; 99000-101999 pounds for tridem and quad axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG32,Axle Percentage MEPDG Bin 32,Percent of axles whose weight falls in the bin 33000-33999 pounds for single axles; 66000-67999 pounds for tandem axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG33,Axle Percentage MEPDG Bin 33,Percent of axles whose weight falls in the bin 34000-34999 pounds for single axles; 68000-69999 pounds for tandem axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG34,Axle Percentage MEPDG Bin 34,Percent of axles whose weight falls in the bin 35000-35999 pounds for single axles; 70000-71999 pounds for tandem axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG35,Axle Percentage MEPDG Bin 35,Percent of axles whose weight falls in the bin 36000-36999 pounds for single axles; 72000-73999 pounds for tandem axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG36,Axle Percentage MEPDG Bin 36,Percent of axles whose weight falls in the bin 37000-37999 pounds for single axles; 74000-75999 pounds for tandem axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG37,Axle Percentage MEPDG Bin 37,Percent of axles whose weight falls in the bin 38000-38999 pounds for single axles; 76000-77999 pounds for tandem axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG38,Axle Percentage MEPDG Bin 38,Percent of axles whose weight falls in the bin 39000-39999 pounds for single axles; 78000-79999 pounds for tandem axles.,%,,Metric
+MEPDG_AXLE_LOAD_DIST_FACTOR,MEPDG_LG39,Axle Percentage MEPDG Bin 39,Percent of axles whose weight falls in the bin 40000-40999 pounds for single axles; 80000-81999 pounds for tandem axles.,%,,Metric
+MEPDG_AXLE_PER_TRUCK,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+MEPDG_AXLE_PER_TRUCK,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+MEPDG_AXLE_PER_TRUCK,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+MEPDG_AXLE_PER_TRUCK,VEHICLE_CLASS,Vehicle Classification Code,Vehicle classification code using 13 bins as described in the FHWA Traffic Monitoring Guide.,,VEHICLE_CLASS,
+MEPDG_AXLE_PER_TRUCK,VEHICLE_CLASS_EXP,Vehicle Classification Code (Code Expansion),Vehicle classification code using 13 bins as described in the FHWA Traffic Monitoring Guide. (Code Expansion),,,
+MEPDG_AXLE_PER_TRUCK,SINGLE_AXLES,Average Single Axles,The number of single axles for each truck class (classes 4 to 13).,,,
+MEPDG_AXLE_PER_TRUCK,TANDEM_AXLES,Average Tandem Axles,The number of tandem axles for each truck class (classes 4 to 13).,,,
+MEPDG_AXLE_PER_TRUCK,TRIDEM_AXLES,Average Tridem Axles,The number of tridem axles for each truck class (classes 4 to 13).,,,
+MEPDG_AXLE_PER_TRUCK,QUAD_AXLES,Average Quad Axles,The number of quad axles for each truck class (classes 4 to 13).,,,
+MEPDG_TRUCK_VOL_PARAMETERS,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+MEPDG_TRUCK_VOL_PARAMETERS,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+MEPDG_TRUCK_VOL_PARAMETERS,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+MEPDG_TRUCK_VOL_PARAMETERS,TRAFFIC_OPEN_YEAR_EXP_NO,LTPP Experiment Traffic Open Year,First year site was open to traffic for a corresponding LTPP Experiment.,,,
+MEPDG_TRUCK_VOL_PARAMETERS,VEHICLE_CLASS,Vehicle Classification Code,Vehicle classification code using 13 bins as described in the FHWA Traffic Monitoring Guide.,,VEHICLE_CLASS,
+MEPDG_TRUCK_VOL_PARAMETERS,VEHICLE_CLASS_EXP,Vehicle Classification Code (Code Expansion),Vehicle classification code using 13 bins as described in the FHWA Traffic Monitoring Guide. (Code Expansion),,,
+MEPDG_TRUCK_VOL_PARAMETERS,VEH_CLASS_DIST_PERCENT,Base Vehicle Class Distribution Percentage,Percent of trucks representing first year for each vehicle class 4-13 in LTPP lane for a period corresponding to EXPERIMENT.,%,,Metric
+MEPDG_TRUCK_VOL_PARAMETERS,VEH_CLASS_GROWTH_RATE,Vehicle Class Growth Rate,Annual truck volume growth rate associated with each vehicle class 4-13 corresponding to truck growth function type entered in VEH_CLASS_GROWTH_FUNCTION field and for a period corresponding to EXPERIMENT.,,,
+MEPDG_TRUCK_VOL_PARAMETERS,VEH_CLASS_GROWTH_FUNCTION,Vehicle Class Growth Function,Type of truck volume growth function associated with each vehicle class 4-13 for a period corresponding to EXPERIMENT. Two options available in AASHTO Pavement ME: linear or compound.,,,
+MEPDG_TRUCK_VOL_PARAMETERS,VEH_CLASS_GROWTH_USE_RATING,Growth Information Source Code,Code indicating source of truck growth function and base year AADTT and vehicle class distribution.,,VEH_CLASS_USE_RATING,
+MEPDG_TRUCK_VOL_PARAMETERS,VEH_CLASS_GROWTH_USE_RATING_EXP,Growth Information Source Code (Code Expansion),Code indicating source of truck growth function and base year AADTT and vehicle class distribution. (Code Expansion),,,
+MEPDG_TRUCK_VOL_PARAMETERS,AADTT_FIRST_YEAR_LTPP_LANE,MEPDG LTPP Lane First Year Annual Average Daily Truck Traffic,AADTT for the first full year of service when pavement was first open to traffic for a corresponding EXPERIMENT for classes 4-13 combined.,,,
+SHRP_INFO,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+SHRP_INFO,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+SHRP_INFO,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+SHRP_INFO,START_DATE,Start Date,Beginning of the interval for which the data applies.,,,
+SHRP_INFO,RECORD_STATUS,Record Status,A code indicating the general quality of the data.,,,
+SHRP_INFO,END_DATE,End Date,End of interval for which the data applies.,,,
+SHRP_INFO,VOLUME_SITE,Volume Site,Site identifier for location at which volume was collected.,,,
+SHRP_INFO,CLASS_SITE,Classification Site,Site identifier for location at which class was collected.,,,
+SHRP_INFO,WIM_SITE,WIM Site Identifier,Site identifier for location at which WIM was collected.,,,
+SHRP_INFO,ID3,Three Digit Station Identifier,"Three digit station identifier used by agency to identify data location for 2-, 3-, 4-, and 7- cards.",,,
+SHRP_INFO,ID6,Six Digit Station Identifier,"Six digit station identifier used by agency to identify data collection on S- ,C-, and W- cards.",,,
+SHRP_INFO,LTPP_DIR,LTPP Lane Direction Code,Direction of LTPP lane using Traffic Monitoring Guide conventions.,,DIR_TRF,
+SHRP_INFO,LTPP_DIR_EXP,LTPP Lane Direction Code (Code Expansion),Direction of LTPP lane using Traffic Monitoring Guide conventions. (Code Expansion),,,
+SHRP_INFO,LTPP_LANE,LTPP Lane Number,Number of the LTPP lane where 1 is the outer through lane.,,,
+SHRP_INFO,LANES_LTPP_DIR,Number of Lanes in LTPP Direction,The total number of through lanes in the LTPP direction.,,,
+SHRP_INFO,LANES_NON_LTPP_DIR,Number of Lanes in Non-LTPP Direction,The total number of through lanes in the non-LTPP direction.,,,
+SHRP_INFO,SRO_CLASS,Classification Site to LTPP Section Relationship Code,"Qualitative indicator of the spatial relationship between the classification data site and the LTPP section or project, S - site specific, R - Site related, O - other.",,SRO,
+SHRP_INFO,SRO_CLASS_EXP,Classification Site to LTPP Section Relationship Code (Code Expansion),"Qualitative indicator of the spatial relationship between the classification data site and the LTPP section or project, S - site specific, R - Site related, O - other. (Code Expansion)",,,
+SHRP_INFO,SRO_WEIGHT,Weight Site to LTPP Section Relationship Code,"Qualitative indicator of the spatial relationship between the weight data site and the LTPP section or project, S - site specific, R - Site related, O - other.",,SRO,
+SHRP_INFO,SRO_WEIGHT_EXP,Weight Site to LTPP Section Relationship Code (Code Expansion),"Qualitative indicator of the spatial relationship between the weight data site and the LTPP section or project, S - site specific, R - Site related, O - other. (Code Expansion)",,,
+SHRP_INFO,DATA_AVAILABILITY,Data Availability Code,A qualitative description of the data available and its reliability for the period indicated.,,DATA_AVAILABILITY,
+SHRP_INFO,DATA_AVAILABILITY_EXP,Data Availability Code (Code Expansion),A qualitative description of the data available and its reliability for the period indicated. (Code Expansion),,,
+SHRP_INFO,FUNC_CLASS,Functional Class Code,Functional class of the route where the LTPP section is located.,,FUNC_CLASS,
+SHRP_INFO,FUNC_CLASS_EXP,Functional Class Code (Code Expansion),Functional class of the route where the LTPP section is located. (Code Expansion),,,
+SHRP_INFO,COMMENTS,Comments,Notes by user on data issues,,,
+SHRP_INFO,CARD4INFO,4-Card Interpretation Code,Indicates how to process data after column 51 on the 4-Card input record. This value is typically S(top). A numeric value requires entries in Traffic_Class_Convert_Data.,,CARD4INFO,
+SHRP_INFO,CARD4INFO_EXP,4-Card Interpretation Code (Code Expansion),Indicates how to process data after column 51 on the 4-Card input record. This value is typically S(top). A numeric value requires entries in Traffic_Class_Convert_Data. (Code Expansion),,,
+SHRP_INFO,CARDCINFO,C-Card Interpretation Code,Indicates how to process data after column 89 on the C-Card input record. This value is typically S(top) for sites not under direct LTPP control where the value is 5(-digits/vehicle) as data is submitted for 15 not 13 classes. A numeric value requires entries in Traffic_Class_Convert_Data.,,CARDCINFO,
+SHRP_INFO,CARDCINFO_EXP,C-Card Interpretation Code (Code Expansion),Indicates how to process data after column 89 on the C-Card input record. This value is typically S(top) for sites not under direct LTPP control where the value is 5(-digits/vehicle) as data is submitted for 15 not 13 classes. A numeric value requires entries in Traffic_Class_Convert_Data. (Code Expansion),,,
+SHRP_INFO,ERR_1AM1PM,Error 1AM 1PM,For this site is the 1AM > 1PM daily class error enforced.,,,
+SHRP_INFO,ERR_8ZERO,Error 8 Zero,Indicator if the 8 + zero volume class error enforced. This is typically Y.,,,
+SHRP_INFO,ERR_4STATIC,Error 4 Static,Indicator if the 4 + Static volume daily class error enforced. This is typically Y.,,,
+SHRP_INFO,LTPP_LN_ONLY,LTPP Lane Only Loaded,Indicator if the LTPP Lane  is the only one loaded. This is typically N.,,,
+SHRP_INFO,USEFILENAME,Filename,Indicator if the files are identified and loaded by the filename. This is typically Y.,,,
+SHRP_INFO,UPDATE_LNDIR,Update Lane Direction,For this site change the loading lane (LOAD_LN) to the LTPP lane and only load this one lane. This is typically N.,,,
+SHRP_INFO,LOAD_LN,Load Lane,"For this site if UPDATE_LNDIR is Y, from the file load this lane and renumber it to the LTPP LN value.  The normal value is equal to LTPP_LN.",,,
+SHRP_INFO,LOAD_DIR,Loading Direction Code,"For this site if UPDATE_LNDIR is Y, from the file load this lane and renumber it to the LTPP DIR value.  The typical value is equal to LTPP_DIR.",,DIR_TRF,
+SHRP_INFO,LOAD_DIR_EXP,Loading Direction Code (Code Expansion),"For this site if UPDATE_LNDIR is Y, from the file load this lane and renumber it to the LTPP DIR value.  The typical value is equal to LTPP_DIR. (Code Expansion)",,,
+SHRP_INFO,LOAD_HOURS,Load Hours,"For this site, load data to HH_CL_CT table routinely. The value is typically N for any site not in SPSWIM_VALIDATION_INIT and Y otherwise. To capture days associated with time changes this value is set to Y. ",,,
+TRF_MEPDG_HOURLY_DIST,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+TRF_MEPDG_HOURLY_DIST,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+TRF_MEPDG_HOURLY_DIST,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+TRF_MEPDG_HOURLY_DIST,YEAR,Year,Year the data was collected.,,,
+TRF_MEPDG_HOURLY_DIST,HOUR,Hour,Starting hour for the data collected.,,,
+TRF_MEPDG_HOURLY_DIST,PCT_HOURLY,Percent Hourly,Percent of  years trucks in this hour.,%,,Metric
+TRF_MEPDG_MONTH_ADJ_FACTR,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+TRF_MEPDG_MONTH_ADJ_FACTR,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+TRF_MEPDG_MONTH_ADJ_FACTR,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+TRF_MEPDG_MONTH_ADJ_FACTR,YEAR,Year,"Year for which values apply,",,,
+TRF_MEPDG_MONTH_ADJ_FACTR,MONTH,Month,Month of the distribution.,,,
+TRF_MEPDG_MONTH_ADJ_FACTR,VEHICLE_CLASS,Vehicle Classification Code,Vehicle classification code using 13 bins as described in the FHWA Traffic Monitoring Guide.,,VEHICLE_CLASS,
+TRF_MEPDG_MONTH_ADJ_FACTR,VEHICLE_CLASS_EXP,Vehicle Classification Code (Code Expansion),Vehicle classification code using 13 bins as described in the FHWA Traffic Monitoring Guide. (Code Expansion),,,
+TRF_MEPDG_MONTH_ADJ_FACTR,TRF_DATA_TYPE,Traffic Data Type Code,The basis for the estimates.,,TRF_DATA_TYPE,
+TRF_MEPDG_MONTH_ADJ_FACTR,TRF_DATA_TYPE_EXP,Traffic Data Type Code (Code Expansion),The basis for the estimates. (Code Expansion),,,
+TRF_MEPDG_MONTH_ADJ_FACTR,MONTHLY_RATIO,Monthly Ratio,The ratio of monthly ADTT to annual ADTT,,,
+TRF_REP,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+TRF_REP,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+TRF_REP,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+TRF_REP,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+TRF_REP,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+TRF_REP,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+TRF_REP,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+TRF_REP,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+TRF_REP,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+TRF_REP,EXPERIMENT_NO,Experiment Number Code,Code indicating to which LTPP experiment the pavement section is assigned.,,EXPERIMENT,
+TRF_REP,EXPERIMENT_NO_EXP,Experiment Number Code (Code Expansion),Code indicating to which LTPP experiment the pavement section is assigned. (Code Expansion),,,
+TRF_REP,EXPERIMENT_NO,Experiment Number Code,Code indicating to which LTPP experiment the pavement section is assigned.,,EXPERIMENT,
+TRF_REP,EXPERIMENT_NO_EXP,Experiment Number Code (Code Expansion),Code indicating to which LTPP experiment the pavement section is assigned. (Code Expansion),,,
+TRF_REP,EXPERIMENT_NO,Experiment Number Code,Code indicating to which LTPP experiment the pavement section is assigned.,,EXPERIMENT,
+TRF_REP,EXPERIMENT_NO_EXP,Experiment Number Code (Code Expansion),Code indicating to which LTPP experiment the pavement section is assigned. (Code Expansion),,,
+TRF_REP,GPS_SPS,Experiment Classification Code,Code indicating if the section is a GPS or SPS section.,,GPS_SPS,
+TRF_REP,GPS_SPS_EXP,Experiment Classification Code (Code Expansion),Code indicating if the section is a GPS or SPS section. (Code Expansion),,,
+TRF_REP,GPS_SPS,Experiment Classification Code,Code indicating if the section is a GPS or SPS section.,,GPS_SPS,
+TRF_REP,GPS_SPS_EXP,Experiment Classification Code (Code Expansion),Code indicating if the section is a GPS or SPS section. (Code Expansion),,,
+TRF_REP,GPS_SPS,Experiment Classification Code,Code indicating if the section is a GPS or SPS section.,,GPS_SPS,
+TRF_REP,GPS_SPS_EXP,Experiment Classification Code (Code Expansion),Code indicating if the section is a GPS or SPS section. (Code Expansion),,,
+TRF_REP,REP_AADTT,LTPP Lane Representative Annual Average Daily Total Trucks,"Representative daily truck volume per day, since the road was opened to traffic. Computed as the mean value of all AADTT values from the sites opening to traffic until it leaves the experiment.  If the site is part of a continuing experiment, this value is based on the data available at the end of 2016.",,,
+TRF_REP,REP_PERCENT_VEH_CLASS_4,LTPP Lane Representative Class 4 Percentage,Representative percent of trucks in class 4 for LTPP lane.,%,,Metric
+TRF_REP,REP_PERCENT_VEH_CLASS_5,LTPP Lane Representative Class 5 Percentage,Representative percent of trucks in class 5 for LTPP lane.,%,,Metric
+TRF_REP,REP_PERCENT_VEH_CLASS_6,LTPP Lane Representative Class 6 Percentage,Representative percent of trucks in class 6 for LTPP lane.,%,,Metric
+TRF_REP,REP_PERCENT_VEH_CLASS_7,LTPP Lane Representative Class 7 Percentage,Representative percent of trucks in class 7 for LTPP lane.,%,,Metric
+TRF_REP,REP_PERCENT_VEH_CLASS_8,LTPP Lane Representative Class 8 Percentage,Representative percent of trucks in class 8 for LTPP lane.,%,,Metric
+TRF_REP,REP_PERCENT_VEH_CLASS_9,LTPP Lane Representative Class 9 Percentage,Representative percent of trucks in class 9 for LTPP lane.,%,,Metric
+TRF_REP,REP_PERCENT_VEH_CLASS_10,LTPP Lane Representative Class 10 Percentage,Representative percent of trucks in class 10 for LTPP lane.,%,,Metric
+TRF_REP,REP_PERCENT_VEH_CLASS_11,LTPP Lane Representative Class 11 Percentage,Representative percent of trucks in class 11 for LTPP lane.,%,,Metric
+TRF_REP,REP_PERCENT_VEH_CLASS_12,LTPP Lane Representative Class 12 Percentage,Representative percent of trucks in class 12 for LTPP lane.,%,,Metric
+TRF_REP,REP_PERCENT_VEH_CLASS_13,LTPP Lane Representative Class 13 Percentage,Representative percent of trucks in class 13 for LTPP lane.,%,,Metric
+TRF_REP,REP_ESAL_SINGLE_AXLE,LTPP Lane Representative Single Axle ESALS,"Representative ESAL per single axle, considering vehicle classes 4-13 for LTPP lane",ESAL,,Metric
+TRF_REP,REP_ESAL_TANDEM_AXLE,LTPP Lane Representative Tandem Axle ESALS,"Representative ESAL per tandem axle, considering vehicle classes 4-13 for LTPP lane",ESAL,,Metric
+TRF_REP,REP_ESAL_PER_VEH_CLASS_4,LTPP Lane Representative Class 4 ESALS,Representative ESAL per class 4 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_ESAL_PER_VEH_CLASS_5,LTPP Lane Representative Class 5 ESALS,Representative ESAL per class 5 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_ESAL_PER_VEH_CLASS_6,LTPP Lane Representative Class 6 ESALS,Representative ESAL per class 6 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_ESAL_PER_VEH_CLASS_7,LTPP Lane Representative Class 7 ESALS,Representative ESAL per class 7 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_ESAL_PER_VEH_CLASS_8,LTPP Lane Representative Class 8 ESALS,Representative ESAL per class 8 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_ESAL_PER_VEH_CLASS_9,LTPP Lane Representative Class 9 ESALS,Representative ESAL per class 9 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_ESAL_PER_VEH_CLASS_10,LTPP Lane Representative Class 10 ESALS,Representative ESAL per class 10 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_ESAL_PER_VEH_CLASS_11,LTPP Lane Representative Class 11 ESALS,Representative ESAL per class 11 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_ESAL_PER_VEH_CLASS_12,LTPP Lane Representative Class 12 ESALS,Representative ESAL per class 12 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_ESAL_PER_VEH_CLASS_13,LTPP Lane Representative Class 13 ESALS,Representative ESAL per class 13 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_GESAL_SINGLE_AXLE,LTPP Lane Representative Truck Single Axle Generic ESAL,"Representative GESAL per single axle, considering vehicle classes 4-13 for LTPP lane",ESAL,,Metric
+TRF_REP,REP_GESAL_TANDEM_AXLE,LTPP Lane Representative Truck Tandem Axle Generic ESAL,"Representative GESAL per tandem axle, considering vehicle classes 4-13 for LTPP lane",ESAL,,Metric
+TRF_REP,REP_GESAL_PER_VEH_CLASS_4,LTPP Lane Representative Class 4 Generic ESAL,Representative GESAL per class 4 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_GESAL_PER_VEH_CLASS_5,LTPP Lane Representative Class 5 Generic ESAL,Representative GESAL per class 5 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_GESAL_PER_VEH_CLASS_6,LTPP Lane Representative Class 6 Generic ESAL,Representative GESAL per class 6 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_GESAL_PER_VEH_CLASS_7,LTPP Lane Representative Class 7 Generic ESAL,Representative GESAL per class 7 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_GESAL_PER_VEH_CLASS_8,LTPP Lane Representative Class 8 Generic ESAL,Representative GESAL per class 8 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_GESAL_PER_VEH_CLASS_9,LTPP Lane Representative Class 9 Generic ESAL,Representative GESAL per class 9 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_GESAL_PER_VEH_CLASS_10,LTPP Lane Representative Class 10 Generic ESAL,Representative GESAL per class 10 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_GESAL_PER_VEH_CLASS_11,LTPP Lane Representative Class 11 Generic ESAL,Representative GESAL per class 11 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_GESAL_PER_VEH_CLASS_12,LTPP Lane Representative Class 12 Generic ESAL,Representative GESAL per class 12 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_GESAL_PER_VEH_CLASS_13,LTPP Lane Representative Class 13 Generic ESAL,Representative GESAL per class 13 truck for LTPP lane,ESAL,,Metric
+TRF_REP,REP_GVW_VEH_CLASS_4,LTPP Lane Representative Class 4 Gross Vehicle Weight,Representative gross vehicle weight for class 4 trucks for LTPP lane,kg,,Metric
+TRF_REP,REP_GVW_VEH_CLASS_5,LTPP Lane Representative Class 5 Gross Vehicle Weight,Representative gross vehicle weight for class 5 trucks for LTPP lane,kg,,Metric
+TRF_REP,REP_GVW_VEH_CLASS_6,LTPP Lane Representative Class 6 Gross Vehicle Weight,Representative gross vehicle weight for class 6 trucks for LTPP lane,kg,,Metric
+TRF_REP,REP_GVW_VEH_CLASS_7,LTPP Lane Representative Class 7 Gross Vehicle Weight,Representative gross vehicle weight for class 7 trucks for LTPP lane,kg,,Metric
+TRF_REP,REP_GVW_VEH_CLASS_8,LTPP Lane Representative Class 8 Gross Vehicle Weight,Representative gross vehicle weight for class 8 trucks for LTPP lane,kg,,Metric
+TRF_REP,REP_GVW_VEH_CLASS_9,LTPP Lane Representative Class 9 Gross Vehicle Weight,Representative gross vehicle weight for class 9 trucks for LTPP lane,kg,,Metric
+TRF_REP,REP_GVW_VEH_CLASS_10,LTPP Lane Representative Class 10 Gross Vehicle Weight,Representative gross vehicle weight for class 10 trucks for LTPP lane,kg,,Metric
+TRF_REP,REP_GVW_VEH_CLASS_11,LTPP Lane Representative Class 11 Gross Vehicle Weight,Representative gross vehicle weight for class 11 trucks for LTPP lane,kg,,Metric
+TRF_REP,REP_GVW_VEH_CLASS_12,LTPP Lane Representative Class 12 Gross Vehicle Weight,Representative gross vehicle weight for class 12 trucks for LTPP lane,kg,,Metric
+TRF_REP,REP_GVW_VEH_CLASS_13,LTPP Lane Representative Class 13 Gross Vehicle Weight,Representative gross vehicle weight for class 13 trucks for LTPP lane,kg,,Metric
+TRF_REP,REP_LOAD_USE_RATING,Representative Loading Source Code,Code indicating source of representative loading information. ,,REP_LOAD_USE_RATING,
+TRF_REP,REP_LOAD_USE_RATING_EXP,Representative Loading Source Code (Code Expansion),Code indicating source of representative loading information.  (Code Expansion),,,
+TRF_TREND,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+TRF_TREND,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+TRF_TREND,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+TRF_TREND,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+TRF_TREND,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+TRF_TREND,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+TRF_TREND,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+TRF_TREND,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+TRF_TREND,YEAR,Year,Year for which values apply.,,,
+TRF_TREND,YEAR,Year,Year for which values apply.,,,
+TRF_TREND,AADTT_ALL_TRUCKS_TREND,Trend LTPP Lane Annual Average Daily Truck Traffic,"AADTT for each year, vehicle classes 4-13 combined for LTPP lane.",,,
+TRF_TREND,ANNUAL_TRUCK_VOLUME_TREND,LTPP Lane Annual Truck Volume Estimate,Annual estimate of trucks in LTPP lane.,,,
+TRF_TREND,AADTT_VEH_CLASS_4_TREND,LTPP Lane Class 4 Annual Average Daily Traffic,AADTT estimate for class 4 vehicles in LTPP lane.,,,
+TRF_TREND,AADTT_VEH_CLASS_5_TREND,LTPP Lane Class 5 Annual Average Daily Traffic,AADTT estimate for class 5 vehicles in LTPP lane.,,,
+TRF_TREND,AADTT_VEH_CLASS_6_TREND,LTPP Lane Class 6 Annual Average Daily Traffic,AADTT estimate for class 6 vehicles in LTPP lane.,,,
+TRF_TREND,AADTT_VEH_CLASS_7_TREND,LTPP Lane Class 7 Annual Average Daily Traffic,AADTT estimate for class 7 vehicles in LTPP lane.,,,
+TRF_TREND,AADTT_VEH_CLASS_8_TREND,LTPP Lane Class 8 Annual Average Daily Traffic,AADTT estimate for class 8 vehicles in LTPP lane.,,,
+TRF_TREND,AADTT_VEH_CLASS_9_TREND,LTPP Lane Class 9 Annual Average Daily Traffic,AADTT estimate for class 9 vehicles in LTPP lane.,,,
+TRF_TREND,AADTT_VEH_CLASS_10_TREND,LTPP Lane Class 10 Annual Average Daily Traffic,AADTT estimate for class 10 vehicles in LTPP lane.,,,
+TRF_TREND,AADTT_VEH_CLASS_11_TREND,LTPP Lane Class 11 Annual Average Daily Traffic,AADTT estimate for class 11 vehicles in LTPP lane.,,,
+TRF_TREND,AADTT_VEH_CLASS_12_TREND,LTPP Lane Class 12 Annual Average Daily Traffic,AADTT estimate for class 12 vehicles in LTPP lane.,,,
+TRF_TREND,AADTT_VEH_CLASS_13_TREND,LTPP Lane Class 13 Annual Average Daily Traffic,AADTT estimate for class 13 vehicles in LTPP lane.,,,
+TRF_TREND,CMLTV_VOL_VEH_CLASS_9_TREND,LTPP Lane Cumulative Class 9 Volume,"Cumulative volume estimate of class 9 vehicles in LTPP lane, computed or estimated annually for all in-service years through the year specified in the YEAR field.",,,
+TST_L05B,STATE_CODE,State Code,Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards.,,STATE_PROVINCE,
+TST_L05B,STATE_CODE_EXP,State Code (Code Expansion),Numerical code for state or province. U.S. codes are consistent with Federal Information Processing Standards. (Code Expansion),,,
+TST_L05B,SHRP_ID,LTPP Section Identifier,Test section identification number assigned by LTPP program. Must be combined with STATE_CODE to be unique.,,,
+TST_L05B,CONSTRUCTION_NO,Construction Number,Event number used to relate changes in pavement structure with other time dependent data elements. This field is set to 1 when a test section is initially accepted into LTPP and is incremented with each change to the layer structure.,,,
+TST_L05B,LAYER_NO,Layer Number,"Unique sequential number assigned to pavement layers, starting with layer 1 as the deepest layer (subgrade).",,,
+TST_L05B,PROJECT_LAYER_CODE,Project Layer Code,Sequential alphabetic code assigned to identify group project wide layers.,,,
+TST_L05B,DESCRIPTION,Layer Description Code,Code indicating general type of layer.,,DESCRIPTION,
+TST_L05B,DESCRIPTION_EXP,Layer Description Code (Code Expansion),Code indicating general type of layer. (Code Expansion),,,
+TST_L05B,LAYER_TYPE,Layer Type Code,Code identifying the type of layer.,,LAYER_TYPE,
+TST_L05B,LAYER_TYPE_EXP,Layer Type Code (Code Expansion),Code identifying the type of layer. (Code Expansion),,,
+TST_L05B,REPR_THICKNESS,Representative Thickness,Representative thickness for a layer in a section.,mm,,Metric
+TST_L05B,MATL_CODE,Material Code,Code corresponding to the material type classification.,,MATERIAL,
+TST_L05B,MATL_CODE_EXP,Material Code (Code Expansion),Code corresponding to the material type classification. (Code Expansion),,,
+TST_L05B,LAYER_COMMENT1,Layer Comment  Code 1,Codes to describe any additional information concerning layer.,,L05B_COMMENT_CODES,
+TST_L05B,LAYER_COMMENT1_EXP,Layer Comment  Code 1 (Code Expansion),Codes to describe any additional information concerning layer. (Code Expansion),,,
+TST_L05B,LAYER_COMMENT2,Layer Comment  Code 2,Codes to describe any additional information concerning layer.,,L05B_COMMENT_CODES,
+TST_L05B,LAYER_COMMENT2_EXP,Layer Comment  Code 2 (Code Expansion),Codes to describe any additional information concerning layer. (Code Expansion),,,
+TST_L05B,LAYER_COMMENT3,Layer Comment  Code 3,Codes to describe any additional information concerning layer.,,L05B_COMMENT_CODES,
+TST_L05B,LAYER_COMMENT3_EXP,Layer Comment  Code 3 (Code Expansion),Codes to describe any additional information concerning layer. (Code Expansion),,,
+TST_L05B,COMMENT_NOTE,Comment Note,Additional comments about layer.,,,
+TST_L05B,INV_LAYER_NO,Inventory Layer Number,First layer in inventory to which the testing layer corresponds.,,,
+TST_L05B,INV_LAYER_NO_2,Inventory Layer Number 2,Last layer in inventory to which the testing layer corresponds.,,,
+TST_L05B,RECORD_STATUS,Record Status,A code indicating the general quality of the data.,,,

@@ -1,0 +1,481 @@
+STATE_CODE,STATE_CODE_EXP,SHRP_ID,VEHICLE_CLASS,VEHICLE_CLASS_EXP,SINGLE_AXLES,TANDEM_AXLES,TRIDEM_AXLES,QUAD_AXLES
+4,Arizona,1001,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1,1,1.01,0
+4,Arizona,1001,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1001,4,FHWA Class 4 (Buses),1.06,0.94,0,0
+4,Arizona,1001,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.5,2.96,0.32,0.2
+4,Arizona,1001,9,"FHWA Class 9 (Five axle, one trailer truck)",1.13,1.94,0,0
+4,Arizona,1001,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.66,0.58,0,0
+4,Arizona,1001,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.94,0.98,0,0.04
+4,Arizona,1001,7,FHWA Class 7 (Four or more axle Single-unit truck),1,0,1,0
+4,Arizona,1001,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,1001,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+4,Arizona,1002,7,FHWA Class 7 (Four or more axle Single-unit truck),1.04,0.23,0.95,0
+4,Arizona,1002,4,FHWA Class 4 (Buses),1.23,0.77,0,0
+4,Arizona,1002,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1002,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,1002,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.65,2.42,0.54,0.16
+4,Arizona,1002,9,"FHWA Class 9 (Five axle, one trailer truck)",1.15,1.88,0,0
+4,Arizona,1002,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.99,1,0,0
+4,Arizona,1002,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.76,0.51,0,0
+4,Arizona,1002,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+4,Arizona,1002,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.01,1.04,0.95,0
+4,Arizona,1003,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.99,0.02,0,0
+4,Arizona,1003,4,FHWA Class 4 (Buses),1.18,0.83,0,0
+4,Arizona,1003,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.63,0.5,0,0
+4,Arizona,1003,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1003,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.35,2.88,0.45,0.21
+4,Arizona,1003,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.93,0.98,0.01,0.08
+4,Arizona,1003,9,"FHWA Class 9 (Five axle, one trailer truck)",1.12,1.91,0,0
+4,Arizona,1003,7,FHWA Class 7 (Four or more axle Single-unit truck),1.05,0.17,0.91,0.04
+4,Arizona,1003,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2.01,0,0,0
+4,Arizona,1003,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.03,1.02,0.99,0.05
+4,Arizona,1006,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,1006,4,FHWA Class 4 (Buses),1.09,0.91,0,0
+4,Arizona,1006,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.46,3.09,0.36,0.28
+4,Arizona,1006,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.4,0.72,0,0
+4,Arizona,1006,7,FHWA Class 7 (Four or more axle Single-unit truck),1,0,1,0
+4,Arizona,1006,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1006,9,"FHWA Class 9 (Five axle, one trailer truck)",1.14,1.94,0,0
+4,Arizona,1006,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.98,0.99,0.01,0.03
+4,Arizona,1006,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+4,Arizona,1006,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.01,1,1.01,0
+4,Arizona,1007,4,FHWA Class 4 (Buses),1.15,0.84,0,0
+4,Arizona,1007,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.54,2.96,0.4,0.34
+4,Arizona,1007,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.4,0.7,0.01,0
+4,Arizona,1007,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.99,1,0.02,0
+4,Arizona,1007,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,1007,7,FHWA Class 7 (Four or more axle Single-unit truck),1,0,1,0
+4,Arizona,1007,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1007,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1,1,1,0.04
+4,Arizona,1007,9,"FHWA Class 9 (Five axle, one trailer truck)",1.15,1.92,0,0
+4,Arizona,1007,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+4,Arizona,1015,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1015,7,FHWA Class 7 (Four or more axle Single-unit truck),0,0,0,0
+4,Arizona,1015,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.3,3.2,0,0
+4,Arizona,1015,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.92,0.08,0,0
+4,Arizona,1015,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",1.99,0.03,0,0
+4,Arizona,1015,4,FHWA Class 4 (Buses),1.45,0.62,0,0
+4,Arizona,1015,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.47,0.45,0,0
+4,Arizona,1015,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.25,1.13,1,0.63
+4,Arizona,1015,9,"FHWA Class 9 (Five axle, one trailer truck)",1.09,1.95,0,0
+4,Arizona,1015,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.89,1,0,0.38
+4,Arizona,1016,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.16,3,0,0
+4,Arizona,1016,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.96,0.98,0,0.55
+4,Arizona,1016,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.54,0.43,0,0
+4,Arizona,1016,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.99,0.07,0,0
+4,Arizona,1016,7,FHWA Class 7 (Four or more axle Single-unit truck),0,0,0,0
+4,Arizona,1016,4,FHWA Class 4 (Buses),1.11,0.9,0,0
+4,Arizona,1016,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1016,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1,1,1.05,0
+4,Arizona,1016,9,"FHWA Class 9 (Five axle, one trailer truck)",1.08,1.96,0,0
+4,Arizona,1016,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0.01,0,0
+4,Arizona,1017,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0.01,0,0
+4,Arizona,1017,4,FHWA Class 4 (Buses),1.09,0.91,0,0
+4,Arizona,1017,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.41,2.64,1.69,0.51
+4,Arizona,1017,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.51,0.54,0,0
+4,Arizona,1017,7,FHWA Class 7 (Four or more axle Single-unit truck),1,0,1,0
+4,Arizona,1017,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1017,9,"FHWA Class 9 (Five axle, one trailer truck)",1.09,1.95,0,0
+4,Arizona,1017,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.97,1.02,0,0
+4,Arizona,1017,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0.06,0.01,0
+4,Arizona,1017,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1,1,1,0
+4,Arizona,1018,9,"FHWA Class 9 (Five axle, one trailer truck)",1.08,1.96,0,0
+4,Arizona,1018,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.18,1.09,1,0
+4,Arizona,1018,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.5,0.51,0,0
+4,Arizona,1018,7,FHWA Class 7 (Four or more axle Single-unit truck),0,0,0,0
+4,Arizona,1018,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",1.99,0.01,0,0
+4,Arizona,1018,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.96,0.07,0,0
+4,Arizona,1018,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1018,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.4,2.8,0,0
+4,Arizona,1018,4,FHWA Class 4 (Buses),1.18,0.82,0,0
+4,Arizona,1018,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.02,0.55,0,0.57
+4,Arizona,1021,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1021,7,FHWA Class 7 (Four or more axle Single-unit truck),1,0,1,0
+4,Arizona,1021,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.3,2.9,0.51,0.05
+4,Arizona,1021,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+4,Arizona,1021,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,1021,4,FHWA Class 4 (Buses),1.17,0.83,0,0
+4,Arizona,1021,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.97,0.33,0,0
+4,Arizona,1021,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1,0.99,1.01,0
+4,Arizona,1021,9,"FHWA Class 9 (Five axle, one trailer truck)",1.17,1.92,0,0
+4,Arizona,1021,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.99,1,0,0
+4,Arizona,1022,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.32,2.87,0.49,0.06
+4,Arizona,1022,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.99,1,0,0
+4,Arizona,1022,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.97,0.33,0,0
+4,Arizona,1022,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+4,Arizona,1022,7,FHWA Class 7 (Four or more axle Single-unit truck),1,0,1,0
+4,Arizona,1022,4,FHWA Class 4 (Buses),1.17,0.83,0,0
+4,Arizona,1022,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1022,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1,1,1,0
+4,Arizona,1022,9,"FHWA Class 9 (Five axle, one trailer truck)",1.17,1.92,0,0
+4,Arizona,1022,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,1024,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,1024,4,FHWA Class 4 (Buses),1.23,0.78,0,0
+4,Arizona,1024,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.43,2.73,0.5,0.24
+4,Arizona,1024,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.83,0.48,0,0
+4,Arizona,1024,7,FHWA Class 7 (Four or more axle Single-unit truck),1.03,0.2,0.97,0
+4,Arizona,1024,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1024,9,"FHWA Class 9 (Five axle, one trailer truck)",1.16,1.92,0,0
+4,Arizona,1024,12,"FHWA Class 12 (Six axle, multi trailer truck)",4,1,0,0
+4,Arizona,1024,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+4,Arizona,1024,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1,1.05,0.96,0
+4,Arizona,1025,9,"FHWA Class 9 (Five axle, one trailer truck)",1.13,1.94,0,0
+4,Arizona,1025,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.02,1.01,1,0
+4,Arizona,1025,8,"FHWA Class 8 (Four or less axle, one trailer truck)",3,0.37,0,0
+4,Arizona,1025,7,FHWA Class 7 (Four or more axle Single-unit truck),1,0,1,0
+4,Arizona,1025,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,1025,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0.01,0,0
+4,Arizona,1025,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0.02,0
+4,Arizona,1025,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.52,2.49,0.76,0.6
+4,Arizona,1025,4,FHWA Class 4 (Buses),1.14,0.86,0,0
+4,Arizona,1025,12,"FHWA Class 12 (Six axle, multi trailer truck)",4,1,0.01,0
+4,Arizona,1034,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1034,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.48,2.65,1.45,0.1
+4,Arizona,1034,4,FHWA Class 4 (Buses),1.06,0.95,0,0
+4,Arizona,1034,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+4,Arizona,1034,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.7,0.4,0,0
+4,Arizona,1034,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1,1,1.1,0
+4,Arizona,1034,7,FHWA Class 7 (Four or more axle Single-unit truck),1,0,1,0
+4,Arizona,1034,12,"FHWA Class 12 (Six axle, multi trailer truck)",4,1,0,0
+4,Arizona,1034,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0.01,0,0
+4,Arizona,1034,9,"FHWA Class 9 (Five axle, one trailer truck)",1.33,1.84,0.02,0
+4,Arizona,1036,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",2.41,2.21,0.75,0.75
+4,Arizona,1036,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.51,0.64,0,0
+4,Arizona,1036,7,FHWA Class 7 (Four or more axle Single-unit truck),1,0,1,0
+4,Arizona,1036,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1036,9,"FHWA Class 9 (Five axle, one trailer truck)",1.29,1.85,0,0
+4,Arizona,1036,12,"FHWA Class 12 (Six axle, multi trailer truck)",4,1,0,0
+4,Arizona,1036,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0.02,0,0
+4,Arizona,1036,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1,0.92,1.1,0
+4,Arizona,1036,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0.01,0,0
+4,Arizona,1036,4,FHWA Class 4 (Buses),1.11,0.91,0,0
+4,Arizona,1037,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,1037,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1037,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+4,Arizona,1037,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.02,1.11,0.9,0.02
+4,Arizona,1037,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.35,2.78,0.59,0.08
+4,Arizona,1037,7,FHWA Class 7 (Four or more axle Single-unit truck),1.01,0.1,0.93,0
+4,Arizona,1037,4,FHWA Class 4 (Buses),1.39,0.61,0,0
+4,Arizona,1037,9,"FHWA Class 9 (Five axle, one trailer truck)",1.26,1.87,0.01,0
+4,Arizona,1037,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.43,0.63,0,0
+4,Arizona,1037,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.97,1,0.05,0
+4,Arizona,1062,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.92,0.33,0,0
+4,Arizona,1062,9,"FHWA Class 9 (Five axle, one trailer truck)",1.14,1.93,0,0
+4,Arizona,1062,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1062,7,FHWA Class 7 (Four or more axle Single-unit truck),1,0,1,0
+4,Arizona,1062,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.52,2.77,0.58,0.03
+4,Arizona,1062,4,FHWA Class 4 (Buses),1.14,0.86,0,0
+4,Arizona,1062,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,1062,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1,1,1,0
+4,Arizona,1062,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+4,Arizona,1062,12,"FHWA Class 12 (Six axle, multi trailer truck)",4,1,0,0
+4,Arizona,1065,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,1065,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.99,1,0,0.02
+4,Arizona,1065,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.99,0.01,0,0
+4,Arizona,1065,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1,1,1,0
+4,Arizona,1065,7,FHWA Class 7 (Four or more axle Single-unit truck),0,0,0,0
+4,Arizona,1065,9,"FHWA Class 9 (Five axle, one trailer truck)",1.09,1.95,0,0
+4,Arizona,1065,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.2,0.61,0,0
+4,Arizona,1065,4,FHWA Class 4 (Buses),1.16,0.84,0,0
+4,Arizona,1065,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1,3.5,0,0
+4,Arizona,1065,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,6053,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,6053,9,"FHWA Class 9 (Five axle, one trailer truck)",1.21,1.9,0,0
+4,Arizona,6053,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.38,0.52,0,0
+4,Arizona,6053,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.99,1,0.02,0
+4,Arizona,6053,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.97,0.02,0.02,0
+4,Arizona,6053,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.01,0.99,1.01,0.06
+4,Arizona,6053,4,FHWA Class 4 (Buses),1.16,0.84,0,0
+4,Arizona,6053,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.23,2.78,0.97,0.93
+4,Arizona,6053,7,FHWA Class 7 (Four or more axle Single-unit truck),1,0.88,0.91,0
+4,Arizona,6053,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,6054,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1,0.92,1.08,0
+4,Arizona,6054,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.62,0.56,0,0
+4,Arizona,6054,4,FHWA Class 4 (Buses),1.06,0.94,0,0
+4,Arizona,6054,7,FHWA Class 7 (Four or more axle Single-unit truck),0,0,0,0
+4,Arizona,6054,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,6054,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,6054,12,"FHWA Class 12 (Six axle, multi trailer truck)",4,1,0,0
+4,Arizona,6054,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+4,Arizona,6054,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1,3,0,0
+4,Arizona,6054,9,"FHWA Class 9 (Five axle, one trailer truck)",1.13,1.93,0,0
+4,Arizona,6055,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+4,Arizona,6055,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+4,Arizona,6055,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.46,2.79,0.32,0.12
+4,Arizona,6055,9,"FHWA Class 9 (Five axle, one trailer truck)",1.21,1.9,0,0
+4,Arizona,6055,12,"FHWA Class 12 (Six axle, multi trailer truck)",4,1,0,0
+4,Arizona,6055,7,FHWA Class 7 (Four or more axle Single-unit truck),1.03,0.13,0.96,0
+4,Arizona,6055,4,FHWA Class 4 (Buses),1.27,0.73,0,0
+4,Arizona,6055,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,6055,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.03,1.17,0.77,0.04
+4,Arizona,6055,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.22,0.83,0,0
+4,Arizona,6060,7,FHWA Class 7 (Four or more axle Single-unit truck),1,0.42,0.58,0
+4,Arizona,6060,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.1,1.05,0.9,0
+4,Arizona,6060,9,"FHWA Class 9 (Five axle, one trailer truck)",1.09,1.95,0,0
+4,Arizona,6060,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+4,Arizona,6060,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.42,0.64,0,0
+4,Arizona,6060,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.49,2.63,0.81,0.35
+4,Arizona,6060,4,FHWA Class 4 (Buses),1.16,0.84,0,0
+4,Arizona,6060,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.99,0.06,0,0
+4,Arizona,6060,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.95,1.02,0.13,0
+4,Arizona,6060,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",1.99,0.01,0,0
+13,Georgia,1001,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1,1.5,0.5,0
+13,Georgia,1001,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+13,Georgia,1001,12,"FHWA Class 12 (Six axle, multi trailer truck)",0,0,0,0
+13,Georgia,1001,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",0,0,0,0
+13,Georgia,1001,4,FHWA Class 4 (Buses),1.22,0.92,0,0
+13,Georgia,1001,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+13,Georgia,1001,6,FHWA Class 6 (Three axle Single-unit truck),1.02,0.98,0,0
+13,Georgia,1001,7,FHWA Class 7 (Four or more axle Single-unit truck),1,1,0,0
+13,Georgia,1001,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.53,0.47,0,0
+13,Georgia,1001,9,"FHWA Class 9 (Five axle, one trailer truck)",1.1,1.94,0,0
+13,Georgia,1004,7,FHWA Class 7 (Four or more axle Single-unit truck),0.8,0.5,0.1,0.25
+13,Georgia,1004,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.01,1.31,0.68,0.01
+13,Georgia,1004,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+13,Georgia,1004,4,FHWA Class 4 (Buses),1.47,0.62,0,0
+13,Georgia,1004,9,"FHWA Class 9 (Five axle, one trailer truck)",1.1,1.95,0,0
+13,Georgia,1004,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.66,2.66,0,0
+13,Georgia,1004,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.42,0.58,0,0
+13,Georgia,1004,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+13,Georgia,1004,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.99,1.01,0,0
+13,Georgia,1004,6,FHWA Class 6 (Three axle Single-unit truck),1.01,0.99,0,0
+13,Georgia,1005,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.01,1.31,0.68,0.01
+13,Georgia,1005,9,"FHWA Class 9 (Five axle, one trailer truck)",1.1,1.95,0,0
+13,Georgia,1005,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.42,0.58,0,0
+13,Georgia,1005,7,FHWA Class 7 (Four or more axle Single-unit truck),0.8,0.5,0.1,0.25
+13,Georgia,1005,6,FHWA Class 6 (Three axle Single-unit truck),1.01,0.99,0,0
+13,Georgia,1005,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+13,Georgia,1005,4,FHWA Class 4 (Buses),1.47,0.62,0,0
+13,Georgia,1005,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.66,2.66,0,0
+13,Georgia,1005,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.99,1.01,0,0
+13,Georgia,1005,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+13,Georgia,1031,12,"FHWA Class 12 (Six axle, multi trailer truck)",0,0,0,0
+13,Georgia,1031,7,FHWA Class 7 (Four or more axle Single-unit truck),1,1,0,0
+13,Georgia,1031,4,FHWA Class 4 (Buses),1,1,0,0
+13,Georgia,1031,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",0,0,0,0
+13,Georgia,1031,10,"FHWA Class 10 (Six or more axle, one trailer truck)",0,0,0,0
+13,Georgia,1031,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.5,0.5,0,0
+13,Georgia,1031,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",0,0,0,0
+13,Georgia,1031,6,FHWA Class 6 (Three axle Single-unit truck),1.03,0.96,0.01,0
+13,Georgia,1031,9,"FHWA Class 9 (Five axle, one trailer truck)",1.11,1.94,0,0
+13,Georgia,1031,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+13,Georgia,4092,6,FHWA Class 6 (Three axle Single-unit truck),1.17,0.8,0.02,0
+13,Georgia,4092,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.75,0.25,0,0
+13,Georgia,4092,9,"FHWA Class 9 (Five axle, one trailer truck)",1.04,1.96,0,0
+13,Georgia,4092,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+13,Georgia,4092,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+13,Georgia,4092,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",0,0,0,0
+13,Georgia,4092,12,"FHWA Class 12 (Six axle, multi trailer truck)",0,0,0,0
+13,Georgia,4092,7,FHWA Class 7 (Four or more axle Single-unit truck),1,1,0,0
+13,Georgia,4092,10,"FHWA Class 10 (Six or more axle, one trailer truck)",0,0,0,0
+13,Georgia,4092,4,FHWA Class 4 (Buses),1,1,0,0
+13,Georgia,4093,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.75,0.25,0,0
+13,Georgia,4093,6,FHWA Class 6 (Three axle Single-unit truck),1.17,0.8,0.02,0
+13,Georgia,4093,4,FHWA Class 4 (Buses),1,1,0,0
+13,Georgia,4093,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",0,0,0,0
+13,Georgia,4093,7,FHWA Class 7 (Four or more axle Single-unit truck),1,1,0,0
+13,Georgia,4093,12,"FHWA Class 12 (Six axle, multi trailer truck)",0,0,0,0
+13,Georgia,4093,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+13,Georgia,4093,10,"FHWA Class 10 (Six or more axle, one trailer truck)",0,0,0,0
+13,Georgia,4093,9,"FHWA Class 9 (Five axle, one trailer truck)",1.04,1.96,0,0
+13,Georgia,4093,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+13,Georgia,4096,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",0,0,0,0
+13,Georgia,4096,6,FHWA Class 6 (Three axle Single-unit truck),0,0,0,0
+13,Georgia,4096,8,"FHWA Class 8 (Four or less axle, one trailer truck)",0,0,0,0
+13,Georgia,4096,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",0,0,0,0
+13,Georgia,4096,7,FHWA Class 7 (Four or more axle Single-unit truck),0,0,0,0
+13,Georgia,4096,10,"FHWA Class 10 (Six or more axle, one trailer truck)",0,0,0,0
+13,Georgia,4096,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",0,0,0,0
+13,Georgia,4096,12,"FHWA Class 12 (Six axle, multi trailer truck)",0,0,0,0
+13,Georgia,4096,9,"FHWA Class 9 (Five axle, one trailer truck)",0,0,0,0
+13,Georgia,4096,4,FHWA Class 4 (Buses),0,0,0,0
+13,Georgia,4111,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2,1,0,0
+13,Georgia,4111,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+13,Georgia,4111,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",0,0,0,0
+13,Georgia,4111,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",0,0,0,0
+13,Georgia,4111,4,FHWA Class 4 (Buses),0,0,0,0
+13,Georgia,4111,10,"FHWA Class 10 (Six or more axle, one trailer truck)",0,0,0,0
+13,Georgia,4111,12,"FHWA Class 12 (Six axle, multi trailer truck)",0,0,0,0
+13,Georgia,4111,7,FHWA Class 7 (Four or more axle Single-unit truck),0,0,0,0
+13,Georgia,4111,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+13,Georgia,4111,9,"FHWA Class 9 (Five axle, one trailer truck)",1,2,0,0
+13,Georgia,4112,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.11,0.57,1.57,0.02
+13,Georgia,4112,12,"FHWA Class 12 (Six axle, multi trailer truck)",4,1,0,0
+13,Georgia,4112,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+13,Georgia,4112,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.06,1.1,0.88,0.01
+13,Georgia,4112,9,"FHWA Class 9 (Five axle, one trailer truck)",1.2,1.9,0,0
+13,Georgia,4112,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.64,0.6,0,0
+13,Georgia,4112,7,FHWA Class 7 (Four or more axle Single-unit truck),1.6,0.28,0.58,0
+13,Georgia,4112,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+13,Georgia,4112,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2.24,0.06,0,0
+13,Georgia,4112,4,FHWA Class 4 (Buses),1.79,0.21,0,0
+13,Georgia,4113,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+13,Georgia,4113,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.06,1.1,0.88,0.01
+13,Georgia,4113,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2.24,0.06,0,0
+13,Georgia,4113,4,FHWA Class 4 (Buses),1.79,0.21,0,0
+13,Georgia,4113,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.11,0.57,1.57,0.02
+13,Georgia,4113,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.64,0.6,0,0
+13,Georgia,4113,7,FHWA Class 7 (Four or more axle Single-unit truck),1.6,0.28,0.58,0
+13,Georgia,4113,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+13,Georgia,4113,12,"FHWA Class 12 (Six axle, multi trailer truck)",4,1,0,0
+13,Georgia,4113,9,"FHWA Class 9 (Five axle, one trailer truck)",1.2,1.9,0,0
+13,Georgia,4119,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2.01,0.02,0,0
+13,Georgia,4119,6,FHWA Class 6 (Three axle Single-unit truck),1.02,0.98,0,0
+13,Georgia,4119,7,FHWA Class 7 (Four or more axle Single-unit truck),1.4,0.12,0.47,0.15
+13,Georgia,4119,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.63,0.47,0,0
+13,Georgia,4119,9,"FHWA Class 9 (Five axle, one trailer truck)",1.08,1.71,0,0
+13,Georgia,4119,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.3,1.2,0.67,0.03
+13,Georgia,4119,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+13,Georgia,4119,12,"FHWA Class 12 (Six axle, multi trailer truck)",4.06,0.95,0,0
+13,Georgia,4119,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.56,0.99,1.18,0.34
+13,Georgia,4119,4,FHWA Class 4 (Buses),1.55,0.46,0,0
+13,Georgia,4420,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2.01,0.01,0,0
+13,Georgia,4420,6,FHWA Class 6 (Three axle Single-unit truck),1.02,0.99,0,0
+13,Georgia,4420,7,FHWA Class 7 (Four or more axle Single-unit truck),1.27,0.21,0.38,0.17
+13,Georgia,4420,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.53,0.54,0,0
+13,Georgia,4420,4,FHWA Class 4 (Buses),1.53,0.49,0,0
+13,Georgia,4420,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.23,1.22,0.67,0.03
+13,Georgia,4420,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",5,0,0,0
+13,Georgia,4420,12,"FHWA Class 12 (Six axle, multi trailer truck)",4.05,0.96,0,0
+13,Georgia,4420,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.58,1.27,0.98,0.28
+13,Georgia,4420,9,"FHWA Class 9 (Five axle, one trailer truck)",1.07,1.79,0,0
+39,Ohio,0104,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.35,1.17,0.62,0.07
+39,Ohio,0104,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.91,0.04,0,0
+39,Ohio,0104,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.97,1.01,0,0
+39,Ohio,0104,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",3.55,1.17,0.17,0.16
+39,Ohio,0104,9,"FHWA Class 9 (Five axle, one trailer truck)",1.26,1.83,0,0
+39,Ohio,0104,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+39,Ohio,0104,6,FHWA Class 6 (Three axle Single-unit truck),1.06,0.96,0,0
+39,Ohio,0104,7,FHWA Class 7 (Four or more axle Single-unit truck),1.97,0.2,0.29,0.16
+39,Ohio,0104,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.52,0.5,0,0
+39,Ohio,0104,4,FHWA Class 4 (Buses),1.9,0.26,0,0
+39,Ohio,0111,9,"FHWA Class 9 (Five axle, one trailer truck)",1.26,1.83,0,0
+39,Ohio,0111,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.35,1.17,0.62,0.07
+39,Ohio,0111,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.91,0.04,0,0
+39,Ohio,0111,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.97,1.01,0,0
+39,Ohio,0111,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",3.55,1.17,0.17,0.16
+39,Ohio,0111,4,FHWA Class 4 (Buses),1.9,0.26,0,0
+39,Ohio,0111,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+39,Ohio,0111,6,FHWA Class 6 (Three axle Single-unit truck),1.06,0.96,0,0
+39,Ohio,0111,7,FHWA Class 7 (Four or more axle Single-unit truck),1.97,0.2,0.29,0.16
+39,Ohio,0111,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.52,0.5,0,0
+39,Ohio,0112,6,FHWA Class 6 (Three axle Single-unit truck),1.06,0.96,0,0
+39,Ohio,0112,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.35,1.17,0.62,0.07
+39,Ohio,0112,4,FHWA Class 4 (Buses),1.9,0.26,0,0
+39,Ohio,0112,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",3.55,1.17,0.17,0.16
+39,Ohio,0112,9,"FHWA Class 9 (Five axle, one trailer truck)",1.26,1.83,0,0
+39,Ohio,0112,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.97,1.01,0,0
+39,Ohio,0112,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.52,0.5,0,0
+39,Ohio,0112,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.91,0.04,0,0
+39,Ohio,0112,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+39,Ohio,0112,7,FHWA Class 7 (Four or more axle Single-unit truck),1.97,0.2,0.29,0.16
+39,Ohio,0159,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.91,0.04,0,0
+39,Ohio,0159,4,FHWA Class 4 (Buses),1.9,0.26,0,0
+39,Ohio,0159,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.35,1.17,0.62,0.07
+39,Ohio,0159,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+39,Ohio,0159,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",3.55,1.17,0.17,0.16
+39,Ohio,0159,9,"FHWA Class 9 (Five axle, one trailer truck)",1.26,1.83,0,0
+39,Ohio,0159,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.52,0.5,0,0
+39,Ohio,0159,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.97,1.01,0,0
+39,Ohio,0159,7,FHWA Class 7 (Four or more axle Single-unit truck),1.97,0.2,0.29,0.16
+39,Ohio,0159,6,FHWA Class 6 (Three axle Single-unit truck),1.06,0.96,0,0
+39,Ohio,0160,7,FHWA Class 7 (Four or more axle Single-unit truck),1.97,0.2,0.29,0.16
+39,Ohio,0160,4,FHWA Class 4 (Buses),1.9,0.26,0,0
+39,Ohio,0160,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.97,1.01,0,0
+39,Ohio,0160,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.35,1.17,0.62,0.07
+39,Ohio,0160,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",3.55,1.17,0.17,0.16
+39,Ohio,0160,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.52,0.5,0,0
+39,Ohio,0160,9,"FHWA Class 9 (Five axle, one trailer truck)",1.26,1.83,0,0
+39,Ohio,0160,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.91,0.04,0,0
+39,Ohio,0160,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+39,Ohio,0160,6,FHWA Class 6 (Three axle Single-unit truck),1.06,0.96,0,0
+39,Ohio,0901,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0.01,0,0
+39,Ohio,0901,4,FHWA Class 4 (Buses),1.64,0.37,0,0
+39,Ohio,0901,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",2.74,1.18,0.18,0.46
+39,Ohio,0901,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.96,1.02,0,0
+39,Ohio,0901,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.9,0.04,0,0
+39,Ohio,0901,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.31,1.05,0.76,0.08
+39,Ohio,0901,9,"FHWA Class 9 (Five axle, one trailer truck)",1.15,1.52,0.2,0
+39,Ohio,0901,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.11,0.46,0,0
+39,Ohio,0901,7,FHWA Class 7 (Four or more axle Single-unit truck),1.49,0.21,0.55,0.15
+39,Ohio,0901,6,FHWA Class 6 (Three axle Single-unit truck),1.05,0.97,0,0
+39,Ohio,0903,4,FHWA Class 4 (Buses),1.64,0.37,0,0
+39,Ohio,0903,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",2.74,1.18,0.18,0.46
+39,Ohio,0903,12,"FHWA Class 12 (Six axle, multi trailer truck)",3.96,1.02,0,0
+39,Ohio,0903,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.11,0.46,0,0
+39,Ohio,0903,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0.01,0,0
+39,Ohio,0903,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",4.9,0.04,0,0
+39,Ohio,0903,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.31,1.05,0.76,0.08
+39,Ohio,0903,6,FHWA Class 6 (Three axle Single-unit truck),1.05,0.97,0,0
+39,Ohio,0903,9,"FHWA Class 9 (Five axle, one trailer truck)",1.15,1.52,0.2,0
+39,Ohio,0903,7,FHWA Class 7 (Four or more axle Single-unit truck),1.49,0.21,0.55,0.15
+87,Ontario,0903,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.37,1.23,0.72,0.04
+87,Ontario,0903,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",1.88,1.53,0.17,0.01
+87,Ontario,0903,12,"FHWA Class 12 (Six axle, multi trailer truck)",2.15,1.58,0.23,0.01
+87,Ontario,0903,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",2.23,1.79,0.49,0.09
+87,Ontario,0903,9,"FHWA Class 9 (Five axle, one trailer truck)",1.14,1.93,0.01,0
+87,Ontario,0903,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0.01,0,0
+87,Ontario,0903,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0.01,0
+87,Ontario,0903,7,FHWA Class 7 (Four or more axle Single-unit truck),1.48,1.35,0.43,0.18
+87,Ontario,0903,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.03,0.75,0.01,0
+87,Ontario,0903,4,FHWA Class 4 (Buses),1.51,0.49,0,0
+87,Ontario,0960,9,"FHWA Class 9 (Five axle, one trailer truck)",1.14,1.93,0.01,0
+87,Ontario,0960,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.37,1.23,0.72,0.04
+87,Ontario,0960,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",1.88,1.53,0.17,0.01
+87,Ontario,0960,12,"FHWA Class 12 (Six axle, multi trailer truck)",2.15,1.58,0.23,0.01
+87,Ontario,0960,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",2.23,1.79,0.49,0.09
+87,Ontario,0960,4,FHWA Class 4 (Buses),1.51,0.49,0,0
+87,Ontario,0960,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0.01,0,0
+87,Ontario,0960,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0.01,0
+87,Ontario,0960,7,FHWA Class 7 (Four or more axle Single-unit truck),1.48,1.35,0.43,0.18
+87,Ontario,0960,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.03,0.75,0.01,0
+87,Ontario,0961,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0.01,0
+87,Ontario,0961,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.37,1.23,0.72,0.04
+87,Ontario,0961,4,FHWA Class 4 (Buses),1.51,0.49,0,0
+87,Ontario,0961,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",2.23,1.79,0.49,0.09
+87,Ontario,0961,9,"FHWA Class 9 (Five axle, one trailer truck)",1.14,1.93,0.01,0
+87,Ontario,0961,12,"FHWA Class 12 (Six axle, multi trailer truck)",2.15,1.58,0.23,0.01
+87,Ontario,0961,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.03,0.75,0.01,0
+87,Ontario,0961,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",1.88,1.53,0.17,0.01
+87,Ontario,0961,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0.01,0,0
+87,Ontario,0961,7,FHWA Class 7 (Four or more axle Single-unit truck),1.48,1.35,0.43,0.18
+87,Ontario,1620,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",1.74,1.68,0.15,0.03
+87,Ontario,1620,4,FHWA Class 4 (Buses),1.34,0.66,0,0
+87,Ontario,1620,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.71,1.36,0.52,0.05
+87,Ontario,1620,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",1.97,0.03,0,0
+87,Ontario,1620,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",2.32,1.72,0.5,0.07
+87,Ontario,1620,9,"FHWA Class 9 (Five axle, one trailer truck)",1.1,1.94,0.01,0
+87,Ontario,1620,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.29,0.59,0.03,0.01
+87,Ontario,1620,12,"FHWA Class 12 (Six axle, multi trailer truck)",1.96,1.43,0.39,0.04
+87,Ontario,1620,7,FHWA Class 7 (Four or more axle Single-unit truck),1.42,0.87,0.79,0.13
+87,Ontario,1620,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0.04,0
+87,Ontario,1622,7,FHWA Class 7 (Four or more axle Single-unit truck),1.71,1.04,0.34,0.21
+87,Ontario,1622,4,FHWA Class 4 (Buses),1.32,0.68,0,0
+87,Ontario,1622,12,"FHWA Class 12 (Six axle, multi trailer truck)",2.06,1.46,0.34,0
+87,Ontario,1622,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.17,1.15,0.84,0.03
+87,Ontario,1622,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.9,1.78,0.7,0.02
+87,Ontario,1622,8,"FHWA Class 8 (Four or less axle, one trailer truck)",2.03,0.8,0.01,0
+87,Ontario,1622,9,"FHWA Class 9 (Five axle, one trailer truck)",1.15,1.92,0.01,0
+87,Ontario,1622,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",1.99,1.5,0.4,0
+87,Ontario,1622,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0.01,0,0
+87,Ontario,1622,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+87,Ontario,1680,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+87,Ontario,1680,4,FHWA Class 4 (Buses),1.55,0.45,0,0
+87,Ontario,1680,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.96,2,0.38,0.14
+87,Ontario,1680,12,"FHWA Class 12 (Six axle, multi trailer truck)",1.92,1.84,0.13,0
+87,Ontario,1680,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",1.16,1.8,0.2,0
+87,Ontario,1680,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.15,1.15,0.85,0.07
+87,Ontario,1680,9,"FHWA Class 9 (Five axle, one trailer truck)",1.11,1.94,0.02,0
+87,Ontario,1680,8,"FHWA Class 8 (Four or less axle, one trailer truck)",1.63,0.9,0,0
+87,Ontario,1680,7,FHWA Class 7 (Four or more axle Single-unit truck),1.66,1.11,0.2,0
+87,Ontario,1680,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+87,Ontario,1806,4,FHWA Class 4 (Buses),1.55,0.45,0,0
+87,Ontario,1806,13,"FHWA Class 13 (Seven or more axle, multi trailer truck)",1.96,2,0.38,0.14
+87,Ontario,1806,12,"FHWA Class 12 (Six axle, multi trailer truck)",1.92,1.84,0.13,0
+87,Ontario,1806,8,"FHWA Class 8 (Four or less axle, one trailer truck)",1.63,0.9,0,0
+87,Ontario,1806,5,"FHWA Class 5 (Two axle, 6-Tire, Single-unit truck)",2,0,0,0
+87,Ontario,1806,11,"FHWA Class 11 (Five or less axle, multi trailer truck)",1.16,1.8,0.2,0
+87,Ontario,1806,10,"FHWA Class 10 (Six or more axle, one trailer truck)",1.15,1.15,0.85,0.07
+87,Ontario,1806,6,FHWA Class 6 (Three axle Single-unit truck),1,1,0,0
+87,Ontario,1806,9,"FHWA Class 9 (Five axle, one trailer truck)",1.11,1.94,0.02,0
+87,Ontario,1806,7,FHWA Class 7 (Four or more axle Single-unit truck),1.66,1.11,0.2,0

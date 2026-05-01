@@ -1,0 +1,64 @@
+STATE_CODE,STATE_CODE_EXP,SHRP_ID,CONSTRUCTION_NO,LAYER_NO,MATL_PROPERTY,PROPERTY_MINIMUM,PROPERTY_MAXIMUM,PROPERTY_MEDIAN,PROPERTY_AVERAGE,PROPERTY_STANDARD_DEVIATION,PROPERTY_COEFF_VARIATION,REP_CODE_SOURCE_VARIABILITY,REP_CODE_SOURCE_VARIABILITY_EXP
+4,Arizona,1001,2,4,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1006,1,5,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1006,2,5,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1006,3,5,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1006,4,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1006,5,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1006,6,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1006,7,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1007,2,5,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,1007,3,5,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,1007,4,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1007,5,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1018,3,5,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,1018,4,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1018,5,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1021,1,5,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1021,2,5,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1021,3,5,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1021,4,5,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1021,5,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1021,6,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1021,6,8,REPR_THICKNESS,,,,0.3,,,A,Measured representative property.
+4,Arizona,1024,7,5,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1024,8,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1025,4,5,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,1025,5,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1025,6,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1025,7,5,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1034,2,5,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,1034,3,5,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,1034,3,6,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,1034,4,5,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,1034,4,6,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,1034,5,5,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,1034,5,6,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,1036,2,5,REPR_THICKNESS,,,,0.4,,,A,Measured representative property.
+4,Arizona,1037,2,5,REPR_THICKNESS,,,,0.4,,,A,Measured representative property.
+4,Arizona,1062,1,6,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1062,2,6,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1062,3,6,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1062,4,6,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1062,5,6,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1062,6,6,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1062,7,6,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1065,1,6,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1065,2,6,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1065,3,6,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1065,4,6,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+4,Arizona,1065,5,6,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,1065,6,6,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,6053,2,6,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,6055,2,6,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,6055,3,6,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+4,Arizona,6060,3,6,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,6060,4,6,REPR_THICKNESS,,,,0.1,,,F,Default assigned or assumed values.
+4,Arizona,6060,5,6,REPR_THICKNESS,,,,0,,,A,Measured representative property.
+13,Georgia,4096,2,5,REPR_THICKNESS,,,,0.3,,,A,Measured representative property.
+13,Georgia,4112,1,4,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+13,Georgia,4112,2,4,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+13,Georgia,4112,3,4,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+13,Georgia,4113,1,4,REPR_THICKNESS,,,,0.1,,,A,Measured representative property.
+13,Georgia,4113,2,4,REPR_THICKNESS,,,,0.1,,,E,Representative property adopted from inventory of agency typical practices.
+13,Georgia,4113,3,4,REPR_THICKNESS,,,,0.1,,,E,Representative property adopted from inventory of agency typical practices.
