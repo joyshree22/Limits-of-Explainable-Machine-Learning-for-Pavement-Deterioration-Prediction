@@ -1,0 +1,59 @@
+# macOS / editor metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+.vscode/
+.idea/
+.claude/
+
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Logs and local env files
+*.log
+.env
+.env.*
+!.env.example
+
+# Microsoft Office temporary lock files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Generated model artifacts
+models/
+*.joblib
+*.pkl
+*.pickle
+
+# Generated pipeline outputs
+results/
+figures/
+
+# Generated manuscript/result documents
+r&d.docx
+resultandd.docx
+resultandd-old.docx
+
+# Temporary exports and scratch files
+tmp/
+temp/
+*.tmp
+*.bak
