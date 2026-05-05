@@ -18,6 +18,7 @@ import pandas as pd
 from config import (
     RESULTS_DIR, TARGETS, COL_DATE, COL_SECTION, COL_REGION,
     LAG_WINDOWS, MONITOR_MIN_OBS, MONITOR_MIN_SECTIONS,
+    INCLUDE_CLIMATE_ZONE_CODE,
 )
 
 META_COLS = {
@@ -25,8 +26,8 @@ META_COLS = {
     "OBSERVATION_DATE", "CN_ASSIGN_DATE", "AGE_YEARS", "split",
 }
 
-# Fault 1/3 fix: ordinal climate-zone encoding gives model explicit regime context.
-# Ordering matches freeze-severity gradient so encoding is ordinally meaningful.
+# Sensitivity-only ordinal climate-zone encoding. Disabled in the primary
+# analysis because it acts as a region identity proxy.
 CLIMATE_ZONE_MAP = {
     "Arizona": 1,  # arid/hot            (FI ≈ 5.9)
     "Georgia": 2,  # warm-humid subtrop. (FI ≈ 10.9)
@@ -99,18 +100,19 @@ def main():
         window = LAG_WINDOWS[target_name]
         print(f"\n[{target_name}] lag window = {window} days")
 
-        # Inject CLIMATE_ZONE_CODE into every split (Fault 1/3 fix)
-        for sp in splits:
-            splits[sp] = splits[sp].copy()
-            splits[sp]["CLIMATE_ZONE_CODE"] = (
-                splits[sp][COL_REGION].map(CLIMATE_ZONE_MAP).fillna(0).astype(float)
-            )
+        if INCLUDE_CLIMATE_ZONE_CODE:
+            for sp in splits:
+                splits[sp] = splits[sp].copy()
+                splits[sp]["CLIMATE_ZONE_CODE"] = (
+                    splits[sp][COL_REGION].map(CLIMATE_ZONE_MAP).fillna(0).astype(float)
+                )
 
         # ── Design task ───────────────────────────────────────────────────────
         for sp, df in splits.items():
             out = RESULTS_DIR / f"design_{target_name}_{sp}.parquet"
             df.to_parquet(out, index=False)
-        print(f"  Design datasets saved (CLIMATE_ZONE_CODE injected).")
+        zone_msg = "with CLIMATE_ZONE_CODE sensitivity feature" if INCLUDE_CLIMATE_ZONE_CODE else "primary features only"
+        print(f"  Design datasets saved ({zone_msg}).")
 
         # ── Monitoring task: build lag on combined data, then split ────────────
         combined = pd.concat(splits.values(), ignore_index=True)
@@ -134,7 +136,7 @@ def main():
             # Exclude observations with no valid lag
             sub_monitor = sub[sub[lag_col].notna()].copy()
             out = RESULTS_DIR / f"monitoring_{target_name}_{sp}.parquet"
-            sub_monitor.to_parquet(out, index=False)
+            sub_monitor.drop(columns=[delta_col], errors="ignore").to_parquet(out, index=False)
 
             n_excl = len(sub) - len(sub_monitor)
             print(f"  monitoring {sp:5s}: {len(sub_monitor)} obs "

@@ -24,7 +24,8 @@ from xgboost import XGBRegressor
 from config import (
     RESULTS_DIR, MODELS_DIR, TARGETS, COL_REGION,
     OPTUNA_TRIALS, OPTUNA_EARLY_STOP_PATIENCE, OPTUNA_EARLY_STOP_TOL,
-    CV_N_SPLITS, SEED,
+    CV_N_SPLITS, SEED, CONDITION_PREFIXES, GEOGRAPHIC_PROXY_COLS,
+    REGION_PROXY_COLS, RUN_SENSITIVITY_MODELS,
 )
 
 optuna.logging.set_verbosity(optuna.logging.WARNING)
@@ -46,6 +47,10 @@ def get_feature_cols(df: pd.DataFrame, target_col: str) -> list[str]:
     return [c for c in df.columns
             if c not in META_COLS
             and c != target_col
+            and c not in GEOGRAPHIC_PROXY_COLS
+            and c not in REGION_PROXY_COLS
+            and not c.startswith(CONDITION_PREFIXES)
+            and not c.startswith("DELTA_")
             and pd.api.types.is_numeric_dtype(df[c])]
 
 
@@ -55,13 +60,15 @@ def make_xgb_objective(X, y, groups, weights, n_splits):
 
     def objective(trial):
         params = {
-            "n_estimators":      trial.suggest_int("n_estimators", 50, 500),
-            "max_depth":         trial.suggest_int("max_depth", 3, 12),
-            "learning_rate":     trial.suggest_float("learning_rate", 0.01, 0.3, log=True),
-            "subsample":         trial.suggest_float("subsample", 0.5, 1.0),
-            "colsample_bytree":  trial.suggest_float("colsample_bytree", 0.5, 1.0),
-            "reg_alpha":         trial.suggest_float("reg_alpha", 1e-8, 10.0, log=True),
-            "reg_lambda":        trial.suggest_float("reg_lambda", 1e-8, 10.0, log=True),
+            "n_estimators":      trial.suggest_int("n_estimators", 50, 250),
+            "max_depth":         trial.suggest_int("max_depth", 2, 4),
+            "learning_rate":     trial.suggest_float("learning_rate", 0.01, 0.08, log=True),
+            "min_child_weight":  trial.suggest_float("min_child_weight", 5.0, 25.0),
+            "gamma":             trial.suggest_float("gamma", 0.0, 5.0),
+            "subsample":         trial.suggest_float("subsample", 0.6, 0.9),
+            "colsample_bytree":  trial.suggest_float("colsample_bytree", 0.5, 0.8),
+            "reg_alpha":         trial.suggest_float("reg_alpha", 1e-4, 5.0, log=True),
+            "reg_lambda":        trial.suggest_float("reg_lambda", 1.0, 100.0, log=True),
             "random_state":      SEED,
             "n_jobs":            -1,
             "verbosity":         0,
@@ -97,12 +104,12 @@ def make_rf_objective(X, y, groups, weights, n_splits):
 
     def objective(trial):
         params = {
-            "n_estimators":    trial.suggest_int("n_estimators", 50, 500),
-            "max_depth":       trial.suggest_int("max_depth", 3, 12),
-            "min_samples_split": trial.suggest_int("min_samples_split", 2, 20),
-            "min_samples_leaf":  trial.suggest_int("min_samples_leaf", 1, 10),
+            "n_estimators":    trial.suggest_int("n_estimators", 100, 400),
+            "max_depth":       trial.suggest_int("max_depth", 3, 7),
+            "min_samples_split": trial.suggest_int("min_samples_split", 6, 24),
+            "min_samples_leaf":  trial.suggest_int("min_samples_leaf", 5, 15),
             "max_features":    trial.suggest_categorical("max_features",
-                                   ["sqrt", "log2", 0.3, 0.5, 0.7, 0.9]),
+                                   ["sqrt", "log2", 0.3, 0.5]),
             "random_state": SEED,
             "n_jobs": -1,
         }
@@ -147,19 +154,26 @@ def train_one_model(arch, task_label, target_name, target_col,
     groups  = train_df.loc[valid_mask, "section_key"].values
     weights = compute_sample_weights(train_df[valid_mask])
 
-    X_final = final_df[feature_cols].fillna(0).values
-    y_final = final_df[fit_col].fillna(0).values
-    w_final = compute_sample_weights(final_df)
+    valid_final = final_df[fit_col].notna()
+    X_final = final_df.loc[valid_final, feature_cols].fillna(0).values
+    y_final = final_df.loc[valid_final, fit_col].values
+    w_final = compute_sample_weights(final_df.loc[valid_final])
 
     if len(X_train) < 10:
         print(f"  SKIP {arch} {task_label}_{target_name}{model_suffix} — insufficient data (n={len(X_train)})")
+        return
+
+    n_groups = len(np.unique(groups))
+    n_splits = min(CV_N_SPLITS, n_groups)
+    if n_splits < 2:
+        print(f"  SKIP {arch} {task_label}_{target_name}{model_suffix} — insufficient groups (n_groups={n_groups})")
         return
 
     n_trials = OPTUNA_TRIALS.get(target_name, 100)
     print(f"  Tuning {arch.upper()} | {task_label}_{target_name}{model_suffix} | {n_trials} trials | n={len(X_train)} ...")
 
     objective = (make_xgb_objective if arch == "xgb" else make_rf_objective)(
-        X_train, y_train, groups, weights, CV_N_SPLITS
+        X_train, y_train, groups, weights, n_splits
     )
     study = optuna.create_study(
         direction="minimize",
@@ -202,8 +216,9 @@ def train_target_task(target_name: str, task: str):
         # Global model (all regions)
         train_one_model(arch, task, target_name, target_col, train_df, val_df)
 
-        # Fault 4: separate regime rutting models
-        if target_name == "rutting" and task == "design":
+        # Sensitivity-only: separate regime rutting models. Disabled for the
+        # primary analysis to avoid post-hoc deployment claims.
+        if RUN_SENSITIVITY_MODELS and target_name == "rutting" and task == "design":
             for regime, regions in [("warm", WARM_REGIONS), ("freeze", FREEZE_REGIONS)]:
                 tr_r = train_df[train_df[COL_REGION].isin(regions)]
                 vl_r = val_df[val_df[COL_REGION].isin(regions)] if len(val_df) else pd.DataFrame()

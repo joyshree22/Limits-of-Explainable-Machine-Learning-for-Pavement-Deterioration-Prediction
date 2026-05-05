@@ -33,6 +33,25 @@ TARGETS = {
     "distress": "DIS_HPMS16_CRACKING_PERCENT_AC",
 }
 
+# ── Feature leakage controls ──────────────────────────────────────────────────
+# These prefixes identify same-visit pavement condition measurements. They are
+# excluded from all design/monitoring feature matrices; monitoring may add only
+# the explicit date-aware lag feature constructed in 08_tasks.py.
+CONDITION_PREFIXES = ("IRI_", "RUT_", "DIS_")
+
+# Geographic coordinates and ordinal region codes are not primary-analysis
+# design features. They can memorize region identity instead of learning
+# transferable climate mechanisms.
+GEOGRAPHIC_PROXY_COLS = {"CLIM_LONGITUDE", "CLIM_LATITUDE"}
+REGION_PROXY_COLS = {"CLIMATE_ZONE_CODE"}
+
+# Primary analysis stays faithful to the article/methodology. Sensitivity
+# experiments may opt into regime identifiers or domain-adaptation weighting.
+PRIMARY_ANALYSIS = True
+INCLUDE_CLIMATE_ZONE_CODE = False
+USE_CLIMATE_DISTANCE_LOO_WEIGHTS = False
+RUN_SENSITIVITY_MODELS = False
+
 # ── Regions and section counts ────────────────────────────────────────────────
 REGIONS = ["Arizona", "Georgia", "Ohio", "Ontario"]
 
@@ -68,7 +87,7 @@ MONITOR_MIN_SECTIONS = 20
 PERSISTENCE_YEARS = [1, 2, 3]   # → 365, 730, 1095 days
 
 # ── Optuna / training ─────────────────────────────────────────────────────────
-OPTUNA_TRIALS = {"iri": 150, "rutting": 100, "distress": 100}
+OPTUNA_TRIALS = {"iri": 20, "rutting": 15, "distress": 15}
 OPTUNA_EARLY_STOP_PATIENCE = 30     # trials with < 0.1% improvement → stop
 OPTUNA_EARLY_STOP_TOL      = 0.001  # 0.1%
 CV_N_SPLITS = 5

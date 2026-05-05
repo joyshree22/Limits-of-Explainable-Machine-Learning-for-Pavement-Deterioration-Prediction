@@ -12,7 +12,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 import pandas as pd
-from config import RESULTS_DIR, TARGETS, MISS_THRESHOLD
+from config import (
+    RESULTS_DIR, TARGETS, MISS_THRESHOLD,
+    CONDITION_PREFIXES, GEOGRAPHIC_PROXY_COLS, REGION_PROXY_COLS,
+)
 
 META_COLS = {
     "section_key", "STATE_CODE_EXP", "SHRP_ID", "PAVEMENT_FAMILY",
@@ -25,7 +28,11 @@ def apply_threshold(df: pd.DataFrame, target_col: str) -> tuple[pd.DataFrame, li
     threshold = int(n_obs * MISS_THRESHOLD)
 
     feature_cols = [c for c in df.columns
-                    if c not in META_COLS and c != target_col]
+                    if c not in META_COLS
+                    and c != target_col
+                    and c not in GEOGRAPHIC_PROXY_COLS
+                    and c not in REGION_PROXY_COLS
+                    and not c.startswith(CONDITION_PREFIXES)]
 
     retained, excluded = [], []
     for col in feature_cols:

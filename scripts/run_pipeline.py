@@ -32,6 +32,8 @@ PIPELINE = [
     ("13", "13_shap",         "SHAP TreeExplainer + cross-model consistency"),
     ("14", "14_pdp",          "Partial dependence plots"),
     ("15", "15_residuals",    "Residual diagnostic plots"),
+    ("16", "16_regional_comparison", "Regional comparison figures"),
+    ("17", "17_waterfall",    "SHAP waterfall explanations"),
 ]
 
 

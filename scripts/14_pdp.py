@@ -4,8 +4,8 @@ Methodology §3.12.3:
   - One-way PDPs: 5 features, 50 quantile-spaced grid points.
   - Two-way PDPs: 2 feature pairs, 30×30 quantile-spaced grid.
   - Computed on TRAINING set (adequate marginal distribution coverage).
-  Note: AGE_YEARS and CLIM_FREEZE_INDEX were excluded by collinearity clustering (step 07).
-  Substitutes: COMP_AGE_CLIMATE (age × FI compound) and CLIM_FREEZE_THAW_WINTER.
+  Uses the pre-specified features when retained; otherwise falls back to the
+  closest retained physical composite/proxy.
 Outputs: figures/pdp_oneway.png, figures/pdp_twoway.png
 """
 
@@ -24,19 +24,18 @@ import plot_style
 plot_style.apply()
 from config import RESULTS_DIR, MODELS_DIR, FIGURES_DIR, TARGETS
 
-# AGE_YEARS excluded (collinear with COMP_AGE_CLIMATE); CLIM_FREEZE_INDEX excluded
-# (collinear with seasonal variants); CLIM_TEMP_MEAN_AVG not in selected feature set
-ONE_WAY_FEATURES = [
-    "COMP_AGE_CLIMATE",        # age × freeze index compound — replaces AGE_YEARS
+# Ordered fallback lists for each intended PDP concept.
+ONE_WAY_FEATURE_GROUPS = [
+    ["FEAT_AGE_YEARS", "COMP_AGE_CLIMATE"],
     "LAYER_THICKNESS_AC_MM",
-    "CLIM_FREEZE_THAW_WINTER", # winter freeze-thaw cycles — replaces CLIM_FREEZE_INDEX
+    ["CLIM_FREEZE_INDEX", "CLIM_FREEZE_THAW_WINTER"],
     "UB_RESILIENT_MODULUS",
-    "COMP_WET_FREEZE",         # freeze-thaw × precipitation — replaces CLIM_TEMP_MEAN_AVG
+    ["CLIM_TEMP_MEAN_AVG", "COMP_WET_FREEZE"],
 ]
 
-TWO_WAY_PAIRS = [
-    ("CLIM_FREEZE_THAW_WINTER", "LAYER_THICKNESS_AC_MM"),
-    ("COMP_AGE_CLIMATE",        "COMP_WET_FREEZE"),
+TWO_WAY_PAIR_GROUPS = [
+    (["CLIM_FREEZE_INDEX", "CLIM_FREEZE_THAW_WINTER"], ["LAYER_THICKNESS_AC_MM"]),
+    (["FEAT_AGE_YEARS", "COMP_AGE_CLIMATE"], ["CLIM_FREEZE_INDEX", "COMP_WET_FREEZE"]),
 ]
 
 N_GRID_1WAY = 50
@@ -106,11 +105,18 @@ def main():
 
     feat_idx = {f: i for i, f in enumerate(feature_cols)}
 
+    def choose_feature(option):
+        options = option if isinstance(option, list) else [option]
+        return next((f for f in options if f in feat_idx), None)
+
     # x-axis labels with original units (unscaled); compound features use standardized
     FEAT_LABELS = {
+        "FEAT_AGE_YEARS":          "Pavement Age (years)",
         "COMP_AGE_CLIMATE":        "Age × Freeze Index Compound\n(standardized)",
         "LAYER_THICKNESS_AC_MM":   "AC Layer Thickness (mm)",
+        "CLIM_FREEZE_INDEX":       "Freeze Index (°C·days)",
         "CLIM_FREEZE_THAW_WINTER": "Winter Freeze-Thaw Cycles (per year)",
+        "CLIM_TEMP_MEAN_AVG":      "Mean Temperature (°C)",
         "UB_RESILIENT_MODULUS":    "Subgrade Resilient Modulus (MPa)",
         "COMP_WET_FREEZE":         "Wet-Freeze Compound\n(standardized, FT × Precipitation)",
     }
@@ -118,7 +124,7 @@ def main():
     PANEL_LETTERS = ["(a)", "(b)", "(c)", "(d)", "(e)"]
 
     # ── One-way PDPs ──────────────────────────────────────────────────────────
-    valid_feats = [f for f in ONE_WAY_FEATURES if f in feat_idx]
+    valid_feats = [f for f in (choose_feature(g) for g in ONE_WAY_FEATURE_GROUPS) if f]
     n    = len(valid_feats)
     ncols = 3
     nrows = (n + ncols - 1) // ncols
@@ -157,8 +163,11 @@ def main():
     print("Saved → figures/pdp_oneway.png")
 
     # ── Two-way PDPs ──────────────────────────────────────────────────────────
-    valid_pairs = [(f1, f2) for f1, f2 in TWO_WAY_PAIRS
-                   if f1 in feat_idx and f2 in feat_idx]
+    valid_pairs = []
+    for g1, g2 in TWO_WAY_PAIR_GROUPS:
+        f1, f2 = choose_feature(g1), choose_feature(g2)
+        if f1 and f2:
+            valid_pairs.append((f1, f2))
     if not valid_pairs:
         print("  Two-way PDP: no valid feature pairs in model — skip")
     else:

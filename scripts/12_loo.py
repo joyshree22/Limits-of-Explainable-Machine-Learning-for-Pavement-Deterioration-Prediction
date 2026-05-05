@@ -28,6 +28,8 @@ from config import (
     RESULTS_DIR, MODELS_DIR, TARGETS, COL_REGION,
     REGIONS, PAVEMENT_FAMILIES, COL_FAMILY, SEED,
     ONTARIO_FI_GROUPS, ONTARIO_SECTION_FI,
+    CONDITION_PREFIXES, GEOGRAPHIC_PROXY_COLS, REGION_PROXY_COLS,
+    USE_CLIMATE_DISTANCE_LOO_WEIGHTS,
 )
 
 META_COLS = {
@@ -104,6 +106,12 @@ REGION_MEAN_FI = {
 }
 
 
+def inverse_region_weights(train_df):
+    region_counts = train_df[COL_REGION].value_counts()
+    weights = train_df[COL_REGION].map(lambda r: 1.0 / region_counts[r]).values
+    return weights / weights.sum() * len(weights)
+
+
 def climate_distance_weights(train_df, withheld_region):
     """
     Fault 5 fix: upweight training observations whose region's freeze index
@@ -141,12 +149,17 @@ def run_loo_iteration(full_df, withheld_region, arch, target_name, target_col):
     feature_cols = [c for c in full_df.columns
                     if c not in META_COLS
                     and c != target_col
+                    and c not in GEOGRAPHIC_PROXY_COLS
+                    and c not in REGION_PROXY_COLS
+                    and not c.startswith(CONDITION_PREFIXES)
                     and pd.api.types.is_numeric_dtype(full_df[c])]
 
     train_imp, eval_imp = fit_impute_scale(train_df, eval_df, feature_cols)
 
-    # Fault 5 fix: climate-distance aware sample weights
-    w = climate_distance_weights(train_imp, withheld_region)
+    if USE_CLIMATE_DISTANCE_LOO_WEIGHTS:
+        w = climate_distance_weights(train_imp, withheld_region)
+    else:
+        w = inverse_region_weights(train_imp)
 
     model = build_model(arch, params)
     with warnings.catch_warnings():
@@ -232,6 +245,9 @@ def main():
             feature_cols = [c for c in full_df.columns
                             if c not in META_COLS
                             and c != target_col
+                            and c not in GEOGRAPHIC_PROXY_COLS
+                            and c not in REGION_PROXY_COLS
+                            and not c.startswith(CONDITION_PREFIXES)
                             and pd.api.types.is_numeric_dtype(full_df[c])]
 
             train_imp, eval_imp = fit_impute_scale(train_sec, eval_sec, feature_cols)

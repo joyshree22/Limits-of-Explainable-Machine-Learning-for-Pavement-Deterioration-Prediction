@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import pandas as pd
 from config import (
     RAW_CSV, RESULTS_DIR, TARGETS, COL_REGION, COL_SECTION,
-    COL_DATE, COL_FAMILY, COL_CN_DATE,
+    COL_DATE, COL_FAMILY, COL_CN_DATE, CONDITION_PREFIXES,
 )
 
 NON_FEATURE_COLS = {
@@ -57,13 +57,15 @@ def aggregate_target(df: pd.DataFrame, target_name: str) -> pd.DataFrame:
     sub["section_key"] = make_section_key(sub)
     sub["AGE_YEARS"]   = derive_age(sub)
 
-    # Group-by (section, visit date) → take column means for numeric cols
-    # Non-numeric and identifier cols: take first value within group
+    # Group-by (section, visit date) → take column means for numeric cols.
+    # Same-visit condition measurements (IRI_*, RUT_*, DIS_*) are excluded
+    # from predictors for every target; only the active target is added back.
     id_cols  = ["section_key", COL_REGION, COL_SECTION, COL_FAMILY, COL_DATE, COL_CN_DATE]
     num_cols = [c for c in sub.columns
                 if c not in NON_FEATURE_COLS
                 and c not in id_cols
                 and c != "AGE_YEARS"
+                and not c.startswith(CONDITION_PREFIXES)
                 and pd.api.types.is_numeric_dtype(sub[c])]
 
     agg_dict = {c: "mean" for c in num_cols}

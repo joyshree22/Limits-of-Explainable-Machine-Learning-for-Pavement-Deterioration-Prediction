@@ -16,7 +16,10 @@ import pandas as pd
 from scipy.stats import spearmanr
 from scipy.cluster.hierarchy import linkage, fcluster
 from scipy.spatial.distance import squareform
-from config import RESULTS_DIR, TARGETS, SPEARMAN_CORR_THRESHOLD
+from config import (
+    RESULTS_DIR, TARGETS, SPEARMAN_CORR_THRESHOLD,
+    CONDITION_PREFIXES, GEOGRAPHIC_PROXY_COLS, REGION_PROXY_COLS,
+)
 
 META_COLS = {
     "section_key", "STATE_CODE_EXP", "SHRP_ID", "PAVEMENT_FAMILY",
@@ -26,8 +29,10 @@ META_COLS = {
 # Fault 6 fix: force-retain regardless of clustering outcome (physics-mandatory)
 PHYSICS_FORCE_RETAIN = {"CLIM_FREEZE_INDEX"}
 
-# Fault 3 fix: exclude geographic coordinate proxies (longitude = spurious climate proxy)
-GEOGRAPHIC_EXCLUDE = {"CLIM_LONGITUDE", "CLIM_LATITUDE"}
+# Exclude proxies and any same-visit condition measurements that survive earlier
+# stages. The latter should already be removed in 02_aggregate.py, but keeping the
+# guard here makes leakage fail closed.
+PRIMARY_EXCLUDE = GEOGRAPHIC_PROXY_COLS | REGION_PROXY_COLS
 
 # Priority tier — lower number = higher priority for retention
 def feature_priority(col: str) -> int:
@@ -135,7 +140,8 @@ def main():
         feature_cols = [c for c in train_df.columns
                         if c not in META_COLS
                         and c != target_col
-                        and c not in GEOGRAPHIC_EXCLUDE  # remove geographic proxies
+                        and c not in PRIMARY_EXCLUDE
+                        and not c.startswith(CONDITION_PREFIXES)
                         and pd.api.types.is_numeric_dtype(train_df[c])
                         and train_df[c].notna().sum() > 0]
 
@@ -145,7 +151,22 @@ def main():
         for feat in PHYSICS_FORCE_RETAIN:
             if feat in train_df.columns and feat not in selected:
                 selected.append(feat)
+                cluster_df = pd.concat([
+                    cluster_df,
+                    pd.DataFrame([{
+                        "cluster_id": "force_retained",
+                        "feature": feat,
+                        "representative": feat,
+                        "is_selected": True,
+                    }]),
+                ], ignore_index=True)
                 print(f"  Force-retained: {feat} (physics-mandatory)")
+
+        leaked = [f for f in selected if f.startswith(CONDITION_PREFIXES)]
+        if leaked:
+            raise ValueError(
+                f"[{target_name}] condition-measure leakage in selected features: {leaked[:10]}"
+            )
 
         # Save cluster map
         cluster_df.to_csv(
@@ -156,9 +177,9 @@ def main():
         )
 
         n_clusters = cluster_df["cluster_id"].nunique()
-        geo_excl = [c for c in GEOGRAPHIC_EXCLUDE
+        proxy_excl = [c for c in PRIMARY_EXCLUDE
                     if c in train_df.columns]
-        print(f"[{target_name}] {len(feature_cols)} features (excl. {geo_excl}) "
+        print(f"[{target_name}] {len(feature_cols)} features (excl. {proxy_excl}) "
               f"→ {len(selected)} selected ({n_clusters} clusters)")
 
         # Apply selection to train / val / test

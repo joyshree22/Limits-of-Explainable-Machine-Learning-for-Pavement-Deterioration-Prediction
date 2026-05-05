@@ -40,6 +40,7 @@ def build_composites(df: pd.DataFrame) -> pd.DataFrame:
     tw  = df.get("CLIM_TEMP_MEAN_AVG_WINTER", pd.Series(np.nan, index=df.index))
 
     composites = {
+        "FEAT_AGE_YEARS":           age,
         "COMP_WET_FREEZE":           ft * pr,
         "COMP_STRUCT_FREEZE_INS":    ac * (1.0 / (1.0 + fi)),   # corrected: no div-by-zero
         "COMP_MAT_FREEZE_SUSC":      ft * bsg,

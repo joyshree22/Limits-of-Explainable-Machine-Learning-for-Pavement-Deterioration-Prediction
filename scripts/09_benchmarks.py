@@ -4,7 +4,7 @@ Methodology §3.9: all benchmarks evaluated on a COMMON evaluation set
 (observations with a prior within 365d — the most restrictive persistence window).
 Outputs: results/benchmark_metrics.csv
          results/persistence_metrics.csv
-         results/common_set_comparison.csv
+         results/persistence_common_set.csv
 """
 
 import sys
@@ -16,11 +16,12 @@ import numpy as np
 import pandas as pd
 from scipy.optimize import curve_fit
 from sklearn.linear_model import Ridge
-from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import GridSearchCV, GroupKFold
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 from config import (
     RESULTS_DIR, TARGETS, COL_DATE, PERSISTENCE_YEARS,
     BOOTSTRAP_N, BOOTSTRAP_CI, SEED,
+    CONDITION_PREFIXES, GEOGRAPHIC_PROXY_COLS, REGION_PROXY_COLS,
 )
 
 META_COLS = {
@@ -94,7 +95,11 @@ def main():
             feature_cols = [c for c in train_df.columns
                             if c not in META_COLS
                             and c != target_col
+                            and c not in GEOGRAPHIC_PROXY_COLS
+                            and c not in REGION_PROXY_COLS
+                            and not c.startswith(CONDITION_PREFIXES)
                             and not c.startswith("LAG_")
+                            and not c.startswith("DELTA_")
                             and pd.api.types.is_numeric_dtype(train_df[c])]
 
             y_train = train_df[target_col].values
@@ -132,18 +137,19 @@ def main():
                 Ridge(),
                 {"alpha": np.logspace(-4, 4, 9)},
                 scoring="neg_root_mean_squared_error",
-                cv=5, n_jobs=-1,
+                cv=GroupKFold(n_splits=min(5, train_df["section_key"].nunique())),
+                n_jobs=1,
             )
             with warnings.catch_warnings():
                 warnings.simplefilter("ignore")
-                ridge_cv.fit(X_train, y_train)
+                ridge_cv.fit(X_train, y_train, groups=train_df["section_key"].values)
             y_ridge = ridge_cv.predict(X_test)
             all_benchmark_rows.append(
                 metrics(y_test, y_ridge, f"ridge_{label_prefix}")
             )
 
             # ── Benchmark 4 + Common set: Persistence at k=1,2,3 years ────────
-            # Common evaluation set: test obs with prior within 365d (most restrictive)
+            # Common persistence rows are recorded once from the design test set.
             persist_365 = persistence_predict(
                 test_df, target_col, window_days=365
             )
@@ -152,15 +158,6 @@ def main():
 
             y_test_common   = y_test[common_mask]
 
-            # Monitoring model prediction on common set (if available)
-            mon_lag_col = f"LAG_{target_col}"
-            if task == "monitoring" and mon_lag_col in test_df.columns:
-                y_mon_common = test_df[mon_lag_col].values[common_mask]
-                all_common_rows.append(
-                    metrics(y_test_common, y_mon_common,
-                            f"monitoring_on_common_{target_name}")
-                )
-
             for k in PERSISTENCE_YEARS:
                 w = int(k * 365.25)
                 y_persist = persistence_predict(test_df, target_col, w)
@@ -168,11 +165,11 @@ def main():
                 all_persist_rows.append(
                     metrics(y_test, y_persist, f"persist_k{k}_{label_prefix}")
                 )
-                # Common-set evaluation
-                all_common_rows.append(
-                    metrics(y_test_common, y_persist[common_mask],
-                            f"persist_k{k}_common_{target_name}")
-                )
+                if task == "design":
+                    all_common_rows.append(
+                        metrics(y_test_common, y_persist[common_mask],
+                                f"persist_k{k}_common_{target_name}")
+                    )
 
             print(f"[{label_prefix}] benchmarks computed | common set n={common_n}")
 
@@ -184,12 +181,12 @@ def main():
         RESULTS_DIR / "persistence_metrics.csv", index=False
     )
     pd.DataFrame(all_common_rows).to_csv(
-        RESULTS_DIR / "common_set_comparison.csv", index=False
+        RESULTS_DIR / "persistence_common_set.csv", index=False
     )
 
     print("\nSaved → results/benchmark_metrics.csv")
     print("Saved → results/persistence_metrics.csv")
-    print("Saved → results/common_set_comparison.csv")
+    print("Saved → results/persistence_common_set.csv")
     print("\n[09] Benchmarks complete.\n")
 
 

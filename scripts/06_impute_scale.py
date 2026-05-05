@@ -16,7 +16,8 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 from config import (
     RESULTS_DIR, MODELS_DIR, TARGETS, COL_FAMILY,
-    PAVEMENT_FAMILIES,
+    PAVEMENT_FAMILIES, CONDITION_PREFIXES, GEOGRAPHIC_PROXY_COLS,
+    REGION_PROXY_COLS,
 )
 
 META_COLS = {
@@ -76,6 +77,9 @@ def main():
         feature_cols = [c for c in df.columns
                         if c not in META_COLS
                         and c != target_col
+                        and c not in GEOGRAPHIC_PROXY_COLS
+                        and c not in REGION_PROXY_COLS
+                        and not c.startswith(CONDITION_PREFIXES)
                         and pd.api.types.is_numeric_dtype(df[c])]
 
         train_df = df[df["split"] == "train"].copy()

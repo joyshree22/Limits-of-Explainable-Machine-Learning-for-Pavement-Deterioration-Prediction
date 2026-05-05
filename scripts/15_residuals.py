@@ -74,7 +74,8 @@ def four_residual_panels(pred_df: pd.DataFrame, target_col: str,
         ax.set_title("Residuals by Region")
         ax.grid(alpha=0.3, axis="y")
 
-    # Panel 4: Residuals vs. freeze-thaw proxy (CLIM_FREEZE_INDEX excluded by step 07)
+    # Panel 4: Residuals vs. freeze index, falling back to a freeze-thaw proxy
+    # if FI is unavailable in a sensitivity run.
     ax = axes[1, 1]
     proxy_col = "CLIM_FREEZE_THAW_WINTER"
     fi_col    = "CLIM_FREEZE_INDEX"
@@ -93,13 +94,12 @@ def four_residual_panels(pred_df: pd.DataFrame, target_col: str,
         ax.axhline(0, color="red", linewidth=1)
         ax.set_xlabel("Winter Freeze-Thaw Cycles (standardized)")
         ax.set_ylabel("Residual")
-        ax.set_title("Residuals vs. Freeze-Thaw Proxy\n"
-                     "(CLIM_FREEZE_THAW_WINTER; CLIM_FREEZE_INDEX excluded step 07)")
+        ax.set_title("Residuals vs. Freeze-Thaw Proxy")
         ax.grid(alpha=0.3)
     else:
         ax.text(0.5, 0.5,
-                "CLIM_FREEZE_INDEX excluded by\ncollinearity reduction (step 07).\n"
-                "See CLIM_FREEZE_THAW_WINTER\nPDPs in Figure 11.",
+                "Freeze-index feature unavailable.\n"
+                "See retained climate-feature PDPs.",
                 ha="center", va="center", fontsize=9, color="dimgray")
         ax.set_xticks([]); ax.set_yticks([])
 
