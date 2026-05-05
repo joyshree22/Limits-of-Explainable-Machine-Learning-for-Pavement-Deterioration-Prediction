@@ -1,0 +1,10 @@
+model,n,R2,RMSE,MAE
+persist_k1_common_iri,32,0.853,0.2108,0.1197
+persist_k2_common_iri,32,0.853,0.2108,0.1197
+persist_k3_common_iri,32,0.853,0.2108,0.1197
+persist_k1_common_rutting,22,0.8096,1.4924,0.9545
+persist_k2_common_rutting,22,0.8096,1.4924,0.9545
+persist_k3_common_rutting,22,0.8096,1.4924,0.9545
+persist_k1_common_distress,6,-0.4671,30.6077,17.8333
+persist_k2_common_distress,6,-0.4671,30.6077,17.8333
+persist_k3_common_distress,6,-0.4671,30.6077,17.8333

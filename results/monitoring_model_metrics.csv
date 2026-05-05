@@ -1,0 +1,7 @@
+model,n_obs,n_sections,R2,R2_CI_lower,R2_CI_upper,RMSE,MAE
+xgb_monitoring_iri,66,7,0.4509,0.3213,0.564,0.3753,0.2099
+rf_monitoring_iri,66,7,0.4688,0.3308,0.6609,0.3691,0.191
+xgb_monitoring_rutting,47,7,0.6719,0.1872,0.766,1.7343,1.278
+rf_monitoring_rutting,47,7,0.5915,-0.0119,0.7473,1.935,1.4772
+xgb_monitoring_distress,26,7,0.7619,0.4209,0.9602,10.8569,6.9488
+rf_monitoring_distress,26,7,0.7412,0.473,0.9087,11.3195,8.4602

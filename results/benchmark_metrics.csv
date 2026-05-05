@@ -1,0 +1,15 @@
+model,n,R2,RMSE,MAE
+mean_design_iri,86,-0.0003,0.5132,0.3708
+aashto_design_iri,86,-0.004,0.5142,0.3694
+ridge_design_iri,86,0.0408,0.5026,0.3629
+mean_monitoring_iri,66,-0.0177,0.5109,0.3714
+aashto_monitoring_iri,66,-0.021,0.5118,0.3683
+ridge_monitoring_iri,66,-0.0441,0.5175,0.3722
+mean_design_rutting,74,-0.0758,3.1998,2.7056
+ridge_design_rutting,74,0.3781,2.4328,1.8018
+mean_monitoring_rutting,47,-0.124,3.2097,2.6388
+ridge_monitoring_rutting,47,0.2457,2.6295,1.9734
+mean_design_distress,45,-0.0514,22.8924,20.0123
+ridge_design_distress,45,0.0928,21.2643,18.7561
+mean_monitoring_distress,26,-0.0211,22.4823,19.7926
+ridge_monitoring_distress,26,0.1569,20.4287,17.625

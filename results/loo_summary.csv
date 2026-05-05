@@ -1,0 +1,9 @@
+withheld_region,arch,target,n_obs,R2,RMSE,MAE
+Arizona,xgb,iri,295,-0.0786,0.4952,0.3677
+Arizona,rf,iri,295,0.0256,0.4707,0.3526
+Georgia,xgb,iri,96,-0.7659,0.3669,0.328
+Georgia,rf,iri,96,-0.7006,0.36,0.3172
+Ohio,xgb,iri,148,0.0606,0.4814,0.3819
+Ohio,rf,iri,148,-0.0521,0.5094,0.3941
+Ontario,xgb,iri,111,-0.2226,0.495,0.3699
+Ontario,rf,iri,111,-0.1402,0.478,0.339

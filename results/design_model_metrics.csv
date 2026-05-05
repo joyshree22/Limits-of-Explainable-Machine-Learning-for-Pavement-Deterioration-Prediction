@@ -1,0 +1,7 @@
+model,n_obs,n_sections,R2,R2_CI_lower,R2_CI_upper,RMSE,MAE
+xgb_design_iri,86,7,0.1576,-0.2872,0.4241,0.471,0.2997
+rf_design_iri,86,7,0.1296,-0.2023,0.3677,0.4787,0.311
+xgb_design_rutting,74,7,0.4322,-0.0226,0.6251,2.3247,1.7579
+rf_design_rutting,74,7,0.3942,-0.2511,0.5318,2.4012,1.8704
+xgb_design_distress,45,7,0.2776,-0.3855,0.7142,18.9762,14.228
+rf_design_distress,45,7,0.21,-0.5168,0.6585,19.8434,15.7082

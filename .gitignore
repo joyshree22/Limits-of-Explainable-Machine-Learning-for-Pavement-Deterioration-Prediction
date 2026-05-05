@@ -37,21 +37,6 @@ htmlcov/
 ~$*.xlsx
 ~$*.pptx
 
-# Generated model artifacts
-models/
-*.joblib
-*.pkl
-*.pickle
-
-# Generated pipeline outputs
-results/
-figures/
-
-# Generated manuscript/result documents
-r&d.docx
-resultandd.docx
-resultandd-old.docx
-
 # Temporary exports and scratch files
 tmp/
 temp/
